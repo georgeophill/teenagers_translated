@@ -22,22 +22,42 @@ const Navbar = () => {
                         A Parents Survival Guide
                     </div>
                 </div>
-                <div className="navbar__right">
-                    <Link to="/" className="navbar__logo">
-                        <img src={PeopleRight} alt="logo" />
-                    </Link>
-                </div>
+                    <div className="navbar__right">
+                        <Link to="/" className="navbar__logo">
+                            <img src={PeopleRight} alt="logo" />
+                        </Link>
+                    </div>
                 </div>
                     <div className="navbar__bottom">
-                        <Link to="/" className="navbar__link">Home</Link>
-                        <Link to="/about" className="navbar__link">About</Link>
-                        <Link to="/contact" className="navbar__link">Contact</Link>
-                        <Link to="/ourBook" className="navbar__link">Our Book</Link>
-                        <Link to="/parentWork" className="navbar__link">Parent Work</Link>
-                        <Link to="/resources" className="navbar__link">Resources</Link>
-                        <Link to="/schoolWork" className="navbar__link">School Work</Link>
+                        <Link to="/" className="navbar__link__btn">Home</Link>
+                        <Link to="/about" className="navbar__link__btn">About</Link>
+                        <div className='navbar__link_btn dropdown'>
+                            <span className='dropdown-title'>
+                            <Link to="/parentWork" className="navbar__link__btn">Parent Work</Link>
+                            </span>
+                            <div className='dropdown-content'>
+                                <Link to="/parentTalks">Parent Talks In School</Link>
+                                <Link to="/parentWorkshops">Parent Workshops</Link>
+                                <Link to="/parentCoaching">Parent Coaching</Link>
+                            </div>
+                        </div>
+                        <div className='navbar__link_btn dropdown'>
+                             <span>
+                            <Link to="/schoolWork" className="navbar__link__btn">School Work</Link>
+                            </span>
+                            <div className='dropdown-content'>
+                                <Link to="/studentWork">Student Work - How PSHE Sessions Work</Link>
+                                <Link to="/staffInputs">Staff Inputs</Link>
+                                <Link to="/schoolCulture">Creating a Culture of a wellbeing & good Mental Health</Link>
+                            </div>
+                        </div>
+                        <Link to="/coaching" className="navbar__link__btn">1-2-1 Coaching</Link>
+                        <Link to="/ourBook" className="navbar__link__btn">Our Book</Link>
+                        <Link to="/resources" className="navbar__link__btn">Resources</Link>
+                        <Link to="/contact" className="navbar__link__btn">Contact</Link>
                     </div>
                  </div>
+
         )
 }
 
