@@ -1,0 +1,66 @@
+/* Navbar.css */
+
+/* Navbar Container */
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 0 20px;
+    height: 120px; /* Increase the height to accommodate the top and bottom sections */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Top Half */
+  .navbar__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .navbar__left img,
+  .navbar__right img {
+    object-fit: contain;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .navbar__center {
+    text-align: center;
+  }
+  
+  .navbar__item {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  .navbar__item span {
+    display: block;
+    color: #000;
+  }
+  
+  .navbar__subtitle {
+    font-size: 12px;
+    background-color: #2FB8E5;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  
+  /* Bottom Half */
+  .navbar__bottom {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px; /* Add margin to separate from the top section */
+  }
+  
+  .navbar__link {
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px;
+  }
+  
+  /* Add more styling as needed */
+  
