@@ -3,9 +3,9 @@
 /* Navbar Container */
 .navbar {
     background-color: #fff;
-    border-bottom: 1px solid #eee;
-    padding: 0 20px;
-    height: 120px; /* Increase the height to accommodate the top and bottom sections */
+    border-bottom: 2px solid #eee;
+    padding: 0 40px;
+    height: 220px; /* Increase the height to accommodate the top and bottom sections */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,26 +22,36 @@
   .navbar__left img,
   .navbar__right img {
     object-fit: contain;
-    height: 40px;
+    height: 80px;
     margin-right: 10px;
+    margin-top: 20px;
   }
   
   .navbar__center {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
   }
   
   .navbar__item {
-    font-size: 16px;
+    font-size: 40px;
     text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 35px;
+  }
+
+  .navbar__item Link {
+    color: #7951A0;
   }
   
   .navbar__item span {
     display: block;
-    color: #000;
   }
   
   .navbar__subtitle {
-    font-size: 12px;
+    font-size: 20px;
     background-color: #2FB8E5;
     color: white;
     padding: 5px 10px;
@@ -53,13 +63,12 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin-top: 10px; /* Add margin to separate from the top section */
+    margin-top: 70px; /* Add margin to separate from the top section */
+    margin-bottom: 20px;
   }
   
   .navbar__link {
     text-decoration: none;
-    color: #000;
-    margin: 0 10px;
   }
   
   /* Add more styling as needed */

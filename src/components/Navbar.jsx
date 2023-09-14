@@ -1,6 +1,9 @@
 import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
+import PeopleLeft from '../assets/images/people-left.png'
+import PeopleRight from '../assets/images/people-right.png'
+
 
 const Navbar = () => {
     return (
@@ -8,7 +11,7 @@ const Navbar = () => {
             <div className="navbar__top">
                 <div className="navbar__left">
                     <Link to="/" className="navbar__logo">
-                        <img src='.assets/images/left-people' alt="logo" />
+                        <img src={PeopleLeft} alt="logo" />
                     </Link>
                 </div>
                 <div className='navbar__center'>
@@ -21,7 +24,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar__right">
                     <Link to="/" className="navbar__logo">
-                        <img src="" alt="logo" />
+                        <img src={PeopleRight} alt="logo" />
                     </Link>
                 </div>
                 </div>
