@@ -10,4 +10,6 @@ export { default as SchoolWork } from '../pages/schoolWork/SchoolWork';
 export { default as NotFound } from '../pages/notFound/NotFound';
 
 export { default as ParentTalks } from '../pages/parentWork/ParentTalks';
+export { default as ParentWorkshops } from '../pages/parentWork/ParentWorkshops';
+export { default as ParentCoaching } from '../pages/parentWork/ParentCoaching';
 
