@@ -17,10 +17,10 @@ const App = () => {
                 <Route path="/contact" element={<Pages.Contact />} />
                 <Route path="/ourBook" element={<Pages.OurBook />} />
                 <Route path="/parentWork" element={<Pages.ParentWork />} />
+                     <Route path="/parentTalks" element={<Pages.ParentTalks />} />
                 <Route path="/resources" element={<Pages.Resources />} />
                 <Route path="/schoolWork" element={<Pages.SchoolWork />} />
                 <Route path="*" element={<Pages.NotFound />} />
-                <Route path="/parentTalks" element={<Pages.ParentTalks />} />
             </Routes>
         </BrowserRouter>
         </React.StrictMode>
