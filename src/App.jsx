@@ -1,14 +1,8 @@
 import React from 'react';
 import { BrowserRouter , Routes, Route } from 'react-router-dom';
-import About from './pages/about/About';
-import Contact from './pages/contact/Contact';
-import Home from './pages/home/Home';
-import OurBook from './pages/ourBook/OurBook';
-import ParentWork from './pages/parentWork/ParentWork';
-import Resources from './pages/resources/Resources';
-import SchoolWork from './pages/schoolWork/SchoolWork';
-import NotFound from './pages/notFound/NotFound';
+import * as Pages from './pages';
 import Navbar from './components/Navbar';
+
 
 
 const App = () => {
@@ -17,14 +11,16 @@ const App = () => {
         <BrowserRouter>
             <Navbar />
             <Routes>
-                <Route path="/about" element={<About />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/" element={<Home />} />
-                <Route path="/ourBook" element={<OurBook />} />
-                <Route path="/parentWork" element={<ParentWork />} />
-                <Route path="/resources" element={<Resources />} />
-                <Route path="/schoolWork" element={<SchoolWork />} />
-                <Route path="*" element={<NotFound />} />
+                <Route path="/" element={<Pages.Home />} />
+                <Route path="/about" element={<Pages.About />} />
+                <Route path="/coaching" element={<Pages.Coaching />} />
+                <Route path="/contact" element={<Pages.Contact />} />
+                <Route path="/ourBook" element={<Pages.OurBook />} />
+                <Route path="/parentWork" element={<Pages.ParentWork />} />
+                <Route path="/resources" element={<Pages.Resources />} />
+                <Route path="/schoolWork" element={<Pages.SchoolWork />} />
+                <Route path="*" element={<Pages.NotFound />} />
+                <Route path="/parentTalks" element={<Pages.ParentTalks />} />
             </Routes>
         </BrowserRouter>
         </React.StrictMode>

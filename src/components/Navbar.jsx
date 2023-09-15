@@ -48,7 +48,7 @@ const Navbar = () => {
                             <div className='dropdown-content'>
                                 <Link to="/studentWork">Student Work - How PSHE Sessions Work</Link>
                                 <Link to="/staffInputs">Staff Inputs</Link>
-                                <Link to="/schoolCulture">Creating a Culture of a wellbeing & good Mental Health</Link>
+                                <Link to="/schoolCulture">Creating a Culture of wellbeing & Good Mental Health</Link>
                             </div>
                         </div>
                         <Link to="/coaching" className="navbar__link__btn">1-2-1 Coaching</Link>
