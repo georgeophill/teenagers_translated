@@ -12,4 +12,9 @@ export { default as NotFound } from '../pages/notFound/NotFound';
 export { default as ParentTalks } from '../pages/parentWork/ParentTalks';
 export { default as ParentWorkshops } from '../pages/parentWork/ParentWorkshops';
 export { default as ParentCoaching } from '../pages/parentWork/ParentCoaching';
+export { default as StudentWork } from '../pages/schoolWork/StudentWork';
+export { default as StaffInputs } from '../pages/schoolWork/StaffInputs';
+export { default as SchoolCulture } from './schoolWork/SchoolCulture';
+export { default as CoachingForParents } from './coaching/CoachingForParents';
+export { default as CoachingForTeenagers } from './coaching/CoachingForTeenagers';
 

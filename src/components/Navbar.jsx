@@ -51,7 +51,15 @@ const Navbar = () => {
                                 <Link to="/schoolCulture">Creating a Culture of wellbeing & Good Mental Health</Link>
                             </div>
                         </div>
-                        <Link to="/coaching" className="navbar__link__btn">1-2-1 Coaching</Link>
+                        <div className='navbar__link_btn dropdown'>
+                            <span>
+                             <Link to="/coaching" className="navbar__link__btn">1-2-1 Coaching</Link>
+                            </span>
+                            <div className='dropdown-content'>
+                                <Link to="/coachingForParents">Coaching For Parents</Link>
+                                <Link to="/coachingForTeenagers">Coaching For Teenagers </Link>
+                            </div>
+                        </div>
                         <Link to="/ourBook" className="navbar__link__btn">Our Book</Link>
                         <Link to="/resources" className="navbar__link__btn">Resources</Link>
                         <Link to="/contact" className="navbar__link__btn">Contact</Link>

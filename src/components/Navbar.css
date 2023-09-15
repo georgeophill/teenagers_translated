@@ -2,98 +2,97 @@
 
 /* Navbar Container */
 .navbar {
-    background-color: #fff;
-    /* border-bottom: 2px solid #eee; */
-    padding: 0 40px;
-    height: 220px; /* Increase the height to accommodate the top and bottom sections */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  /* Top Half */
-  .navbar__top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
-  
-  .navbar__left img,
-  .navbar__right img {
-    object-fit: contain;
-    height: 120px;
-    margin-right: 10px;
-    margin-top: 20px;
-  }
-  
-  .navbar__center {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-  }
-  
-  .navbar__item {
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 35px;
-  }
+  background-color: #fff;
+  padding: 0 20px; /* Reduce the padding for smaller screens */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .navbar__item Link {
-    color: #7951A0;
-  }
-  
-  .navbar__item span {
-    display: block;
-  }
-  
-  .navbar__subtitle {
-    font-size: 20px;
-    background-color: #2FB8E5;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 10px;
-    margin-top: 35px;
-  }
-  
-  /* Bottom Half */
-  .navbar__bottom {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-top: 45px; /* Add margin to separate from the top section */
-    margin-bottom: 20px;
-  }
-  
-  .navbar__link {
-    text-decoration: none;
-    color: #7951A0;
-  }
+/* Top Half */
+.navbar__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
 
-  .navbar__link__btn {
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-    padding: 5px 15px;
-    border-radius: 25px;
-  }
+.navbar__left img,
+.navbar__right img {
+  object-fit: contain;
+  height: 80px; /* Reduce the height for smaller screens */
+  margin-right: 10px;
+  margin-top: 10px;
+}
 
-  .navbar__link__btn:hover {
-    text-decoration: none;
-    font-size: 20px;
-    background-color: #7951A0;
-    color: white; 
-    padding: 5px 15px;
-    border-radius: 25px;
-    transition: ease-in-out 0.5s;
-  }
+.navbar__center {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar__item {
+  font-size: 24px; /* Reduce font size for smaller screens */
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px; /* Adjust for smaller screens */
+  vertical-align: middle; /* Center vertically */
+}
+
+.navbar__item Link {
+  color: #7951A0;
+}
+
+.navbar__item span {
+  display: block;
+}
+
+.navbar__subtitle {
+  font-size: 14px; /* Reduce font size for smaller screens */
+  background-color: #2FB8E5;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 5px;
+  margin-top: 10px; /* Adjust for smaller screens */
+}
+
+/* Bottom Half */
+.navbar__bottom {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px; /* Adjust for smaller screens */
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: #7951A0;
   
-  /* Dropdown Styles */
+}
+
+.navbar__link__btn {
+  text-decoration: none;
+  font-size: 18px; /* Reduce font size for smaller screens */
+  color: black;
+  padding: 5px 10px; /* Reduce padding for smaller screens */
+  border-radius: 20px;
+}
+
+.navbar__link__btn:hover {
+  text-decoration: none;
+  font-size: 18px;
+  background-color: #7951A0;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: ease-in-out 0.5s;
+}
+
+/* Dropdown Styles */
 .dropdown {
-  position: relative;
   display: inline-block;
 }
 
@@ -105,7 +104,6 @@
   z-index: 1;
   border-radius: 20px;
   margin-top: 10px;
-
 }
 
 .dropdown-content a {
@@ -113,6 +111,11 @@
   display: block;
   text-decoration: none;
   color: #333;
+  border-bottom: 1px solid #333;
+}
+
+.dropdown-content a:last-child {
+  border-bottom: none;
 }
 
 .dropdown-content a:hover {
@@ -121,4 +124,46 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  .navbar {
+    height: auto; /* Allow the height to adjust as needed */
+    padding: 0 10px; /* Reduce padding for smaller screens */
+  }
+
+  .navbar__top {
+    flex-direction: column;
+  }
+
+  .navbar__left img,
+  .navbar__right img {
+    margin-top: 5px; /* Adjust for smaller screens */
+  }
+
+  .navbar__item {
+    margin-top: 5px; /* Adjust for smaller screens */
+  }
+
+  .navbar__subtitle {
+    margin-top: 5px; /* Adjust for smaller screens */
+  }
+
+  .navbar__bottom {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px; /* Adjust for smaller screens */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar__item {
+    font-size: 16px; /* Further reduce font size for smaller screens */
+  }
+
+  .navbar__link__btn {
+    font-size: 14px; /* Further reduce font size for smaller screens */
+    padding: 5px 8px; /* Further reduce padding for smaller screens */
+  }
 }

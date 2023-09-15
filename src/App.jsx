@@ -13,15 +13,20 @@ const App = () => {
             <Routes>
                 <Route path="/" element={<Pages.Home />} />
                 <Route path="/about" element={<Pages.About />} />
-                <Route path="/coaching" element={<Pages.Coaching />} />
-                <Route path="/contact" element={<Pages.Contact />} />
-                <Route path="/ourBook" element={<Pages.OurBook />} />
                 <Route path="/parentWork" element={<Pages.ParentWork />} />
                     <Route path="/parentTalks" element={<Pages.ParentTalks />} />
                     <Route path="/parentWorkshops" element={<Pages.ParentWorkshops />} />
                     <Route path="/parentCoaching" element={<Pages.ParentCoaching />} />
-                <Route path="/resources" element={<Pages.Resources />} />
                 <Route path="/schoolWork" element={<Pages.SchoolWork />} />
+                    <Route path="/studentWork" element={<Pages.StudentWork />} />
+                    <Route path="/staffInputs" element={<Pages.StaffInputs />} />
+                    <Route path="/schoolCulture" element={<Pages.SchoolCulture />} />
+                <Route path="/coaching" element={<Pages.Coaching />} />
+                    <Route path="/coachingForParents" element={<Pages.CoachingForParents />} />
+                    <Route path="/coachingForTeenagers" element={<Pages.CoachingForTeenagers />} />
+                <Route path="/ourBook" element={<Pages.OurBook />} />
+                <Route path="/resources" element={<Pages.Resources />} />
+                <Route path="/contact" element={<Pages.Contact />} />
                 <Route path="*" element={<Pages.NotFound />} />
             </Routes>
         </BrowserRouter>
