@@ -2,7 +2,7 @@
 
 /* Navbar Container */
 .navbar {
-  background-color: #fff;
+  background-color: white;
   padding: 0 20px; /* Reduce the padding for smaller screens */
   display: flex;
   flex-direction: column;
@@ -20,7 +20,7 @@
 .navbar__left img,
 .navbar__right img {
   object-fit: contain;
-  height: 80px; /* Reduce the height for smaller screens */
+  height: 175px; /* Reduce the height for smaller screens */
   margin-right: 10px;
   margin-top: 10px;
 }
@@ -33,7 +33,7 @@
 }
 
 .navbar__item {
-  font-size: 24px; /* Reduce font size for smaller screens */
+  font-size: 75px; /* Reduce font size for smaller screens */
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 10px; /* Adjust for smaller screens */
@@ -41,7 +41,7 @@
 }
 
 .navbar__item Link {
-  color: #7951A0;
+  color: #a56eb0;
 }
 
 .navbar__item span {
@@ -49,12 +49,18 @@
 }
 
 .navbar__subtitle {
-  font-size: 14px; /* Reduce font size for smaller screens */
-  background-color: #2FB8E5;
-  color: white;
-  padding: 3px 6px;
-  border-radius: 5px;
-  margin-top: 10px; /* Adjust for smaller screens */
+  font-size: 27px;
+  background-color: #2fb8e5;
+  color: rgb(255, 255, 255);
+  padding: 8px 20px;
+  /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
+  border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
+  margin-top: 10px;
+  font-family: "DIN Next W01 Condensed Ultra Light";
+  letter-spacing: 1px;
+  width: 411px;
+  height: 50px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 /* Bottom Half */
@@ -62,33 +68,35 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-  margin-top: 10px; /* Adjust for smaller screens */
+  margin-top: 20px; /* Adjust for smaller screens */
   margin-bottom: 10px;
   padding: 5px 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .navbar__link {
   text-decoration: none;
-  color: #7951A0;
-  
+  color: var(--purple-colour);
+  font-family: "DIN Next W01 Condensed Ultra Light";
+  letter-spacing: 3px;
 }
 
 .navbar__link__btn {
   text-decoration: none;
-  font-size: 18px; /* Reduce font size for smaller screens */
+  font-size: 40px; /* Reduce font size for smaller screens */
   color: black;
-  padding: 5px 10px; /* Reduce padding for smaller screens */
+  padding: 0px 0px; /* Reduce padding for smaller screens */
   border-radius: 20px;
 }
 
 .navbar__link__btn:hover {
   text-decoration: none;
-  font-size: 18px;
-  background-color: #7951A0;
+  font-size: 40px;
+  background-color: #7951a0;
   color: white;
-  padding: 5px 10px;
   border-radius: 20px;
   transition: ease-in-out 0.5s;
+  padding: 10px 20px;
 }
 
 /* Dropdown Styles */
@@ -99,7 +107,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #FA85B4;
+  background-color: var(--pink-colour);
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 20px;
@@ -112,6 +120,7 @@
   text-decoration: none;
   color: #333;
   border-bottom: 1px solid #333;
+  font-size: 30px;
 }
 
 .dropdown-content a:last-child {
@@ -120,6 +129,8 @@
 
 .dropdown-content a:hover {
   background-color: #f2f2f2;
+  font-size: 35px;
+  transition: ease-in-out 0.25s;
 }
 
 .dropdown:hover .dropdown-content {
@@ -127,43 +138,40 @@
 }
 
 /* Media Queries */
-@media screen and (max-width: 1024px) {
-  .navbar {
-    height: auto; /* Allow the height to adjust as needed */
-    padding: 0 10px; /* Reduce padding for smaller screens */
-  }
-
-  .navbar__top {
-    flex-direction: column;
-  }
-
-  .navbar__left img,
-  .navbar__right img {
-    margin-top: 5px; /* Adjust for smaller screens */
-  }
-
+@media screen and (max-width: 1440px) {
   .navbar__item {
-    margin-top: 5px; /* Adjust for smaller screens */
+    font-size: 60px;
   }
 
-  .navbar__subtitle {
-    margin-top: 5px; /* Adjust for smaller screens */
+  .navbar {
+    padding: 10px 10px;
+  }
+
+  .navbar__left img {
+    height: 120px;
+  }
+
+  .navbar__center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .hamburger-icon {
+    font-size: 80px;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .navbar__right img {
+    display: none;
   }
 
   .navbar__bottom {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5px; /* Adjust for smaller screens */
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .navbar__item {
-    font-size: 16px; /* Further reduce font size for smaller screens */
-  }
-
-  .navbar__link__btn {
-    font-size: 14px; /* Further reduce font size for smaller screens */
-    padding: 5px 8px; /* Further reduce padding for smaller screens */
+    display: none;
   }
 }

@@ -8,13 +8,25 @@
     box-sizing: border-box;
 }
 
+/* index.css */
+:root {
+    --purple-colour: #A56EB0;
+    --blue-colour: #2FB8E5;
+    --darkpurple-colour: #7951A0;
+    --purplelight-colour: rgba(165, 110, 176, 0.1);
+    --gray-colour: #797575;
+    --pink-colour: #FA85B4;
+}
+
+
 body{
-    font-family: 'Montserrat', sans-serif;
-    color: var(--color-gray-200);
+    font-family: "DIN Next W01 Condensed Ultra Light";
+    color: black;
     line-height: 1;
     overflow-x: hidden;
-    background: rgba(171, 164, 123, 0.35);
+    background: rgba(255, 255, 255, 0.35);
     position: relative;
+    letter-spacing: 1px;
 }
 
 body::before {
@@ -24,7 +36,18 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../src/assets/images/image4.jpeg');
+    /* background-image: url('../src/assets/images/image4.jpeg'); */
     opacity: 0.25; 
     z-index: -1; 
+}
+
+.container{
+    width: var(--container-width-lg);
+    max-width: 1920px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5 {
+    line-height: 1.2;
+    color: var(--color-gray-100);
 }

@@ -3,31 +3,51 @@ import './Navbar.css'
 import { Link } from 'react-router-dom'
 import PeopleLeft from '../assets/images/people-left.png'
 import PeopleRight from '../assets/images/people-right.png'
-
+import { useState, useEffect } from 'react';
 
 const Navbar = () => {
-    return (
-        <div className='navbar'>
-            <div className="navbar__top">
-                <div className="navbar__left">
-                    <Link to="/" className="navbar__logo">
-                        <img src={PeopleLeft} alt="logo" />
-                    </Link>
-                </div>
-                <div className='navbar__center'>
-                    <div className='navbar__item'>
-                        <Link to="/" className="navbar__link">Teenagers Translated</Link>
-                    </div>
-                    <div className="navbar__subtitle">
-                        A Parents Survival Guide
-                    </div>
-                </div>
-                    <div className="navbar__right">
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1440);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 1440);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+    }, []);
+
+                return (
+                    <div className='navbar'>
+                    <div className="navbar__top">
+                        <div className="navbar__left">
                         <Link to="/" className="navbar__logo">
-                            <img src={PeopleRight} alt="logo" />
+                            <img src={PeopleLeft} alt="logo" />
                         </Link>
+                        </div>
+                        <div className="navbar__center">
+                        <div className='navbar__item'>
+                            <Link to="/" className="navbar__link">Teenagers Translated</Link>
+                        </div>
+                        <div className="navbar__subtitle">
+                            Smoothly Navigate The Teenage Years 
+                        </div>
+                        </div>
+                        <div className="navbar__right">
+                        {isMobile ? (
+                            /* Hamburger icon for mobile */
+                            <div className="hamburger-icon">&#9776;</div>
+                        ) : (
+                            /* Right image for larger screens */
+                            <Link to="/" className="navbar__logo">
+                            <img src={PeopleRight} alt="logo" />
+                            </Link>
+                        )}
+                        </div>
                     </div>
-                </div>
                     <div className="navbar__bottom">
                         <Link to="/" className="navbar__link__btn">Home</Link>
                         <Link to="/about" className="navbar__link__btn">About</Link>
