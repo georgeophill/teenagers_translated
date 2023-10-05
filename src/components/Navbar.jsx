@@ -4,9 +4,17 @@ import { Link } from "react-router-dom";
 import PeopleLeft from "../assets/images/people-left.png";
 import PeopleRight from "../assets/images/people-right.png";
 import { useState, useEffect } from "react";
+import { links } from "../data";
+import { RxCross1 } from "react-icons/rx";
+import MainImage from "../assets/images/image4.jpeg";
 
 const Navbar = () => {
   const [isResponsive, setIsResponsive] = useState(window.innerWidth <= 1440);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
 
   useEffect(() => {
     const handleResize = () => {
@@ -40,16 +48,33 @@ const Navbar = () => {
         </div>
         <div className="navbar__right">
           {isResponsive ? (
-            /* Hamburger icon for mobile */
-            <div className="hamburger-icon">&#9776;</div>
+            <div className="hamburger-icon" onClick={toggleDropdown}>
+              {isDropdownOpen ? <RxCross1 className="close-icon" /> : "☰"}
+            </div>
           ) : (
-            /* Right image for larger screens */
             <Link to="/" className="navbar__logo">
               <img src={PeopleRight} alt="logo" />
             </Link>
           )}
         </div>
       </div>
+      {isResponsive && (
+        <div className={`mobile-dropdown ${isDropdownOpen ? "open" : ""}`}>
+          <ul className="nav__links">
+            {links.map((link, index) => (
+              <li key={index}>
+                <Link to={link.path} onClick={toggleDropdown}>
+                  {link.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <div>
+            <img src={MainImage} alt="people" />
+          </div>
+        </div>
+      )}
+
       <div className="navbar__bottom">
         <Link to="/" className="navbar__link__btn">
           Home
