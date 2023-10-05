@@ -1,53 +1,202 @@
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 /* index.css */
 :root {
-    --purple-colour: #A56EB0;
-    --blue-colour: #2FB8E5;
-    --darkpurple-colour: #7951A0;
-    --purplelight-colour: rgba(165, 110, 176, 0.1);
-    --gray-colour: #797575;
-    --pink-colour: #FA85B4;
+  --purple-colour: #a56eb0;
+  --blue-colour: #2fb8e5;
+  --darkpurple-colour: #7951a0;
+  --purplelight-colour: rgba(165, 110, 176, 0.1);
+  --grey-colour: #797575;
+  --pink-colour: #fa85b4;
 }
 
-
-body{
-    font-family: "DIN Next W01 Condensed Ultra Light";
-    color: black;
-    line-height: 1;
-    overflow-x: hidden;
-    background: rgba(255, 255, 255, 0.35);
-    position: relative;
-    letter-spacing: 1px;
+body {
+  font-family: "DIN Next W01 Condensed Ultra Light";
+  color: black;
+  line-height: 1;
+  overflow-x: hidden;
+  background: rgba(255, 255, 255, 0.35);
+  position: relative;
+  letter-spacing: 1px;
 }
 
 body::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* background-image: url('../src/assets/images/image4.jpeg'); */
-    opacity: 0.25; 
-    z-index: -1; 
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url('../src/assets/images/image4.jpeg'); */
+  opacity: 0.25;
+  z-index: -1;
 }
 
-.container{
-    width: var(--container-width-lg);
-    max-width: 1920px;
-    margin: auto;
+.container {
+  width: var(--container-width-lg);
+  max-width: 1920px;
+  margin: auto;
+  padding: 0 20px;
+  border: var(--blue-colour) 3px solid;
+  background-color: white;
+  color: var(--grey-colour);
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-h1, h2, h3, h4, h5 {
-    line-height: 1.2;
-    color: var(--color-gray-100);
+section {
+  margin-top: 10px;
+  background-color: white;
+  border-top: 3px solid var(--blue-colour);
+  padding: 50px 100px;
+}
+
+section h1 {
+  font-size: 60px;
+  margin-bottom: 1rem;
+  color: var(--purple-colour);
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  color: var(--purple-colour);
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 2rem;
+  color: var(--grey-colour);
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 2rem;
+  color: var(--grey-colour);
+  margin-top: 2rem;
+  text-align: center;
+}
+
+a {
+  /* font-size: 20px; */
+  margin-bottom: 1rem;
+  color: var(--grey-colour);
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  color: var(--grey-colour);
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.btn-small {
+  font-size: 20px;
+  background-color: rgba(47, 184, 229, 0.8);
+  color: rgb(255, 255, 255);
+  padding: 8px 20px;
+  /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
+  border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
+  margin: 15px;
+  font-family: "DIN Next W01 Condensed Ultra Light";
+  letter-spacing: 1px;
+  width: fit-content;
+  height: fit-content;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btn-small:hover {
+  background-color: var(--blue-colour);
+  color: white;
+  transition: ease-in-out 0.5s;
+  padding: 6px 20px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.btn-medium {
+  font-size: 30px;
+  background-color: rgba(47, 184, 229, 0.8);
+  color: rgb(255, 255, 255);
+  padding: 10px 23px;
+  /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
+  border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
+  margin: 20px;
+  font-family: "DIN Next W01 Condensed Ultra Light";
+  letter-spacing: 1px;
+  width: fit-content;
+  height: fit-content;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btn-medium:hover {
+  background-color: var(--blue-colour);
+  color: white;
+  transition: ease-in-out 0.5s;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 34px;
+}
+
+.btn-large {
+  font-size: 40px;
+  background-color: rgba(47, 184, 229, 0.8);
+  color: rgb(255, 255, 255);
+  padding: 28px 20px;
+  /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
+  border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
+  margin: 30px;
+  font-family: "DIN Next W01 Condensed Ultra Light";
+  letter-spacing: 1px;
+  width: fit-content;
+  height: fit-content;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btn-large:hover {
+  background-color: var(--blue-colour);
+  color: white;
+  transition: ease-in-out 0.5s;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 44px;
 }
