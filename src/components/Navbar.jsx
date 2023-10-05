@@ -6,7 +6,6 @@ import PeopleRight from "../assets/images/people-right.png";
 import { useState, useEffect } from "react";
 import { links } from "../data";
 import { RxCross1 } from "react-icons/rx";
-import MainImage from "../assets/images/image4.jpeg";
 
 const Navbar = () => {
   const [isResponsive, setIsResponsive] = useState(window.innerWidth <= 1440);
@@ -64,14 +63,11 @@ const Navbar = () => {
             {links.map((link, index) => (
               <li key={index}>
                 <Link to={link.path} onClick={toggleDropdown}>
-                  {link.name}
+                  <div className="nav__link-content"> {link.name} </div>
                 </Link>
               </li>
             ))}
           </ul>
-          <div>
-            <img src={MainImage} alt="people" />
-          </div>
         </div>
       )}
 

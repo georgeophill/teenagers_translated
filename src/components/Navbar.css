@@ -87,17 +87,16 @@
 .navbar__link__btn {
   text-decoration: none;
   font-size: 40px; /* Reduce font size for smaller screens */
-  color: black;
+  color: var(--grey-colour);
   padding: 0px 0px; /* Reduce padding for smaller screens */
-  border-radius: 20px;
 }
 
 .navbar__link__btn:hover {
   text-decoration: none;
   font-size: 40px;
-  background-color: #7951a0;
+  background-color: var(--purple-colour);
   color: white;
-  border-radius: 20px;
+  border-radius: 40px;
   transition: ease-in-out 0.5s;
   padding: 10px 20px;
 }
@@ -110,7 +109,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--pink-colour);
+  background-color: var(--blue-colour);
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 20px;
@@ -201,6 +200,7 @@
     justify-content: center;
     border-radius: 10px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    transition: 0.6s cubic-bezier(0.62, 0.04, 0.3, 1.56);
   }
 
   .mobile-dropdown.open {
@@ -213,7 +213,7 @@
     padding: 10px 30px;
     margin: 10px;
     font-size: 50px;
-    letter-spacing: 5px;
+    letter-spacing: 2.5px;
     color: black;
   }
 
@@ -221,6 +221,19 @@
     background-color: #2fb8e5;
     transition: ease-in-out 0.25s;
     cursor: pointer;
+  }
+
+  .dropdown-image {
+    height: 300px;
+    width: fit-content;
+    margin-top: 40px !important;
+    margin: auto;
+    border-radius: 10px;
+    border: #2fb8e5 3px solid;
+  }
+
+  .nav__link-content {
+    color: white;
   }
 }
 
@@ -271,6 +284,11 @@
   .close-icon {
     font-size: 40px;
   }
+
+  .mobile-dropdown {
+    margin-top: 127px;
+    border-radius: 0px;
+  }
 }
 
 @media screen and (max-width: 704px) {
@@ -293,5 +311,60 @@
     font-size: 40px;
     margin-left: 10px;
     margin-top: 10px;
+  }
+
+  .mobile-dropdown {
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: var(
+      --purple-colour
+    ); /* Set your desired background color */
+    z-index: 1000; /* Adjust z-index as needed */
+    width: 100%; /* Set your desired width */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    margin-top: 121px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 0px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    transition: 0.6s cubic-bezier(0.62, 0.04, 0.3, 1.56);
+  }
+
+  .mobile-dropdown.open {
+    transform: translateX(0%);
+  }
+
+  .nav__links li {
+    border-bottom: #2fb8e5 3px solid;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 10px;
+    font-size: 50px;
+    letter-spacing: 2.5px;
+    color: black;
+    padding-bottom: 40px;
+  }
+
+  .nav__links li:hover {
+    background-color: #2fb8e5;
+    transition: ease-in-out 0.25s;
+    cursor: pointer;
+  }
+
+  .dropdown-image {
+    height: 300px;
+    width: fit-content;
+    margin-top: 40px !important;
+    margin: auto;
+    border-radius: 10px;
+    border: #2fb8e5 3px solid;
+  }
+
+  .nav__link-content {
+    color: white;
   }
 }
