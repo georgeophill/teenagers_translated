@@ -55,7 +55,6 @@ body::before {
 }
 
 section {
-  margin-top: 10px;
   background-color: white;
   border-top: 3px solid var(--blue-colour);
   padding: 50px 100px;
@@ -73,7 +72,6 @@ section h1 {
 
 .header {
   margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
   overflow: hidden;
 }
 
@@ -121,7 +119,7 @@ p {
 }
 
 img {
-  display: block;
+  /* display: block; */
   object-fit: cover;
   /* max-width: 100%; */
 }
@@ -180,10 +178,10 @@ img {
   font-size: 40px;
   background-color: rgba(47, 184, 229, 0.8);
   color: rgb(255, 255, 255);
-  padding: 28px 20px;
+  padding: 30px 20px;
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
-  margin: 30px;
+  margin: 15px;
   font-family: "DIN Next W01 Condensed Ultra Light";
   letter-spacing: 1px;
   width: fit-content;

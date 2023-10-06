@@ -1,0 +1,47 @@
+.header {
+  color: rgb(255, 255, 255); /* Set your desired text color */
+  position: relative;
+}
+
+.header__container {
+  display: flex;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__text {
+  flex: 1;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  padding: 20px;
+  width: 25%;
+}
+
+#main-strapline {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: red;
+}
+
+.header__text h3 {
+  margin: 0;
+}
+
+.header__image {
+  flex: 1;
+  text-align: right;
+}
+
+.header__image img {
+  width: 85%;
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto;
+  margin-right: 0px;
+}

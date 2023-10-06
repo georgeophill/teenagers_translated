@@ -28,7 +28,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="navbar">
+    <div className="navbar" id="navbar">
       <div className="navbar__top">
         <div className="navbar__left">
           <Link to="/" className="navbar__logo">
@@ -41,7 +41,7 @@ const Navbar = () => {
               Teenagers Translated
             </Link>
           </div>
-          <div className="navbar__subtitle">
+          <div className="navbar__subtitle btn-large">
             Smoothly Navigate The Teenage Years
           </div>
         </div>

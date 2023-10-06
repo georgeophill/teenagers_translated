@@ -9,7 +9,8 @@
   align-items: center;
   position: sticky;
   top: 0;
-  border: 1px solid #333;
+  /* border: 1px solid #333; */
+  z-index: 999;
 }
 
 /* Top Half */
@@ -52,18 +53,19 @@
 }
 
 .navbar__subtitle {
-  font-size: 27px;
   background-color: #2fb8e5;
   color: rgb(255, 255, 255);
   padding: 8px 20px;
-  /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
-  border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
-  margin-top: 10px;
-  font-family: "DIN Next W01 Condensed Ultra Light";
-  letter-spacing: 1px;
-  width: 411px;
-  height: 50px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  /* Add any other styles you want to keep the same */
+  pointer-events: none;
+}
+
+/* Apply hover styles to all list items except .navbar__subtitle */
+.nav__links li:hover {
+  background-color: #2fb8e5;
+  color: white;
+  transition: ease-in-out 0.25s;
+  cursor: pointer;
 }
 
 /* Bottom Half */
@@ -71,9 +73,6 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-  margin-top: 20px; /* Adjust for smaller screens */
-  margin-bottom: 10px;
-  padding: 5px 10px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -195,7 +194,7 @@
     z-index: 1000; /* Adjust z-index as needed */
     width: 50%; /* Set your desired width */
     overflow-y: auto; /* Enable vertical scrolling if needed */
-    margin-top: 150px;
+    margin-top: 220px;
     text-align: center;
     justify-content: center;
     border-radius: 10px;
@@ -239,7 +238,7 @@
 
 @media screen and (max-width: 1028px) {
   .navbar__item {
-    font-size: 35px;
+    font-size: 60px;
     padding-top: 0.5rem;
   }
 
@@ -268,7 +267,7 @@
   }
 
   .hamburger-icon {
-    font-size: 60px;
+    font-size: 100px;
     cursor: pointer;
     margin-right: 50px;
     margin-left: 50px;
@@ -286,8 +285,8 @@
   }
 
   .mobile-dropdown {
-    margin-top: 127px;
     border-radius: 0px;
+    margin-top: 224px;
   }
 }
 
@@ -308,9 +307,13 @@
   }
 
   .close-icon {
-    font-size: 40px;
+    font-size: 70px;
     margin-left: 10px;
     margin-top: 10px;
+  }
+
+  .hamburger-icon {
+    font-size: 80px;
   }
 
   .mobile-dropdown {
@@ -326,7 +329,7 @@
     z-index: 1000; /* Adjust z-index as needed */
     width: 100%; /* Set your desired width */
     overflow-y: auto; /* Enable vertical scrolling if needed */
-    margin-top: 121px;
+    margin-top: 235px;
     text-align: center;
     justify-content: center;
     border-radius: 0px;

@@ -1,14 +1,12 @@
 import React from "react";
 import "./Home.css";
 import AboutUs from "../../components/AboutUs";
+import Header from "../../components/Header";
 
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
-      <AboutUs />
-      <AboutUs />
-      <AboutUs />
+      <Header />
       <AboutUs />
     </div>
   );
