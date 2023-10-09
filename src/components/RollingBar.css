@@ -1,0 +1,65 @@
+.carousel__container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 2rem;
+  border: var(--blue-colour) 3px solid;
+  padding: 20px;
+}
+
+.carousel__inner {
+  display: flex;
+  animation: scrollAnimation 57s linear infinite; /* Adjust the duration for the scroll speed */
+}
+
+.carousel__item {
+  flex: 0 0 calc(100% / 8 - 10px); /* Display 6 items at a time with spacing between logos */
+  margin-right: 100px; /* Add spacing between logos */
+  overflow: hidden; /* Hide any overflowing part of the logo */
+  border-radius: 0.5rem;
+  align-items: center;
+  padding: 0px;
+  display: flex;
+  border-radius: 20px;
+}
+
+.carousel__item img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* Maintain aspect ratio and fit the logo within the container */
+}
+
+.where-we-worked {
+  text-align: center;
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      calc(-100% * 6)
+    ); /* Adjust the percentage for the number of logos displayed */
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .carousel__item {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(100% / 4 - 10px);
+    margin-right: 80px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    align-items: center;
+    padding: 0px;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .carousel__container {
+    display: none;
+  }
+}

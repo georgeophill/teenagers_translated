@@ -53,12 +53,18 @@
   margin-right: 0px;
 }
 
+@media screen and (max-width: 1760px) {
+  .header__text h2 {
+    font-size: 35px;
+  }
+}
+
 @media screen and (max-width: 1440px) {
   .header__text {
     width: 49%;
     left: -4%;
     top: 6%;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: "DIN Next W01 Condensed Regular";
   }
 
   .header__content {
@@ -82,8 +88,8 @@
   .header__text {
     width: 49%;
     left: -6%;
-    top: -18%;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    top: 0%;
+    font-family: var(--font-heavy);
   }
 
   .header__content {

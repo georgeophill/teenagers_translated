@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "./AboutUs.css";
+import "./AboutUsPage.css";
 
-const AboutUs = () => {
+const AboutUsPage = () => {
   return (
     <div>
-      <section className="about">
+      <section className="about-purple">
         <h1 className="who-we-are-head">About Us</h1>
         <div className="container about-back">
           <div className="header about-us">
@@ -40,15 +39,10 @@ const AboutUs = () => {
               2018.
             </p>
           </div>
-          <div id="about-btn">
-            <Link to="/about">
-              <button className="btn-medium">Find out more about us...</button>
-            </Link>
-          </div>
         </div>
       </section>
     </div>
   );
 };
 
-export default AboutUs;
+export default AboutUsPage;

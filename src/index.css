@@ -18,6 +18,14 @@
   --purplelight-colour: rgba(165, 110, 176, 0.1);
   --grey-colour: #797575;
   --pink-colour: #fa85b4;
+
+  --font-heavy: "DIN Next W01 Condensed Regular";
+  --font-medium: "DIN Next W01 Condensed Light";
+  --font-light: "DIN Next W01 Condensed Ultra Light";
+
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
+  --container-width-sm: 97%;
 }
 
 body {
@@ -46,16 +54,15 @@ body::before {
   width: var(--container-width-lg);
   max-width: 1920px;
   margin: auto;
-  padding: 0 20px;
+  padding: 20px 20px;
   border: var(--blue-colour) 3px solid;
   background-color: white;
   color: var(--grey-colour);
   border-radius: 20px;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 section {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-top: 3px solid var(--blue-colour);
   padding: 50px 100px;
 }
@@ -73,6 +80,7 @@ section h1 {
 .header {
   margin-top: 0.5rem;
   overflow: hidden;
+  font-family: var(--font-heavy);
 }
 
 h1 {
@@ -81,6 +89,8 @@ h1 {
   margin-top: 2rem;
   color: var(--purple-colour);
   text-decoration: underline;
+  font-weight: 100;
+  font-family: var(--font-heavy);
 }
 
 h2 {
@@ -88,6 +98,8 @@ h2 {
   margin-bottom: 2rem;
   color: var(--purple-colour);
   margin-top: 2rem;
+  font-weight: 100;
+  font-family: var(--font-heavy);
 }
 
 h3 {
@@ -96,6 +108,8 @@ h3 {
   color: var(--grey-colour);
   margin-top: 2rem;
   text-align: center;
+  font-weight: 100;
+  font-family: var(--font-light);
 }
 
 a {
@@ -108,6 +122,7 @@ p {
   font-size: 20px;
   margin-bottom: 1rem;
   color: var(--grey-colour);
+  font-weight: 100;
 }
 
 img {
@@ -148,7 +163,8 @@ img {
   padding: 10px 23px;
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
-  margin: 20px;
+  margin: auto;
+  margin-top: 50px;
   font-family: "DIN Next W01 Condensed Light";
   letter-spacing: 1px;
   width: fit-content;
@@ -170,10 +186,10 @@ img {
   font-size: 30px;
   background-color: rgba(47, 184, 229, 0.8);
   color: rgb(255, 255, 255);
-  padding: 30px 20px;
+  padding: 15px 20px;
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
-  margin: 15px;
+  margin: 20px;
   font-family: "DIN Next W01 Condensed Light";
   letter-spacing: 2px;
   width: fit-content;
@@ -189,4 +205,41 @@ img {
   padding: 10px 20px;
   cursor: pointer;
   font-size: 44px;
+}
+
+.btn-cool {
+  font-size: 30px;
+  background-color: rgba(47, 184, 229, 0.8);
+  color: rgb(255, 255, 255);
+  padding: 15px 20px;
+  /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
+  border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
+  margin: 10px;
+  font-family: "DIN Next W01 Condensed Light";
+  letter-spacing: 2px;
+  width: fit-content;
+  height: fit-content;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btn-cool:hover {
+  background-color: var(--blue-colour);
+  color: white;
+  transition: ease-in-out 0.5s;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 44px;
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    width: var(--container-width-md);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-sm);
+  }
 }

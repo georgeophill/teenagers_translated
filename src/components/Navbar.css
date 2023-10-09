@@ -24,7 +24,7 @@
 .navbar__left img,
 .navbar__right img {
   object-fit: contain;
-  height: 175px; /* Reduce the height for smaller screens */
+  height: 150px; /* Reduce the height for smaller screens */
   margin-right: 10px;
   margin-top: 10px;
 }
@@ -101,6 +101,7 @@
 }
 
 /* Dropdown Styles */
+
 .dropdown {
   display: inline-block;
 }
@@ -199,7 +200,7 @@
     z-index: 1000; /* Adjust z-index as needed */
     width: 50%; /* Set your desired width */
     overflow-y: auto; /* Enable vertical scrolling if needed */
-    margin-top: 220px;
+    margin-top: 177px;
     text-align: center;
     justify-content: center;
     border-radius: 10px;
@@ -310,7 +311,7 @@
     z-index: 1000; /* Adjust z-index as needed */
     width: 100%; /* Set your desired width */
     overflow-y: auto; /* Enable vertical scrolling if needed */
-    margin-top: 215px;
+    margin-top: 177px;
     text-align: center;
     justify-content: center;
     border-radius: 0px;
