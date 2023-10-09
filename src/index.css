@@ -21,7 +21,7 @@
 }
 
 body {
-  font-family: "DIN Next W01 Condensed Ultra Light";
+  font-family: "DIN Next W01 Condensed Light";
   color: black;
   line-height: 1;
   overflow-x: hidden;
@@ -75,14 +75,6 @@ section h1 {
   overflow: hidden;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  line-height: 1.2;
-}
-
 h1 {
   font-size: 60px;
   margin-bottom: 2rem;
@@ -92,9 +84,9 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 50px;
   margin-bottom: 2rem;
-  color: var(--grey-colour);
+  color: var(--purple-colour);
   margin-top: 2rem;
 }
 
@@ -132,7 +124,7 @@ img {
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
   margin: 15px;
-  font-family: "DIN Next W01 Condensed Ultra Light";
+  font-family: "DIN Next W01 Condensed Light";
   letter-spacing: 1px;
   width: fit-content;
   height: fit-content;
@@ -157,7 +149,7 @@ img {
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
   margin: 20px;
-  font-family: "DIN Next W01 Condensed Ultra Light";
+  font-family: "DIN Next W01 Condensed Light";
   letter-spacing: 1px;
   width: fit-content;
   height: fit-content;
@@ -175,15 +167,15 @@ img {
 }
 
 .btn-large {
-  font-size: 40px;
+  font-size: 30px;
   background-color: rgba(47, 184, 229, 0.8);
   color: rgb(255, 255, 255);
   padding: 30px 20px;
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
   margin: 15px;
-  font-family: "DIN Next W01 Condensed Ultra Light";
-  letter-spacing: 1px;
+  font-family: "DIN Next W01 Condensed Light";
+  letter-spacing: 2px;
   width: fit-content;
   height: fit-content;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
