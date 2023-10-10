@@ -85,9 +85,9 @@ const Navbar = () => {
             </Link>
           </span>
           <div className="dropdown-content">
+            <Link to="/parentLunch">Lunchtime Talks in the Workplace</Link>
             <Link to="/parentTalks">Parent Talks In School</Link>
-            <Link to="/parentWorkshops">Parent Workshops</Link>
-            <Link to="/parentCoaching">Parent Coaching</Link>
+            <Link to="/parentCharity">Charity Talks</Link>
           </div>
         </div>
         <div className="navbar__link_btn dropdown">

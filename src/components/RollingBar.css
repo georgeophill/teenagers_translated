@@ -3,7 +3,7 @@
   overflow: hidden;
   position: relative;
   margin-top: 2rem;
-  border: var(--blue-colour) 3px solid;
+  border-top: var(--blue-colour) 3px solid;
   padding: 20px;
 }
 
@@ -21,6 +21,7 @@
   padding: 0px;
   display: flex;
   border-radius: 20px;
+  /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25); */
 }
 
 .carousel__item img {
@@ -48,7 +49,7 @@
   .carousel__item {
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: calc(100% / 4 - 10px);
+    flex-basis: calc(100% / 5 - 10px);
     margin-right: 80px;
     overflow: hidden;
     border-radius: 0.5rem;
@@ -60,6 +61,6 @@
 
 @media screen and (max-width: 600px) {
   .carousel__container {
-    display: none;
+    flex-basis: calc(100% / 3 - 10px);
   }
 }

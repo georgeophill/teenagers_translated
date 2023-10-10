@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Header.css";
-import MainImage from "../images/HomepageFINAL.png";
+import MainImage from "../images/Illustrations/HomepageFINAL.png";
 
 const Header = () => {
   const initialText =

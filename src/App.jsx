@@ -15,8 +15,8 @@ const App = () => {
           <Route path="/about" element={<Pages.About />} />
           <Route path="/parentWork" element={<Pages.ParentWork />} />
           <Route path="/parentTalks" element={<Pages.ParentTalks />} />
-          <Route path="/parentWorkshops" element={<Pages.ParentWorkshops />} />
-          <Route path="/parentCoaching" element={<Pages.ParentCoaching />} />
+          <Route path="/parentLunch" element={<Pages.ParentLunch />} />
+          <Route path="/parentCharity" element={<Pages.ParentCharity />} />
           <Route path="/schoolWork" element={<Pages.SchoolWork />} />
           <Route path="/studentWork" element={<Pages.StudentWork />} />
           <Route path="/staffInputs" element={<Pages.StaffInputs />} />
