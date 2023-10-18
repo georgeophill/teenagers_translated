@@ -94,7 +94,6 @@ section::before {
 
 section h1 {
   font-size: 60px;
-  margin-bottom: 1rem;
   color: var(--purple-colour);
   text-decoration: underline;
   display: flex;
@@ -115,16 +114,16 @@ h1 {
   color: var(--purple-colour);
   text-decoration: underline;
   font-weight: 100;
-  font-family: var(--font-heavy);
+  font-family: var(--font-medium);
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 60px;
   margin-bottom: 2rem;
   color: var(--purple-colour);
   margin-top: 2rem;
   font-weight: 100;
-  font-family: var(--font-heavy);
+  font-family: var(--font-medium);
 }
 
 h3 {
@@ -144,7 +143,7 @@ a {
 }
 
 p {
-  font-size: 20px;
+  font-size: 40px;
   margin-bottom: 1rem;
   color: var(--grey-colour);
   font-weight: 100;
@@ -165,11 +164,12 @@ img {
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
   margin: 20px;
   font-family: "DIN Next W01 Condensed Light";
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
   width: fit-content;
   height: fit-content;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 .btn-small:hover {
@@ -190,11 +190,12 @@ img {
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
   margin: 20px;
   font-family: "DIN Next W01 Condensed Light";
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
   width: fit-content;
   height: fit-content;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 .btn-medium:hover {
@@ -220,6 +221,7 @@ img {
   height: fit-content;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 .btn-large:hover {
@@ -245,6 +247,7 @@ img {
   height: fit-content;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 .btn-cool:hover {
@@ -257,7 +260,7 @@ img {
 }
 
 .btn-xlcool {
-  font-size: 30px;
+  font-size: 35px;
   background-color: rgba(47, 184, 229, 0.8);
   color: rgb(255, 255, 255);
   padding: 25px 35px;
@@ -270,6 +273,7 @@ img {
   height: fit-content;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 .btn-xlcool:hover {
@@ -295,6 +299,7 @@ img {
   height: fit-content;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 .btn-xlarge:hover {

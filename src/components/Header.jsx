@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./Header.css";
 import MainImage from "../images/Illustrations/HomepageFINAL.png";
 
@@ -8,27 +8,26 @@ const Header = () => {
 
   const [typedText, setTypedText] = useState("");
   const [isTyping, setIsTyping] = useState(true);
+  const charIndexRef = useRef(0);
+  const typingTimerRef = useRef(null);
+
+  const typeText = () => {
+    const charIndex = charIndexRef.current;
+    if (charIndex < initialText.length) {
+      setTypedText((prevText) => prevText + initialText.charAt(charIndex));
+      charIndexRef.current = charIndex + 1;
+      typingTimerRef.current = setTimeout(typeText, 40); // Adjust typing speed as needed
+    } else {
+      setIsTyping(false); // Typing is complete
+    }
+  };
 
   useEffect(() => {
-    let charIndex = 0;
-    let typingTimer;
-
-    const typeText = () => {
-      if (charIndex < initialText.length) {
-        setTypedText((prevText) => prevText + initialText.charAt(charIndex));
-        charIndex++;
-        typingTimer = setTimeout(typeText, 40); // Adjust typing speed as needed
-      } else {
-        setIsTyping(false); // Typing is complete
-      }
-    };
-
     typeText();
-
     return () => {
-      clearTimeout(typingTimer);
+      clearTimeout(typingTimerRef.current);
     };
-  }, []);
+  });
 
   return (
     <div className="header">
@@ -37,7 +36,7 @@ const Header = () => {
           <div className="header__text" id="main-strapline">
             <h2>
               {typedText}
-              {isTyping && <span className="cursor">|</span>}
+              {isTyping}
             </h2>
           </div>
           <div className="header__image">

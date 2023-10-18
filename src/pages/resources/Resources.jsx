@@ -1,12 +1,8 @@
-import React from 'react';
-import  './Resources.css';
+import React from "react";
+import "./Resources.css";
 
 const Resources = () => {
-    return (
-        <div>
-        <h1>Resources</h1>
-        </div>
-    );
-}
+  return <div>Resources Page</div>;
+};
 
 export default Resources;

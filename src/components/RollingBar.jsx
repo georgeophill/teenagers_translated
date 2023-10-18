@@ -52,7 +52,7 @@ const RollingBar = ({ galleryLength }) => {
   return (
     <div className="carousel__container" ref={containerRef}>
       <div className="where-we-worked">
-        <h1>Where we have worked</h1>
+        <h1 className="where-we-worked">Where we have worked</h1>
       </div>
       <div
         className="carousel__inner"

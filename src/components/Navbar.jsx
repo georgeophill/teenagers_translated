@@ -72,12 +72,16 @@ const Navbar = () => {
       )}
 
       <div className="navbar__bottom">
-        <Link to="/" className="navbar__link__btn">
-          Home
-        </Link>
-        <Link to="/about" className="navbar__link__btn">
-          About
-        </Link>
+        <div className="navbar__link_btn">
+          <Link to="/" className="navbar__link__btn">
+            Home
+          </Link>
+        </div>
+        <div className="navbar__link_btn">
+          <Link to="/about" className="navbar__link__btn">
+            About
+          </Link>
+        </div>
         <div className="navbar__link_btn dropdown">
           <span className="dropdown-title">
             <Link to="/parentWork" className="navbar__link__btn">
@@ -115,15 +119,21 @@ const Navbar = () => {
             <Link to="/coachingForTeenagers">Coaching For Teenagers </Link>
           </div>
         </div>
-        <Link to="/ourBook" className="navbar__link__btn">
-          Our Book
-        </Link>
-        <Link to="/resources" className="navbar__link__btn">
-          Resources
-        </Link>
-        <Link to="/contact" className="navbar__link__btn">
-          Contact
-        </Link>
+        <div className="navbar__link_btn">
+          <Link to="/ourBook" className="navbar__link__btn">
+            Our Book
+          </Link>
+        </div>
+        <div className="navbar__link_btn">
+          <Link to="/resources" className="navbar__link__btn">
+            Resources
+          </Link>
+        </div>
+        <div className="navbar__link_btn">
+          <Link to="/contact" className="navbar__link__btn">
+            Contact
+          </Link>
+        </div>
       </div>
     </div>
   );

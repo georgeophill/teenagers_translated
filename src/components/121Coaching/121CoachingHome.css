@@ -1,0 +1,157 @@
+.coaching-section {
+  padding: 50px 50px;
+}
+
+.CoachingWorkHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CoachingWorkHome__left {
+  flex: 1;
+}
+
+.CoachingHome__image {
+  max-width: 90%;
+  height: auto;
+}
+
+.CoachingWorkHome__right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.CoachingWorkHome__header {
+  font-size: 90px;
+  margin-bottom: 7rem;
+}
+
+.CoachingWorkHome__quote {
+  font-size: 70px;
+  margin-bottom: 7rem;
+  letter-spacing: 2px;
+  line-height: 1.25;
+}
+
+#button-coaching {
+  font-size: 50px;
+  background-color: rgba(47, 184, 229, 0.8);
+  color: rgb(255, 255, 255);
+  padding: 25px 120px;
+  /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
+  border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
+  margin: 30px;
+  font-family: "DIN Next W01 Condensed Light";
+  letter-spacing: 2px;
+  width: fit-content;
+  height: fit-content;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+#button-coaching:hover {
+  background-color: var(--blue-colour);
+  color: white;
+  transition: ease-in-out 0.5s;
+  padding: 30px 150px;
+  cursor: pointer;
+  font-size: 60px;
+}
+
+#button-coaching-parents:hover {
+  background-color: var(--blue-colour);
+  color: white;
+  transition: ease-in-out 0.5s;
+  padding: 30px 150px;
+  cursor: pointer;
+  font-size: 60px;
+}
+
+#button-coaching-parents {
+  font-size: 50px;
+  background-color: rgba(47, 184, 229, 0.8);
+  color: rgb(255, 255, 255);
+  padding: 25px 120px;
+  /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
+  border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
+  margin: 20px;
+  font-family: "DIN Next W01 Condensed Light";
+  letter-spacing: 2px;
+  width: fit-content;
+  height: fit-content;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+@media screen and (max-width: 1900px) {
+  .CoachingWorkHome__header {
+    font-size: 70px;
+    margin-bottom: 5rem;
+  }
+
+  .CoachingWorkHome__quote {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .CoachingWorkHome__header {
+    font-size: 60px;
+    margin-bottom: 5rem;
+  }
+
+  .CoachingWorkHome__quote {
+    font-size: 50px;
+    margin-bottom: 5rem;
+    letter-spacing: 2px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .CoachingWorkHome__header {
+    font-size: 60px;
+    margin-bottom: 3rem;
+  }
+
+  .CoachingWorkHome__quote {
+    font-size: 40px;
+    margin-bottom: 5rem;
+    letter-spacing: 2px;
+    line-height: 1.25;
+  }
+
+  .CoachingHome__image {
+    max-width: 110%;
+    height: auto;
+    margin-left: -15%;
+  }
+
+  #button-coaching {
+    font-size: 30px;
+    padding: 20px 80px;
+    letter-spacing: 0.8px;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  #button-coaching-Coachings {
+    font-size: 30px;
+    padding: 20px 80px;
+    letter-spacing: 0.8px;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .CoachingWorkHome__image {
+    max-width: 110%;
+    height: auto;
+    margin-left: -70px;
+  }
+}

@@ -1,9 +1,10 @@
 import React from "react";
+import ParentCharityPage from "../../components/ParentWork/ParentCharityPage";
 
 const ParentCharity = () => {
   return (
     <div>
-      <h1>Parent Charity</h1>
+      <ParentCharityPage />
     </div>
   );
 };

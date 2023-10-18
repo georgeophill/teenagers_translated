@@ -6,13 +6,13 @@ const AboutUs = () => {
   return (
     <div>
       <section className="about">
-        <h1 className="who-we-are-head">About Us</h1>
+        <h1 className="about-head">About Us</h1>
         <div className="container about-back">
           <div className="header about-us">
             <p>
               Janey Downshire and Naella Grew are co-founders of Teenagers
               Translated. Both are married mothers of grown up children, and
-              came to specializing in teenage issues as second careers, when
+              came to specialising in teenage issues as second careers, when
               their children were in their teens. They are both trained
               counsellors and members of the BACP (British Association of
               Counselling and Psychotherapy). <br />
@@ -42,7 +42,9 @@ const AboutUs = () => {
           </div>
           <div id="about-btn">
             <Link to="/about">
-              <button className="btn-medium">Find out more about us...</button>
+              <button className="btn-large">
+                Find more about Janey & Naella
+              </button>
             </Link>
           </div>
         </div>

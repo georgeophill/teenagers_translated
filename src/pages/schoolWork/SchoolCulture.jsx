@@ -1,11 +1,12 @@
 import React from "react";
+import SchoolWellbeingPage from "../../components/SchoolWork/SchoolWellbeingPage";
 
 const Culture = () => {
-    return (
-        <div>
-            <h1>Culture</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <SchoolWellbeingPage />
+    </div>
+  );
+};
 
-export default Culture
+export default Culture;

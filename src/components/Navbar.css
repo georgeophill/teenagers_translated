@@ -79,7 +79,7 @@
 .navbar__link {
   text-decoration: none;
   color: var(--purple-colour);
-  font-family: "DIN Next W01 Condensed Ultra Light";
+  font-family: var(--font-light);
   letter-spacing: 3px;
 }
 
@@ -95,8 +95,8 @@
   font-size: 40px;
   background-color: var(--purple-colour);
   color: white;
-  border-radius: 40px;
-  transition: ease-in-out 0.5s;
+  border-radius: 20px;
+  transition: ease-in 0.3s;
   padding: 10px 20px;
 }
 
@@ -117,12 +117,12 @@
 }
 
 .dropdown-content a {
-  padding: 12px 16px;
+  padding: 16px 16px;
   display: block;
   text-decoration: none;
   color: #333;
-  border-bottom: 1px solid #333;
-  font-size: 30px;
+  /* border-bottom: 1px solid #333; */
+  font-size: 40px;
 }
 
 .dropdown-content a:last-child {
@@ -131,7 +131,7 @@
 
 .dropdown-content a:hover {
   background-color: #f2f2f2;
-  font-size: 35px;
+  font-size: 42px;
   transition: ease-in-out 0.25s;
 }
 
@@ -166,6 +166,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    margin-right: 146px;
   }
 
   .hamburger-icon {
@@ -242,6 +243,16 @@
   }
 }
 
+@media screen and (max-width: 1440px) and (max-height: 800px) {
+  .navbar__subtitle {
+    display: none; /* Hide the .navbar__subtitle element */
+  }
+
+  .mobile-dropdown {
+    margin-top: 111px;
+  }
+}
+
 /* MOBILE AND SMALL IPADS (IPHONE 14) */
 @media screen and (max-width: 1028px) {
   .navbar__item {
@@ -265,6 +276,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    margin-right: 0px;
   }
 
   .navbar__subtitle {

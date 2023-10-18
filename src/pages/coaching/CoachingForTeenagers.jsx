@@ -1,12 +1,12 @@
 import React from "react";
+import CoachingTeenagers from "../../components/121Coaching/CoachingTeenagers";
 
 const CoachingForTeenagers = () => {
-    return (
-        <div>
-            <h1>Coaching For Teenagers</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <CoachingTeenagers />
+    </div>
+  );
+};
 
-export default CoachingForTeenagers
-
+export default CoachingForTeenagers;

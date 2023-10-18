@@ -1,11 +1,12 @@
 import React from "react";
+import ParentTalkPage from "../../components/ParentWork/ParentTalkPage";
 
 const ParentTalks = () => {
-    return (
-        <div>
-        <h1>Parent Talks</h1>
-        </div>
-    );
-}
+  return (
+    <div>
+      <ParentTalkPage />
+    </div>
+  );
+};
 
 export default ParentTalks;

@@ -1,12 +1,13 @@
-import React from 'react'
-import './Coaching.css'
+import React from "react";
+import "./Coaching.css";
+import CoachingPage from "../../components/121Coaching/CoachingPage";
 
 const Coaching = () => {
-    return (
-        <div>
-            <h1>Coaching</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <CoachingPage />
+    </div>
+  );
+};
 
-export default Coaching
+export default Coaching;

@@ -1,0 +1,24 @@
+.contact__option {
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact__option:hover {
+  background: transparent;
+  border-color: var(--pink-colour);
+}
+
+.contact__option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#contactname {
+  display: flex;
+  text-align: center;
+  font-size: 70px;
+}

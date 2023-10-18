@@ -1,0 +1,81 @@
+.school-work p {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 0px;
+  margin: 0 15%;
+}
+
+.school-purple {
+  background-color: var(--purplelight-colour);
+}
+
+.buttons-school {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.school-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 50%;
+  height: 50%;
+  object-fit: scale-down;
+}
+
+#make-smaller-btn-coaching {
+  padding: 25px 150px;
+}
+
+.speech-bubble-container-talk-student-coaching {
+  width: 1855px;
+  height: 1032px;
+}
+
+.speech-bubble-container-talk-student-coaching {
+  position: absolute;
+  top: 38%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  color: var(--blue-colour);
+  font-family: "Skippy Sharp W00 Reg";
+  font-size: 50px;
+  max-width: 90%;
+  font-style: italic;
+  letter-spacing: 1.5;
+  height: 83%;
+}
+
+@media screen and (max-width: 1440px) {
+  .about-us p {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about-us p {
+    font-size: 30px;
+  }
+
+  .image {
+    width: 75%;
+    height: 100%;
+  }
+
+  .speech-bubble-text-talk-student-coaching {
+    font-size: 40px;
+    top: 37%;
+    left: 48%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-us p {
+    font-size: 20px;
+  }
+}

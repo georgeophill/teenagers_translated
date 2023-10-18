@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const ParentWorkHome = () => {
   return (
-    <div className="section">
+    <section id="parent-section">
       <div className="ParentWorkHome">
         <div className="ParentWorkHome__left">
           <img
@@ -15,11 +15,13 @@ const ParentWorkHome = () => {
           />
         </div>
         <div className="ParentWorkHome__right">
-          <h1 className="ParentWorkHome__header">Parent Work</h1>
+          <Link to="/ParentWork">
+            <h1 className="ParentWorkHome__header">Parent Work</h1>
+          </Link>
           <p className="ParentWorkHome__quote">
             We aim to empower parents with strategies that enable them to
             maintain a nurturing and stable home environment through the
-            inevitable ups and downs of the teenage years.
+            inevitable ups and downs of the teenage years
           </p>
           <Link to="/ParentWork">
             <button className="btn-xlcool" id="button">
@@ -28,7 +30,7 @@ const ParentWorkHome = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,11 +1,12 @@
 import React from "react";
+import CoachingParents from "../../components/121Coaching/CoachingParents";
 
 const CoachingForParents = () => {
-    return (
-        <div>
-            <h1>Coaching For Parents</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <CoachingParents />
+    </div>
+  );
+};
 
-export default CoachingForParents
+export default CoachingForParents;

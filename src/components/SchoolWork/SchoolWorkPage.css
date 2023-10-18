@@ -1,0 +1,52 @@
+.school-work p {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 0px;
+  margin: 0 15%;
+}
+
+.school-purple {
+  background-color: var(--purplelight-colour);
+}
+
+.buttons-school {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.school-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 50%;
+  height: 50%;
+  object-fit: scale-down;
+}
+
+@media screen and (max-width: 1440px) {
+  .about-us p {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about-us p {
+    font-size: 30px;
+  }
+
+  .image {
+    width: 75%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-us p {
+    font-size: 20px;
+  }
+}

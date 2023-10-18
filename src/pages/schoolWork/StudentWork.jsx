@@ -1,11 +1,12 @@
 import React from "react";
+import SchoolStudentPage from "../../components/SchoolWork/SchoolStudentPage";
 
-const StudentWork = () => { 
-    return (
-        <div>
-            <h1>Student Work</h1>
-        </div>
-    )           
-}
+const StudentWork = () => {
+  return (
+    <div>
+      <SchoolStudentPage />
+    </div>
+  );
+};
 
-export default StudentWork
+export default StudentWork;

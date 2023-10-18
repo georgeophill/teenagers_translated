@@ -1,0 +1,255 @@
+/* BookPage.css */
+
+/* Flex layout for the entire container */
+.book__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: var(--blue-colour) 3px solid;
+}
+
+/* Left side content */
+.book__left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4%;
+}
+
+/* Header style */
+.BookPage__header {
+  font-size: 90px;
+  color: var(--purple-colour);
+  text-decoration: underline;
+  font-weight: 100;
+  font-family: var(--font-medium);
+  margin-bottom: 7rem;
+}
+
+/* Text style */
+.BookPage__text {
+  font-size: 50px;
+  color: var(--grey-colour);
+  margin-top: 20px;
+  font-weight: 100;
+  line-height: 1.4;
+  margin-bottom: 7rem;
+}
+
+/* Read More button */
+#readMoreButton {
+  margin-top: 20px;
+}
+
+/* Right side image and Buy Now button */
+.book__right {
+  flex: 1;
+  text-align: center;
+  position: sticky;
+  top: -10px;
+  z-index: 1;
+}
+
+/* Image style */
+.book__right img {
+  max-width: 100%;
+  height: 75vh;
+}
+
+/* Buy Now button style */
+.buy-now-button {
+  margin-top: 20px;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1800px) {
+  .book__container {
+    flex-direction: row;
+  }
+
+  .BookPage__header {
+    margin-bottom: 4rem;
+    font-size: 60px;
+  }
+
+  .book__left {
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding: 3%;
+  }
+
+  .BookPage__text {
+    font-size: 35px;
+    margin-bottom: 4rem;
+  }
+
+  .book__right {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .book__container {
+    flex-direction: row;
+  }
+
+  .BookPage__header {
+    margin-bottom: 3rem;
+    font-size: 60px;
+  }
+
+  .book__left {
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding: 3%;
+  }
+
+  .BookPage__text {
+    font-size: 35px;
+    margin-bottom: 3rem;
+  }
+
+  .book__right {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .book__container {
+    flex-direction: row;
+  }
+
+  .BookPage__header {
+    margin-bottom: 2rem;
+    font-size: 60px;
+  }
+
+  .book__left {
+    margin-bottom: 20px;
+    font-size: 25px;
+    padding: 3%;
+  }
+
+  .BookPage__text {
+    font-size: 30px;
+    margin-bottom: 2rem;
+  }
+
+  .book__right {
+    margin-top: 20px;
+  }
+
+  @media screen and (max-width: 900px) {
+    .book__container {
+      flex-direction: row;
+    }
+
+    .BookPage__header {
+      margin-bottom: 1rem;
+      font-size: 50px;
+    }
+
+    .book__left {
+      margin-bottom: 20px;
+      padding: 3%;
+    }
+
+    .BookPage__text {
+      font-size: 20px;
+      margin-bottom: 1rem;
+    }
+
+    .book__right {
+      margin-top: 20px;
+    }
+  }
+}
+
+/* OR use this  */
+
+@media screen and (max-width: 1440px) {
+  .book__container {
+    flex-direction: column;
+  }
+
+  .book__left {
+    margin-bottom: 20px;
+  }
+
+  .book__right {
+    margin-top: 20px;
+  }
+
+  .book__right img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .book__container {
+    flex-direction: column;
+  }
+
+  .BookPage__header {
+    margin-bottom: 3rem;
+    font-size: 60px;
+  }
+
+  .book__left {
+    margin-bottom: 20px;
+    padding: 3%;
+  }
+
+  .BookPage__text {
+    font-size: 30px;
+  }
+
+  .book__right img {
+    max-width: 100%;
+    height: auto;
+  }
+  .book__right img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 20px;
+    padding: 6px;
+    padding-top: 21px;
+  }
+
+  .book__right-border {
+    position: relative;
+    width: 700px;
+    height: 700px;
+    background-color: rgba(121, 117, 117, 0.2);
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+
+  .book__right-border::before {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 140%;
+    background: linear-gradient(var(--blue-colour), var(--pink-colour));
+    animation: animate 5s linear infinite;
+  }
+
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}

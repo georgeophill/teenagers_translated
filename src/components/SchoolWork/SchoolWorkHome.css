@@ -1,0 +1,274 @@
+/* SchoolWorkHome.css */
+.school__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.school__header__container {
+  display: flex;
+  border-top: 3px solid var(--blue-colour);
+  margin-top: 10px;
+}
+
+.school__header__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 1%;
+}
+
+.school__header__text {
+  flex: 1;
+  position: absolute;
+  max-width: 80%;
+}
+
+.SchoolWorkHome__header {
+  margin-bottom: 7rem;
+  font-size: 90px;
+  margin-left: 5%;
+}
+
+.SchoolWorkHome__quote {
+  font-size: 70px;
+  margin-bottom: 7rem;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 1.25;
+  width: 40%;
+}
+
+#school__button {
+  margin-left: 5%;
+}
+
+.SchoolWork__right {
+  flex: 1;
+  text-align: right;
+}
+
+.SchoolWork__right img {
+  max-width: 73%;
+  height: auto;
+  margin-right: 0px;
+}
+
+@media screen and (max-width: 4600px) {
+  .SchoolWorkHome__header {
+    margin-bottom: 7rem;
+    font-size: 80px;
+  }
+
+  .SchoolWorkHome__quote {
+    font-size: 64px;
+  }
+
+  .School__header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: stretch;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 3000px) {
+  .SchoolWorkHome__header {
+    margin-bottom: 7rem;
+    font-size: 80px;
+  }
+
+  .SchoolWorkHome__quote {
+    font-size: 64px;
+  }
+
+  .School__header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: stretch;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 2400px) {
+  .school__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .SchoolWorkHome__header {
+    margin-bottom: 7rem;
+    font-size: 80px;
+  }
+
+  .SchoolWorkHome__quote {
+    font-size: 64px;
+  }
+}
+
+@media screen and (max-width: 2186px) {
+  .SchoolWorkHome__header {
+    margin-bottom: 7rem;
+    font-size: 80px;
+  }
+
+  .SchoolWorkHome__quote {
+    font-size: 64px;
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  .SchoolWorkHome__header {
+    margin-bottom: 7rem;
+    font-size: 70px;
+  }
+
+  .SchoolWorkHome__quote {
+    font-size: 58px;
+  }
+
+  #school__button {
+    margin-left: 3%;
+  }
+}
+
+@media screen and (max-width: 1760px) {
+  .SchoolWorkHome__header {
+    margin-bottom: 7rem;
+    font-size: 60px;
+  }
+
+  .SchoolWorkHome__quote {
+    font-size: 50px;
+  }
+
+  #school__button {
+    margin-left: 1%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .SchoolWorkHome__header {
+    margin-bottom: 2rem;
+    font-size: 50px;
+    margin-left: 10%;
+  }
+
+  .SchoolWorkHome__quote {
+    font-size: 40px;
+  }
+
+  #school__button {
+    font-size: 30px;
+    background-color: rgba(47, 184, 229, 0.8);
+    color: rgb(255, 255, 255);
+    padding: 10px 23px;
+    /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
+    border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
+    margin: 20px;
+    font-family: "DIN Next W01 Condensed Light";
+    letter-spacing: 0.8px;
+    width: 230px;
+    height: fit-content;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    margin-left: 7%;
+  }
+}
+
+/* SchoolWorkHome.css */
+
+@media screen and (max-width: 1222px) {
+  .SchoolWorkHome__header {
+    font-size: 60px;
+    margin: -31rem 5% 0 5%;
+  }
+
+  .SchoolWorkHome__quote {
+    font-size: 40px;
+    margin-bottom: 2rem;
+    text-align: left;
+    width: 110%;
+    margin-left: 30px;
+  }
+
+  #school__button {
+    font-size: 30px;
+    background-color: rgba(47, 184, 229, 0.8);
+    color: rgb(255, 255, 255);
+    padding: 10px 23px;
+    border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
+    margin: 20px;
+    font-family: "DIN Next W01 Condensed Light";
+    letter-spacing: 0.8px;
+    width: 250px;
+    height: fit-content;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    margin-left: 5%;
+  }
+
+  .SchoolWork__right {
+    order: 2;
+  }
+
+  .SchoolWork__right img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30%;
+  }
+
+  .school__header__text {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .SchoolWorkHome__header {
+    font-size: 40px;
+    margin: -27rem 5% 0 5%;
+  }
+
+  .SchoolWorkHome__quote {
+    font-size: 40px;
+    margin-bottom: 0rem;
+    text-align: left;
+    width: 120%;
+    margin-left: 30px;
+  }
+
+  #school__button {
+    font-size: 30px;
+    background-color: rgba(47, 184, 229, 0.8);
+    color: rgb(255, 255, 255);
+    padding: 10px 23px;
+    border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
+    margin: 20px;
+    font-family: "DIN Next W01 Condensed Light";
+    letter-spacing: 0.8px;
+    width: 200px;
+    height: fit-content;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    margin-left: 5%;
+  }
+
+  .SchoolWork__right {
+    order: 2;
+  }
+
+  .SchoolWork__right img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 25%;
+  }
+
+  .school__header__text {
+    margin-top: 1rem;
+  }
+}

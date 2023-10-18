@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import SchoolStaffPage from "../../components/SchoolWork/SchoolStaffPage";
 
 const StaffInputs = () => {
-    return (
-        <div>
-            <h1>Staff Inputs</h1>
-        </div>
-    )
-}
+  return (
+    <div>
+      <SchoolStaffPage />
+    </div>
+  );
+};
 
-export default StaffInputs
+export default StaffInputs;

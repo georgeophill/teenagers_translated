@@ -18,6 +18,9 @@
   .about-us p {
     font-size: 30px;
   }
+  .about-purple {
+    padding: 50px 50px;
+  }
 }
 
 @media screen and (max-width: 768px) {

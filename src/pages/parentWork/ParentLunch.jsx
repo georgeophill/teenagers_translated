@@ -1,9 +1,10 @@
 import React from "react";
+import ParentLunchPage from "../../components/ParentWork/ParentLunchPage";
 
 const ParentLunch = () => {
   return (
     <div>
-      <h1>Parent Lunch</h1>
+      <ParentLunchPage />
     </div>
   );
 };
