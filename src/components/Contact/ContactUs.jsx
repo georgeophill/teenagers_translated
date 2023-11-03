@@ -3,6 +3,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import emailjs from "emailjs-com";
 import { useRef } from "react";
 import { BsWhatsapp } from "react-icons/bs";
+import "./ContactUs.css";
 
 const ContactUs = ({ image, name, email, phone }) => {
   const form = useRef();
@@ -38,7 +39,7 @@ const ContactUs = ({ image, name, email, phone }) => {
       </div>
       <article className="contact-option">
         <button
-          className="btn-cool"
+          className="btn-standard"
           onClick={() =>
             (window.location.href = `mailto:${email}?subject=Teenagers Translated &body=Hi ${name},%0D%0A%0D%0A%0D%0A%0D%0A%0D%0ARegards,%0D%0A%0D%0A `)
           }
@@ -51,7 +52,7 @@ const ContactUs = ({ image, name, email, phone }) => {
         </button>
       </article>
       <article className="contact__option">
-        <button className="btn-large">
+        <button className="btn-standard">
           <div className="btn-content">
             <a href={`https://wa.me/${phone}`} rel="noreferrer" target="_blank">
               Text or Call

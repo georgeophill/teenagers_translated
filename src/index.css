@@ -311,6 +311,32 @@ img {
   font-size: 40px;
 }
 
+.btn-standard {
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid var(--grey-colour);
+  color: rgb(94, 94, 94);
+  padding: 25px 30px;
+  border-radius: 20px;
+  margin: 20px;
+  font-family: "DIN Next W01 Condensed Light";
+  letter-spacing: 2px;
+  width: fit-content;
+  height: fit-content;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.btn-standard:hover {
+  background-color: var(--blue-colour);
+  color: white;
+  transition: ease-in-out 0.25s;
+  padding: 28px 33px;
+  cursor: pointer;
+  font-size: 33px;
+}
+
 @media screen and (max-width: 1440px) {
   .container {
     width: var(--container-width-md);

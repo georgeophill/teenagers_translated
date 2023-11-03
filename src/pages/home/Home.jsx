@@ -23,6 +23,7 @@ const Home = () => {
       <CochingHome />
       <BookHomePage />
       <Resources />
+      <RollingBar galleryLength={galleryLength} />
     </div>
   );
 };

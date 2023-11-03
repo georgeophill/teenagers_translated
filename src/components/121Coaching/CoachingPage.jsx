@@ -33,7 +33,7 @@ const CoachingPage = () => {
         <Link
           to="/CoachingForParents"
           className={`btn-cool ${
-            location.pathname === "/CoachingForParents" ? "active" : ""
+            location.pathname === "/coachingForParents" ? "active" : ""
           }`}
           id="make-smaller-btn-coaching"
         >
@@ -42,7 +42,7 @@ const CoachingPage = () => {
         <Link
           to="/CoachingForTeenagers"
           className={`btn-cool ${
-            location.pathname === "/Coaching" ? "active" : ""
+            location.pathname === "/coachingForTeenagers" ? "active" : ""
           }`}
           id="make-smaller-btn-coaching"
         >

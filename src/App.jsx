@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import * as Pages from "./pages";
 import Navbar from "./components/Navbar";
 import ScrollToTop from "./components/ScrollToTop";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -27,7 +28,7 @@ const App = () => {
             element={<Pages.CoachingForParents />}
           />
           <Route
-            path="/coachingForTeenagers"
+            path="/CoachingForTeenagers"
             element={<Pages.CoachingForTeenagers />}
           />
           <Route path="/ourBook" element={<Pages.OurBook />} />
@@ -35,6 +36,7 @@ const App = () => {
           <Route path="/contact" element={<Pages.Contact />} />
           <Route path="*" element={<Pages.NotFound />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </React.StrictMode>
   );

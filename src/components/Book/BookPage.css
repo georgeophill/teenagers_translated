@@ -3,19 +3,12 @@
 /* Flex layout for the entire container */
 .book__container {
   display: flex;
-  justify-content: space-between;
   padding: 20px;
   border-top: var(--blue-colour) 3px solid;
 }
 
-/* Left side content */
 .book__left {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  flex: 2;
   padding: 4%;
 }
 
@@ -44,24 +37,27 @@
   margin-top: 20px;
 }
 
-/* Right side image and Buy Now button */
 .book__right {
-  flex: 1;
+  flex: 1 1;
   text-align: center;
   position: sticky;
-  top: -10px;
-  z-index: 1;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -1rem;
 }
 
-/* Image style */
 .book__right img {
   max-width: 100%;
-  height: 75vh;
+  height: auto;
 }
 
 /* Buy Now button style */
 .buy-now-button {
   margin-top: 20px;
+  margin-bottom: 138px;
 }
 
 /* Media queries */

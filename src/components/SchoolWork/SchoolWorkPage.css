@@ -5,6 +5,10 @@
   margin: 0 15%;
 }
 
+.h1-schoolwork {
+  text-align: center;
+}
+
 .school-purple {
   background-color: var(--purplelight-colour);
 }

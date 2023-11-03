@@ -230,12 +230,12 @@
 
 @media screen and (max-width: 980px) {
   .SchoolWorkHome__header {
-    font-size: 40px;
-    margin: -27rem 5% 0 5%;
+    font-size: 60px;
+    margin: -30rem 5% 0 5%;
   }
 
   .SchoolWorkHome__quote {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 0rem;
     text-align: left;
     width: 120%;

@@ -20,13 +20,13 @@ const CoachingHome = () => {
             Sometimes a more personalised approach is required for which we
             offer one-to-one support
           </p>
-          <Link to="/coachingForTeenagers">
+          <Link to="/CoachingForTeenagers">
             <button className="btn-xlcool" id="button-coaching">
               For Teenagers
             </button>
           </Link>
-          <Link to="/coachingForParents">
-            <button className="btn-xlarge" id="button-coaching-parents">
+          <Link to="/CoachingForParents">
+            <button className="btn-xlarge" id="button-coaching">
               For Parents
             </button>
           </Link>

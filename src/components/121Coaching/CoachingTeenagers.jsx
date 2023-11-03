@@ -31,9 +31,9 @@ const CoachingTeenagers = () => {
     <section className="parent-talk-section" id="parent-talk-section">
       <div className="talk-buttons">
         <Link
-          to="/CoachingForParents"
+          to="/coachingForParents"
           className={`btn-cool ${
-            location.pathname === "/CoachingForParents" ? "active" : ""
+            location.pathname === "/coachingForParents" ? "active" : ""
           }`}
           id="make-smaller-btn-coaching"
         >
@@ -42,7 +42,7 @@ const CoachingTeenagers = () => {
         <Link
           to="/CoachingForTeenagers"
           className={`btn-cool ${
-            location.pathname === "/Coaching" ? "active" : ""
+            location.pathname === "/CoachingForTeenagers" ? "active" : ""
           }`}
           id="make-smaller-btn-coaching"
         >

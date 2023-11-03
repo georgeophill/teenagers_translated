@@ -9,7 +9,6 @@
 
 .contact__option:hover {
   background: transparent;
-  border-color: var(--pink-colour);
 }
 
 .contact__option-icon {
@@ -21,4 +20,9 @@
   display: flex;
   text-align: center;
   font-size: 70px;
+}
+
+.person_img img {
+  border: 3px solid var(--purple-colour);
+  box-shadow: 1 1 1 0.5px grey;
 }
