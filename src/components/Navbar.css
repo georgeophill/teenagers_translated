@@ -81,8 +81,6 @@
   font-family: var(--font-medium);
   letter-spacing: 3px;
   font-size: 7rem;
-  -webkit-transform: scaleX(0.5);
-  transform: scaleX(0.5);
 }
 
 .navbar__link__btn {
