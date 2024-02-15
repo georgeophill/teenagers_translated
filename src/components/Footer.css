@@ -1,6 +1,6 @@
 /* Footer styles */
 .footer {
-  background-color: rgba(47, 184, 229, 0.75);
+  background-color: rgba(0, 184, 229, 0.8);
   padding: 20px 0;
   text-align: center;
 }
@@ -31,7 +31,6 @@
   margin-top: 5rem;
   font-size: 60px;
   color: white;
-  text-decoration: underline;
 }
 .footer-links {
   display: flex;

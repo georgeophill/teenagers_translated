@@ -43,7 +43,7 @@
 }
 
 .header__image img {
-  width: 80%;
+  width: 90%;
   max-width: 100%; /* Ensure the image doesn't exceed its container */
   height: auto;
   margin-right: 0px;

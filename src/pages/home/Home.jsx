@@ -16,8 +16,7 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <AboutUs />
-      <RollingBar galleryLength={galleryLength} />
+      {/* <AboutUs /> */}
       <ParentWorkHome />
       <SchoolWorkHome />
       <CochingHome />

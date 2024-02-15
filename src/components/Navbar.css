@@ -18,7 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 85%;
 }
 
 .navbar__left img,
@@ -52,17 +52,16 @@
   display: block;
 }
 
-.navbar__subtitle {
+/* .navbar__subtitle {
   background-color: #2fb8e5;
   color: rgb(255, 255, 255);
   padding: 8px 20px;
-  /* Add any other styles you want to keep the same */
   pointer-events: none;
-}
+} */
 
 /* Apply hover styles to all list items except .navbar__subtitle */
 .nav__links li:hover {
-  background-color: #2fb8e5;
+  background-color: rgba(0, 184, 229, 0.8);
   color: white;
   transition: ease-in-out 0.25s;
   cursor: pointer;
@@ -79,8 +78,11 @@
 .navbar__link {
   text-decoration: none;
   color: var(--purple-colour);
-  font-family: var(--font-light);
+  font-family: var(--font-medium);
   letter-spacing: 3px;
+  font-size: 7rem;
+  -webkit-transform: scaleX(0.5);
+  transform: scaleX(0.5);
 }
 
 .navbar__link__btn {
@@ -93,7 +95,7 @@
 .navbar__link__btn:hover {
   text-decoration: none;
   font-size: 40px;
-  background-color: var(--purple-colour);
+  background-color: var(--blue-colour);
   color: white;
   border-radius: 20px;
   transition: ease-in 0.3s;
@@ -153,6 +155,18 @@
 
   .navbar {
     padding: 10px 10px;
+  }
+
+  .navbar__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar__link {
+    font-size: 5rem;
+    font-family: var(--font-medium);
   }
 
   .navbar__left img {
@@ -263,6 +277,13 @@
 
   .navbar {
     padding: 10px 10px;
+  }
+
+  .navbar__link {
+    font-size: 4rem;
+    font-family: var(--font-heavy);
+    line-height: 2;
+    letter-spacing: 1.5px;
   }
 
   .navbar__left img {

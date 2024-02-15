@@ -66,7 +66,7 @@ const SchoolStaffPage = () => {
           Staff Inputs
         </Link>
       </div>
-      <h1 className="h1-parenttalk">Student Work</h1>
+      <h1 className="h1-parenttalk">Staff Inputs</h1>
       <div className="container about-back">
         <div className="header parent-work">
           <p>

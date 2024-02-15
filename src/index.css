@@ -13,7 +13,7 @@
 /* index.css */
 :root {
   --purple-colour: #a56eb0;
-  --blue-colour: #2fb8e5;
+  --blue-colour: rgba(0, 184, 229);
   --darkpurple-colour: #7951a0;
   --purplelight-colour: rgba(165, 110, 176, 0.1);
   --grey-colour: #797575;
@@ -22,6 +22,8 @@
   --font-heavy: "DIN Next W01 Condensed Regular";
   --font-medium: "DIN Next W01 Condensed Light";
   --font-light: "DIN Next W01 Condensed Ultra Light";
+
+  --font-aptos: "Aptos regular", sans-serif;
 
   --container-width-lg: 80%;
   --container-width-md: 90%;
@@ -84,9 +86,9 @@ section::before {
   position: absolute;
   top: 0;
   left: 0;
-  width: 0; /* Start with a width of 0 */
-  height: 3px; /* Border height */
-  background-color: var(--blue-colour); /* Blue color */
+  width: 0;
+  height: 3px;
+  /* background-color: var(--blue-colour);  */
   animation: slideBorder 3s linear forwards; /* Apply the animation */
   animation-delay: 0.5s; /* Delay the animation for half a second */
   z-index: 1; /* Ensure the border is above the section content */
@@ -157,7 +159,7 @@ img {
 
 .btn-small {
   font-size: 20px;
-  background-color: rgba(47, 184, 229, 0.8);
+  background-color: rgba(0, 184, 229, 0.8);
   color: rgb(255, 255, 255);
   padding: 8px 20px;
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
@@ -183,7 +185,7 @@ img {
 
 .btn-medium {
   font-size: 30px;
-  background-color: rgba(47, 184, 229, 0.8);
+  background-color: rgba(0, 184, 229, 0.8);
   color: rgb(255, 255, 255);
   padding: 10px 23px;
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
@@ -235,7 +237,7 @@ img {
 
 .btn-cool {
   font-size: 30px;
-  background-color: rgba(47, 184, 229, 0.8);
+  background-color: rgba(0, 184, 229, 0.8);
   color: rgb(255, 255, 255);
   padding: 15px 20px;
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
@@ -261,7 +263,7 @@ img {
 
 .btn-xlcool {
   font-size: 35px;
-  background-color: rgba(47, 184, 229, 0.8);
+  background-color: rgba(0, 184, 229, 0.8);
   color: rgb(255, 255, 255);
   padding: 25px 35px;
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
@@ -287,7 +289,7 @@ img {
 
 .btn-xlarge {
   font-size: 30px;
-  background-color: rgba(47, 184, 229, 0.8);
+  background-color: rgba(0, 184, 229, 0.8);
   color: rgb(255, 255, 255);
   padding: 25px 30px;
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */

@@ -41,9 +41,9 @@ const Navbar = () => {
               Teenagers Translated
             </Link>
           </div>
-          <div className="navbar__subtitle btn-large">
+          {/* <div className="navbar__subtitle btn-large">
             Smoothly Navigate The Teenage Years
-          </div>
+          </div> */}
         </div>
         <div className="navbar__right">
           {isResponsive ? (

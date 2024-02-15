@@ -4,7 +4,7 @@
 .book__container {
   display: flex;
   padding: 20px;
-  border-top: var(--blue-colour) 3px solid;
+  border-top: var(--blue-colour) -1px solid;
 }
 
 .book__left {
@@ -29,7 +29,7 @@
   margin-top: 20px;
   font-weight: 100;
   line-height: 1.4;
-  margin-bottom: 7rem;
+  margin-bottom: 5rem;
 }
 
 /* Read More button */

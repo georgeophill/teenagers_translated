@@ -7,6 +7,8 @@ import { FiFacebook } from "react-icons/fi";
 import { FiInstagram } from "react-icons/fi";
 
 const Footer = () => {
+  let currentYear = new Date().getFullYear(); // Get the current year
+
   return (
     <footer className="footer">
       <div className="logo">
@@ -40,7 +42,7 @@ const Footer = () => {
       <div className="line"></div>
 
       <div className="copyright">
-        ©TeenagersTranslated 2010 - 2023. All Rights Reserved.
+        ©TeenagersTranslated 2010 - {currentYear}. All Rights Reserved.
       </div>
     </footer>
   );

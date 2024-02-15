@@ -3,7 +3,7 @@
   overflow: hidden;
   position: relative;
   /* margin-top: 2rem; */
-  border-top: var(--blue-colour) 3px solid;
+  /* border-top: var(--blue-colour) 3px solid; */
 }
 
 .carousel__inner {
@@ -21,8 +21,8 @@
   display: flex;
   border-radius: 20px;
   /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25); */
-  margin-top: -30px;
-  margin-bottom: -5px;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .carousel__item img {
@@ -58,8 +58,8 @@
     align-items: center;
     padding: 0px;
     display: flex;
-    margin-top: -30px;
-    margin-bottom: 10px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 }
 

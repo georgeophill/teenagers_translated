@@ -53,7 +53,7 @@ export const people = [
     biography:
       " After qualifying as a counsellor in 2008, Naella (BA; MA; Grad. Dip. Couns; MBACP accred.) went on to do an MA in counselling, as well as her BACP accreditation, and to teach on university counselling programmes. She has focused on many of the Teenagers Translated international programmes, including those in Monaco, Switzerland, the Middle East, and India. She has also worked as a volunteer counsellor at the Mental health charity MIND, and for Women’s Aid and is currently a counsellor at a local prep school.  Naella also has a private counselling practice for all age groups. Alongside this, she specializes in individual coaching, working extensively on a one-to-one basis with parents as well as teens, conducting sessions aimed at improving communication between parent and child. ",
     email: "naella@teenagerstranslated.co.uk",
-    phone: "+447769977002",
+    phone: "+447939 035847",
   },
 ];
 

@@ -55,7 +55,7 @@ const ContactUs = ({ image, name, email, phone }) => {
         <button className="btn-standard">
           <div className="btn-content">
             <a href={`https://wa.me/${phone}`} rel="noreferrer" target="_blank">
-              Text or Call
+              Text or Whatsapp
             </a>
             <br />
             <BsWhatsapp className="contact__option-icon" />

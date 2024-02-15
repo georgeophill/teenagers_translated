@@ -8,7 +8,7 @@
 
 .school__header__container {
   display: flex;
-  border-top: 3px solid var(--blue-colour);
+  /* border-top: 3px solid var(--blue-colour); */
   margin-top: 10px;
 }
 
@@ -35,7 +35,7 @@
   font-size: 70px;
   margin-bottom: 7rem;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 1.25;
   width: 40%;
 }
@@ -238,7 +238,7 @@
     font-size: 35px;
     margin-bottom: 0rem;
     text-align: left;
-    width: 120%;
+    width: 117%;
     margin-left: 30px;
   }
 
