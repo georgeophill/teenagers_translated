@@ -1,10 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Header.css";
 import MainImage from "../images/Illustrations/HomepageFINAL.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const initialText =
-    "Since 2009, Teenagers Translated has been helping parents, teenagers and school staff to manage the turbulent teenage years, promoting wellbeing & healthy child development, and preventing mental health decline";
+    "Since 2009, Janey & Naella have been promoting good mental health, wellbeing and healthy child development through their Teenagers Translated training programmes.  These have been delivered to 1000s of parents, staff & students in over 50 schools in the UK & overseas.  ";
 
   const [typedText, setTypedText] = useState("");
   const [isTyping, setIsTyping] = useState(true);
@@ -38,6 +39,11 @@ const Header = () => {
               {typedText}
               {isTyping}
             </h2>
+            <Link to="/about">
+              <button className="btn-small" id="about-btn">
+                Read more about Janey & Naella
+              </button>
+            </Link>
           </div>
           <div className="header__image">
             <img src={MainImage} alt="Teenagers" />

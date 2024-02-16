@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
-import PeopleLeft from "../assets/images/people-left.png";
+// import PeopleLeft from "../assets/images/people-left.png";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FiFacebook } from "react-icons/fi";
 import { FiInstagram } from "react-icons/fi";
@@ -11,12 +11,12 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-      <div className="logo">
+      {/* <div className="logo">
         <img src={PeopleLeft} alt="Company Logo" />
         <h1>TEENAGERS TRANSLATED</h1>
-      </div>
+      </div> */}
 
-      <div className="quick">Quick Links:</div>
+      {/* <div className="quick">Quick Links:</div> */}
       <div className="footer-links">
         <Link to="/about">About Us</Link>
         <Link to="/parentWork">Parent Work</Link>

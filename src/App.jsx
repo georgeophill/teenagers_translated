@@ -15,6 +15,10 @@ const App = () => {
           <Route path="/" element={<Pages.Home />} />
           <Route path="/about" element={<Pages.About />} />
           <Route path="/parentWork" element={<Pages.ParentWork />} />
+          <Route
+            path="/parentAboutTalks"
+            element={<Pages.ParentAboutTalks />}
+          />
           <Route path="/parentTalks" element={<Pages.ParentTalks />} />
           <Route path="/parentLunch" element={<Pages.ParentLunch />} />
           <Route path="/parentCharity" element={<Pages.ParentCharity />} />

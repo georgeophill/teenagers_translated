@@ -26,14 +26,15 @@
 }
 
 .SchoolWorkHome__header {
-  margin-bottom: 7rem;
-  font-size: 90px;
+  margin-bottom: 6rem;
+  font-size: 60px;
   margin-left: 5%;
+  text-decoration: none;
 }
 
 .SchoolWorkHome__quote {
-  font-size: 70px;
-  margin-bottom: 7rem;
+  font-size: 50px;
+  margin-bottom: 6rem;
   text-align: center;
   letter-spacing: 1px;
   line-height: 1.25;
@@ -50,19 +51,19 @@
 }
 
 .SchoolWork__right img {
-  max-width: 73%;
+  max-width: 50%;
   height: auto;
   margin-right: 0px;
 }
 
 @media screen and (max-width: 4600px) {
   .SchoolWorkHome__header {
-    margin-bottom: 7rem;
-    font-size: 80px;
+    margin-bottom: 6rem;
+    font-size: 70px;
   }
 
   .SchoolWorkHome__quote {
-    font-size: 64px;
+    font-size: 54px;
   }
 
   .School__header {
@@ -76,12 +77,12 @@
 
 @media screen and (max-width: 3000px) {
   .SchoolWorkHome__header {
-    margin-bottom: 7rem;
-    font-size: 80px;
+    margin-bottom: 6rem;
+    font-size: 70px;
   }
 
   .SchoolWorkHome__quote {
-    font-size: 64px;
+    font-size: 54px;
   }
 
   .School__header {
@@ -102,34 +103,34 @@
   }
 
   .SchoolWorkHome__header {
-    margin-bottom: 7rem;
-    font-size: 80px;
+    margin-bottom: 6rem;
+    font-size: 70px;
   }
 
   .SchoolWorkHome__quote {
-    font-size: 64px;
+    font-size: 54px;
   }
 }
 
 @media screen and (max-width: 2186px) {
   .SchoolWorkHome__header {
-    margin-bottom: 7rem;
-    font-size: 80px;
+    margin-bottom: 6rem;
+    font-size: 70px;
   }
 
   .SchoolWorkHome__quote {
-    font-size: 64px;
+    font-size: 54px;
   }
 }
 
 @media screen and (max-width: 1900px) {
   .SchoolWorkHome__header {
-    margin-bottom: 7rem;
-    font-size: 70px;
+    margin-bottom: 6rem;
+    font-size: 60px;
   }
 
   .SchoolWorkHome__quote {
-    font-size: 58px;
+    font-size: 48px;
   }
 
   #school__button {
@@ -139,12 +140,12 @@
 
 @media screen and (max-width: 1760px) {
   .SchoolWorkHome__header {
-    margin-bottom: 7rem;
-    font-size: 60px;
+    margin-bottom: 6rem;
+    font-size: 50px;
   }
 
   .SchoolWorkHome__quote {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   #school__button {
@@ -154,7 +155,7 @@
 
 @media screen and (max-width: 1500px) {
   .SchoolWorkHome__header {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     font-size: 50px;
     margin-left: 10%;
   }
@@ -164,7 +165,7 @@
   }
 
   #school__button {
-    font-size: 30px;
+    font-size: 20px;
     background-color: rgba(47, 184, 229, 0.8);
     color: rgb(255, 255, 255);
     padding: 10px 23px;
@@ -185,12 +186,12 @@
 
 @media screen and (max-width: 1222px) {
   .SchoolWorkHome__header {
-    font-size: 60px;
-    margin: -31rem 5% 0 5%;
+    font-size: 50px;
+    margin: -22rem 5% 0 5%;
   }
 
   .SchoolWorkHome__quote {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 2rem;
     text-align: left;
     width: 110%;
@@ -198,7 +199,7 @@
   }
 
   #school__button {
-    font-size: 30px;
+    font-size: 20px;
     background-color: rgba(47, 184, 229, 0.8);
     color: rgb(255, 255, 255);
     padding: 10px 23px;
@@ -218,9 +219,9 @@
   }
 
   .SchoolWork__right img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
-    margin-top: 30%;
+    margin-top: 0%;
   }
 
   .school__header__text {
@@ -230,12 +231,12 @@
 
 @media screen and (max-width: 980px) {
   .SchoolWorkHome__header {
-    font-size: 60px;
-    margin: -30rem 5% 0 5%;
+    font-size: px;
+    margin: -18rem 5% 0 5%;
   }
 
   .SchoolWorkHome__quote {
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 0rem;
     text-align: left;
     width: 117%;
@@ -243,7 +244,7 @@
   }
 
   #school__button {
-    font-size: 30px;
+    font-size: 20px;
     background-color: rgba(47, 184, 229, 0.8);
     color: rgb(255, 255, 255);
     padding: 10px 23px;
@@ -263,9 +264,9 @@
   }
 
   .SchoolWork__right img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
-    margin-top: 25%;
+    margin-top: 0%;
   }
 
   .school__header__text {

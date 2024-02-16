@@ -1,7 +1,7 @@
 // Home.jsx
 import React from "react";
 import "./Home.css";
-import AboutUs from "../../components/AboutUs";
+// import AboutUs from "../../components/AboutUs";
 import Header from "../../components/Header";
 import RollingBar from "../../components/RollingBar";
 import ParentWorkHome from "../../components/ParentWork/ParentWorkHome";

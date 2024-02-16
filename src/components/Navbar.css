@@ -18,13 +18,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 85%;
+  width: 78%;
 }
 
 .navbar__left img,
 .navbar__right img {
   object-fit: contain;
-  height: 150px; /* Reduce the height for smaller screens */
+  height: 100px; /* Reduce the height for smaller screens */
   margin-right: 10px;
   margin-top: 10px;
 }
@@ -37,7 +37,7 @@
 }
 
 .navbar__item {
-  font-size: 75px; /* Reduce font size for smaller screens */
+  font-size: 70px; /* Reduce font size for smaller screens */
   text-transform: uppercase;
   font-weight: 900;
   margin-top: 10px; /* Adjust for smaller screens */
@@ -73,14 +73,15 @@
   justify-content: space-around;
   width: 100%;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  font-family: var(--font-condensed);
 }
 
 .navbar__link {
   text-decoration: none;
   color: var(--purple-colour);
-  font-family: var(--font-medium);
+  font-family: var(--font-condensed);
   letter-spacing: 3px;
-  font-size: 7rem;
+  font-size: 4rem;
 }
 
 .navbar__link__btn {
@@ -90,14 +91,46 @@
   padding: 0px 0px; /* Reduce padding for smaller screens */
 }
 
-.navbar__link__btn:hover {
+.navbar__link__btn {
   text-decoration: none;
-  font-size: 40px;
+  font-size: 20px;
   background-color: var(--blue-colour);
   color: white;
   border-radius: 20px;
   transition: ease-in 0.3s;
   padding: 10px 20px;
+}
+
+a .btn-nav {
+  color: white;
+}
+
+/* Buttons */
+
+.btn-nav {
+  font-size: 25px;
+  background-color: rgba(0, 184, 229, 0.8);
+  color: rgb(255, 255, 255);
+  padding: 6px 20px;
+  /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
+  border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
+  margin: 10px;
+  font-family: "DIN Next W01 Condensed Light";
+  letter-spacing: 0.8px;
+  width: fit-content;
+  height: fit-content;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.btn-nav:hover {
+  background-color: var(--blue-colour);
+  color: white;
+  transition: ease-in-out 0.5s;
+  padding: 6px 20px;
+  cursor: pointer;
+  font-size: 26px;
 }
 
 /* Dropdown Styles */
@@ -113,16 +146,17 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 20px;
-  margin-top: 10px;
+  margin-top: 1px;
 }
 
 .dropdown-content a {
-  padding: 16px 16px;
+  padding: 8px 16px;
   display: block;
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
   /* border-bottom: 1px solid #333; */
-  font-size: 40px;
+  font-size: 20px;
+  margin-bottom: 0.25rem;
 }
 
 .dropdown-content a:last-child {
@@ -131,7 +165,7 @@
 
 .dropdown-content a:hover {
   background-color: #f2f2f2;
-  font-size: 42px;
+  font-size: 22px;
   transition: ease-in-out 0.25s;
 }
 
@@ -146,7 +180,7 @@
 
 /* LARGER IPADS */
 /* Media Queries */
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1430px) {
   .navbar__item {
     font-size: 60px;
   }
@@ -163,8 +197,11 @@
   }
 
   .navbar__link {
-    font-size: 5rem;
-    font-family: var(--font-medium);
+    font-size: 3rem;
+    font-family: var(--font-condensed);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .navbar__left img {
@@ -178,11 +215,11 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-right: 146px;
+    /* margin-right: 146px; */
   }
 
   .hamburger-icon {
-    font-size: 80px;
+    font-size: 60px;
     cursor: pointer;
     margin-right: 50px;
     margin-left: 50px;
@@ -192,13 +229,13 @@
     font-size: 71px;
   }
 
-  .navbar__right img {
+  /* .navbar__right img {
     display: none;
   }
 
   .navbar__bottom {
     display: none;
-  }
+  } */
 
   .mobile-dropdown {
     transform: translateX(100%);
@@ -255,7 +292,7 @@
   }
 }
 
-@media screen and (max-width: 1440px) and (max-height: 800px) {
+@media screen and (max-width: 1028px) and (max-height: 800px) {
   .navbar__subtitle {
     display: none; /* Hide the .navbar__subtitle element */
   }
@@ -278,10 +315,10 @@
   }
 
   .navbar__link {
-    font-size: 4rem;
-    font-family: var(--font-heavy);
+    font-size: 3rem;
+    font-family: var(--font-condensed);
     line-height: 2;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.5px;
   }
 
   .navbar__left img {
@@ -306,7 +343,7 @@
   }
 
   .hamburger-icon {
-    font-size: 100px;
+    font-size: 70px;
     cursor: pointer;
     margin-right: 50px;
     margin-left: 50px;
@@ -369,9 +406,16 @@
 }
 
 /* VERY SMALL MOBILES */
-@media screen and (max-width: 704px) {
+@media screen and (max-width: 814px) {
   .navbar__item {
     font-size: 35px;
+  }
+
+  .navbar__link {
+    font-size: 3rem;
+    font-family: var(--font-condensed);
+    line-height: 1;
+    letter-spacing: 0.5px;
   }
 
   .navbar__subtitle {
@@ -393,6 +437,86 @@
 
   .hamburger-icon {
     font-size: 80px;
+  }
+
+  .mobile-dropdown {
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: var(
+      --purple-colour
+    ); /* Set your desired background color */
+    z-index: 1000; /* Adjust z-index as needed */
+    width: 100%; /* Set your desired width */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+    margin-top: 235px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 0px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    transition: 0.6s cubic-bezier(0.62, 0.04, 0.3, 1.56);
+  }
+
+  .mobile-dropdown.open {
+    transform: translateX(0%);
+  }
+
+  .nav__links li {
+    border-bottom: #2fb8e5 3px solid;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 10px;
+    font-size: 50px;
+    letter-spacing: 2.5px;
+    color: black;
+    padding-bottom: 40px;
+  }
+
+  .nav__links li:hover {
+    background-color: #2fb8e5;
+    transition: ease-in-out 0.25s;
+    cursor: pointer;
+  }
+
+  .nav__link-content {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .navbar__item {
+    font-size: 20px;
+  }
+
+  .navbar__link {
+    font-size: 1.5rem;
+    font-family: var(--font-condensed);
+    line-height: 1;
+    letter-spacing: 0.5px;
+  }
+
+  .navbar__subtitle {
+    font-size: 14px;
+    width: 330px;
+    height: 36px;
+    padding: 6px 20px;
+  }
+
+  .navbar__left img {
+    height: 50px;
+  }
+
+  .close-icon {
+    font-size: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .hamburger-icon {
+    font-size: 60px;
   }
 
   .mobile-dropdown {

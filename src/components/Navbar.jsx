@@ -8,7 +8,7 @@ import { links } from "../data";
 import { RxCross1 } from "react-icons/rx";
 
 const Navbar = () => {
-  const [isResponsive, setIsResponsive] = useState(window.innerWidth <= 1440);
+  const [isResponsive, setIsResponsive] = useState(window.innerWidth <= 1028);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -17,7 +17,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsResponsive(window.innerWidth <= 1440);
+      setIsResponsive(window.innerWidth <= 1028);
     };
 
     window.addEventListener("resize", handleResize);
@@ -72,33 +72,26 @@ const Navbar = () => {
       )}
 
       <div className="navbar__bottom">
-        <div className="navbar__link_btn">
-          <Link to="/" className="navbar__link__btn">
-            Home
-          </Link>
+        {/* <div className="btn-nav">
+          <Link to="/">Home</Link>
+        </div> */}
+        <div className="btn-nav">
+          <Link to="/about">About</Link>
         </div>
-        <div className="navbar__link_btn">
-          <Link to="/about" className="navbar__link__btn">
-            About
-          </Link>
-        </div>
-        <div className="navbar__link_btn dropdown">
+        <div className="btn-nav dropdown">
           <span className="dropdown-title">
-            <Link to="/parentWork" className="navbar__link__btn">
-              Parent Work
-            </Link>
+            <Link to="/parentWork">Parent Work</Link>
           </span>
           <div className="dropdown-content">
-            <Link to="/parentLunch">Lunchtime Talks in the Workplace</Link>
-            <Link to="/parentTalks">Parent Talks In School</Link>
+            <Link to="/parentLunch">About the Talks</Link>
+            <Link to="/parentLunch">Workplace Talks</Link>
+            <Link to="/parentTalks">School Talks</Link>
             <Link to="/parentCharity">Charity Talks</Link>
           </div>
         </div>
-        <div className="navbar__link_btn dropdown">
+        <div className="btn-nav dropdown">
           <span>
-            <Link to="/schoolWork" className="navbar__link__btn">
-              School Work
-            </Link>
+            <Link to="/schoolWork">School Work</Link>
           </span>
           <div className="dropdown-content">
             <Link to="/studentWork">Student Work - How PSHE Sessions Work</Link>
@@ -108,31 +101,23 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-        <div className="navbar__link_btn dropdown">
+        <div className="btn-nav dropdown">
           <span>
-            <Link to="/coaching" className="navbar__link__btn">
-              1-2-1 Coaching
-            </Link>
+            <Link to="/coaching">1-2-1 Coaching</Link>
           </span>
           <div className="dropdown-content">
             <Link to="/coachingForParents">Coaching For Parents</Link>
             <Link to="/coachingForTeenagers">Coaching For Teenagers </Link>
           </div>
         </div>
-        <div className="navbar__link_btn">
-          <Link to="/ourBook" className="navbar__link__btn">
-            Our Book
-          </Link>
+        <div className="btn-nav">
+          <Link to="/ourBook">Our Book</Link>
         </div>
-        <div className="navbar__link_btn">
-          <Link to="/resources" className="navbar__link__btn">
-            Resources
-          </Link>
+        <div className="btn-nav">
+          <Link to="/resources">Resources</Link>
         </div>
-        <div className="navbar__link_btn">
-          <Link to="/contact" className="navbar__link__btn">
-            Contact
-          </Link>
+        <div className="btn-nav">
+          <Link to="/contact">Contact</Link>
         </div>
       </div>
     </div>

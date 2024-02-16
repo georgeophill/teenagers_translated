@@ -19,11 +19,11 @@
   --grey-colour: #797575;
   --pink-colour: #fa85b4;
 
-  --font-heavy: "DIN Next W01 Condensed Regular";
-  --font-medium: "DIN Next W01 Condensed Light";
-  --font-light: "DIN Next W01 Condensed Ultra Light";
+  --font-heavy: "Aptos regular", sans-serif;
+  --font-medium: "Aptos regular", sans-serif;
+  --font-light: "Aptos light", sans-serif;
 
-  /* --font-aptos: "Aptos regular", sans-serif; */
+  --font-condensed: "DIN Next W01 Condensed Light";
 
   --container-width-lg: 80%;
   --container-width-md: 90%;
@@ -31,7 +31,7 @@
 }
 
 body {
-  font-family: "DIN Next W01 Condensed Light";
+  font-family: "Aptos regular", sans-serif;
   color: black;
   line-height: 1;
   overflow-x: hidden;
@@ -97,7 +97,7 @@ section::before {
 section h1 {
   font-size: 60px;
   color: var(--purple-colour);
-  text-decoration: underline;
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,7 +120,7 @@ h1 {
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 40px;
   margin-bottom: 2rem;
   color: var(--purple-colour);
   margin-top: 2rem;
@@ -141,7 +141,7 @@ h3 {
 a {
   /* font-size: 20px; */
   margin-bottom: 1rem;
-  color: var(--grey-colour);
+  color: white;
 }
 
 p {

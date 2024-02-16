@@ -9,6 +9,7 @@ export { default as Resources } from "../pages/resources/Resources";
 export { default as SchoolWork } from "../pages/schoolWork/SchoolWork";
 export { default as NotFound } from "../pages/notFound/NotFound";
 
+export { default as ParentAboutTalks } from "./parentWork/ParentAboutTalks";
 export { default as ParentTalks } from "../pages/parentWork/ParentTalks";
 export { default as ParentLunch } from "../pages/parentWork/ParentLunch";
 export { default as ParentCharity } from "./parentWork/ParentCharity";

@@ -19,6 +19,7 @@
   top: 15%;
   left: 2.5%;
   width: 40%;
+  font-family: var(--font-light);
 }
 
 #main-strapline {
@@ -43,21 +44,26 @@
 }
 
 .header__image img {
-  width: 90%;
+  width: 80%;
   max-width: 100%; /* Ensure the image doesn't exceed its container */
   height: auto;
   margin-right: 0px;
 }
 
+#about-btn:hover {
+  font-size: 25px;
+}
+
 @media screen and (max-width: 2186px) {
   .header__text h2 {
-    font-size: 55px;
+    font-size: 38px;
+    font-weight: bold;
   }
 }
 
 @media screen and (max-width: 1900px) {
   .header__text h2 {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .header__text {
@@ -67,7 +73,7 @@
 
 @media screen and (max-width: 1760px) {
   .header__text h2 {
-    font-size: 40px;
+    font-size: 25px;
   }
 }
 
@@ -84,7 +90,7 @@
   }
 
   .header__text h2 {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .header__image {
@@ -92,16 +98,25 @@
   }
 
   .header__image img {
-    width: 85%;
+    width: 80%;
   }
 }
 
 @media screen and (max-width: 1222px) {
   .header__text {
-    width: 49%;
-    left: -6%;
-    top: -10%;
+    width: 60%;
+    left: -4%;
+    top: 1%;
     font-family: var(--font-heavy);
+  }
+
+  #main-strapline {
+    /* border: 0.1px solid rgb(0, 0, 0); */
+    padding: 50px;
+    line-height: 1.5;
+    /* border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    font-size: 60px; */
   }
 
   .header__content {
@@ -109,7 +124,8 @@
   }
 
   .header__text h2 {
-    font-size: 28px;
+    font-size: 20px;
+    font-weight: 700;
   }
 
   .header__image {
@@ -117,10 +133,49 @@
   }
 
   .header__image img {
-    width: 85%;
+    width: 80%;
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .header__text {
+    width: 58%;
+    left: -4%;
+    top: -5%;
+    font-family: var(--font-heavy);
+  }
+
+  #main-strapline {
+    /* border: 0.1px solid rgb(0, 0, 0); */
+    padding: 50px;
+    line-height: 1.5;
+    /* border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    font-size: 60px; */
+  }
+
+  #about-btn {
+    margin: -10px 35px;
+    font-size: 1.4rem;
+  }
+
+  .header__content {
+    border-radius: 1px solid black;
+  }
+
+  .header__text h2 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .header__image {
+    width: 50%;
+  }
+
+  .header__image img {
+    width: 80%;
+  }
+}
 @media screen and (max-width: 910px) {
   .header__text h2 {
     font-size: 20px;
