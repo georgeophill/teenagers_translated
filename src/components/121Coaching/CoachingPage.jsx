@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./CoachingPage.css";
-import CoachingImage from "../../images/Illustrations/121Coaching.png";
+import CoachingImage from "../../images/Illustrations/121Coaching1.png";
 import { SchoolStudentFeedback } from "../../data";
 
 const CoachingPage = () => {

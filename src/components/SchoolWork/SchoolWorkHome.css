@@ -1,275 +1,96 @@
-/* SchoolWorkHome.css */
-.school__header {
+.SchoolWork {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-bottom: 2rem;
 }
 
-.school__header__container {
+.SchoolWork__right img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 0px;
+  margin-top: -15%;
+}
+
+.SchoolWork__Image {
   display: flex;
-  /* border-top: 3px solid var(--blue-colour); */
-  margin-top: 10px;
-}
-
-.school__header__content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 1%;
-}
-
-.school__header__text {
-  flex: 1;
-  position: absolute;
-  max-width: 80%;
-}
-
-.SchoolWorkHome__header {
-  margin-bottom: 6rem;
-  font-size: 60px;
-  margin-left: 5%;
-  text-decoration: none;
-}
-
-.SchoolWorkHome__quote {
-  font-size: 50px;
-  margin-bottom: 6rem;
-  text-align: center;
-  letter-spacing: 1px;
-  line-height: 1.25;
-  width: 40%;
+  justify-content: center;
 }
 
 #school__button {
-  margin-left: 5%;
+  font-size: 2vw; /* Responsive font size */
+  background-color: rgba(47, 184, 229, 0.8);
+  color: rgb(255, 255, 255);
+  padding: 2vw 1vw; /* Responsive padding */
+  border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
+  margin: 2vh 2vw; /* Responsive margin */
+  font-family: "DIN Next W01 Condensed Light";
+  letter-spacing: 0.2vw; /* Responsive letter spacing */
+  width: fit-content;
+  height: fit-content;
+  text-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.2); /* Responsive shadow */
+  box-shadow: 0.2vw 0.4vw 0.6vw rgba(0, 0, 0, 0.3); /* Responsive shadow */
+  position: absolute;
+  bottom: 0vw; /* Adjust bottom spacing */
+  left: 1vw; /* Adjust left spacing */
+}
+
+#school__button:hover {
+  background-color: rgba(47, 184, 229, 1);
+  transition: ease-in-out 0.5s;
+  font-size: 2.2vw;
 }
 
 .SchoolWork__right {
   flex: 1;
   text-align: right;
+  position: relative;
 }
 
-.SchoolWork__right img {
-  max-width: 50%;
-  height: auto;
-  margin-right: 0px;
-}
-
-@media screen and (max-width: 4600px) {
-  .SchoolWorkHome__header {
-    margin-bottom: 6rem;
-    font-size: 70px;
-  }
-
-  .SchoolWorkHome__quote {
-    font-size: 54px;
-  }
-
-  .School__header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: stretch;
-    align-content: stretch;
-    flex-direction: column-reverse;
-  }
-}
-
-@media screen and (max-width: 3000px) {
-  .SchoolWorkHome__header {
-    margin-bottom: 6rem;
-    font-size: 70px;
-  }
-
-  .SchoolWorkHome__quote {
-    font-size: 54px;
-  }
-
-  .School__header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: stretch;
-    align-content: stretch;
-    flex-direction: column-reverse;
-  }
-}
-
-@media screen and (max-width: 2400px) {
-  .school__header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .SchoolWorkHome__header {
-    margin-bottom: 6rem;
-    font-size: 70px;
-  }
-
-  .SchoolWorkHome__quote {
-    font-size: 54px;
-  }
-}
-
-@media screen and (max-width: 2186px) {
-  .SchoolWorkHome__header {
-    margin-bottom: 6rem;
-    font-size: 70px;
-  }
-
-  .SchoolWorkHome__quote {
-    font-size: 54px;
-  }
-}
-
-@media screen and (max-width: 1900px) {
-  .SchoolWorkHome__header {
-    margin-bottom: 6rem;
-    font-size: 60px;
-  }
-
-  .SchoolWorkHome__quote {
-    font-size: 48px;
-  }
-
-  #school__button {
-    margin-left: 3%;
-  }
-}
-
-@media screen and (max-width: 1760px) {
-  .SchoolWorkHome__header {
-    margin-bottom: 6rem;
-    font-size: 50px;
-  }
-
-  .SchoolWorkHome__quote {
-    font-size: 40px;
-  }
-
-  #school__button {
-    margin-left: 1%;
-  }
-}
-
-@media screen and (max-width: 1500px) {
-  .SchoolWorkHome__header {
-    margin-bottom: 1.5rem;
-    font-size: 50px;
-    margin-left: 10%;
-  }
-
-  .SchoolWorkHome__quote {
-    font-size: 40px;
-  }
-
-  #school__button {
-    font-size: 20px;
-    background-color: rgba(47, 184, 229, 0.8);
+@media screen and (max-width: 1240px) {
+  #school-button {
+    font-size: 1.8vw;
+    background-color: rgba(0, 184, 229, 0.8);
     color: rgb(255, 255, 255);
-    padding: 10px 23px;
-    /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
-    border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
-    margin: 20px;
+    padding: 2vw 1vw;
+    border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
+    margin: 2vh;
     font-family: "DIN Next W01 Condensed Light";
-    letter-spacing: 0.8px;
-    width: 230px;
+    letter-spacing: 0.2vw;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
     height: fit-content;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    margin-left: 7%;
+    text-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.2);
+    box-shadow: 0.2vw 0.4vw 0.6vw rgba(0, 0, 0, 0.3);
+    text-align: center;
   }
 }
 
-/* SchoolWorkHome.css */
-
-@media screen and (max-width: 1222px) {
-  .SchoolWorkHome__header {
-    font-size: 50px;
-    margin: -22rem 5% 0 5%;
-  }
-
-  .SchoolWorkHome__quote {
-    font-size: 30px;
-    margin-bottom: 2rem;
-    text-align: left;
-    width: 110%;
-    margin-left: 30px;
-  }
-
+@media screen and (max-width: 768px) {
   #school__button {
-    font-size: 20px;
-    background-color: rgba(47, 184, 229, 0.8);
-    color: rgb(255, 255, 255);
-    padding: 10px 23px;
-    border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
-    margin: 20px;
-    font-family: "DIN Next W01 Condensed Light";
-    letter-spacing: 0.8px;
-    width: 250px;
-    height: fit-content;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    margin-left: 5%;
-  }
-
-  .SchoolWork__right {
-    order: 2;
+    font-size: 5vw;
+    padding: 3vw 4vw;
+    margin: 3vh 3vw;
+    letter-spacing: 0.3vw;
+    text-shadow: 0.2vw 0.2vw 0.3vw rgba(0, 0, 0, 0.2);
+    box-shadow: 0.3vw 0.5vw 0.7vw rgba(0, 0, 0, 0.3);
+    bottom: 5vw;
+    left: 5vw;
   }
 
   .SchoolWork__right img {
-    max-width: 50%;
-    height: auto;
     margin-top: 0%;
-  }
-
-  .school__header__text {
-    margin-top: 1rem;
   }
 }
 
-@media screen and (max-width: 980px) {
-  .SchoolWorkHome__header {
-    font-size: px;
-    margin: -18rem 5% 0 5%;
-  }
-
-  .SchoolWorkHome__quote {
-    font-size: 25px;
-    margin-bottom: 0rem;
-    text-align: left;
-    width: 117%;
-    margin-left: 30px;
-  }
-
+@media screen and (max-width: 480px) {
   #school__button {
-    font-size: 20px;
-    background-color: rgba(47, 184, 229, 0.8);
-    color: rgb(255, 255, 255);
-    padding: 10px 23px;
-    border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
-    margin: 20px;
-    font-family: "DIN Next W01 Condensed Light";
-    letter-spacing: 0.8px;
-    width: 200px;
-    height: fit-content;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    margin-left: 5%;
-  }
-
-  .SchoolWork__right {
-    order: 2;
-  }
-
-  .SchoolWork__right img {
-    max-width: 50%;
-    height: auto;
-    margin-top: 0%;
-  }
-
-  .school__header__text {
-    margin-top: 1rem;
+    font-size: 7vw;
+    padding: 4vw 5vw;
+    margin: 4vh 4vw;
+    letter-spacing: 0.4vw;
+    text-shadow: 0.3vw 0.3vw 0.4vw rgba(0, 0, 0, 0.2);
+    box-shadow: 0.4vw 0.6vw 0.8vw rgba(0, 0, 0, 0.3);
+    bottom: 8vw;
+    left: 8vw;
   }
 }

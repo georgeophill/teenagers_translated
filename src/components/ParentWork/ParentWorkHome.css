@@ -1,91 +1,18 @@
-.parent-section {
-  padding: 50px 50px;
+.ParentWorkHome__image {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .ParentWorkHome {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.ParentWorkHome__left {
-  flex: 1;
-}
-
-.ParentWorkHome__image {
-  max-width: 80%;
-  height: auto;
-}
-
-.ParentWorkHome__right {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.ParentWorkHome__header {
-  font-size: 80px;
-  margin-bottom: 1rem;
-}
-
-.ParentWorkHome__quote {
-  font-size: 64px;
-  margin-bottom: 1rem;
-  letter-spacing: 1px;
-  line-height: 1.25;
-}
-
-@media screen and (max-width: 1900px) {
-  .ParentWorkHome__header {
-    font-size: 60px;
-    margin-bottom: 1rem;
-  }
-
-  .ParentWorkHome__quote {
-    font-size: 50px;
-  }
-}
-
-@media screen and (max-width: 1500px) {
-  .ParentWorkHome__header {
-    font-size: 50px;
-    margin-bottom: 1rem;
-  }
-
-  .ParentWorkHome__quote {
-    font-size: 40px;
-    margin-bottom: 1rem;
-    letter-spacing: 1px;
-    line-height: 1.25;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .ParentWorkHome__header {
-    font-size: 50px;
-    margin-bottom: 1rem;
-  }
-
-  .ParentWorkHome__quote {
-    font-size: 30px;
-    margin-bottom: 1rem;
-    letter-spacing: 1px;
-    line-height: 1.25;
-  }
-
-  #button {
-    font-size: 20px;
-    padding: 10px 23px;
-    letter-spacing: 0.8px;
-    width: fit-content;
-    height: fit-content;
-  }
-
-  .ParentWorkHome__image {
-    max-width: 120%;
-    height: auto;
-    margin-left: -70px;
-  }
+#button-parent {
+  position: absolute;
+  bottom: 15%;
+  right: 15%;
+  z-index: 1;
 }

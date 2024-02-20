@@ -44,9 +44,9 @@ const CoachingParents = () => {
             <br />
           </p>
         </div>
-        <div className="school-image">
+        {/* <div className="school-image">
           <img className="image" src={CoachingImage} alt="ParentImage" />
-        </div>
+        </div> */}
       </div>
       <div className="bar">
         <RollingBar galleryLength={galleryLength} />

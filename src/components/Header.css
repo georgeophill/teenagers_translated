@@ -5,6 +5,7 @@
 
 .header__container {
   display: flex;
+  justify-content: center;
 }
 
 .header__content {
@@ -52,17 +53,18 @@
 @media screen and (max-width: 910px) {
   #about-btn {
     position: absolute; /* Position the button absolutely */
-    bottom: 10%; /* Adjust bottom spacing as needed */
+    bottom: 1%; /* Adjust bottom spacing as needed */
+    left: 10px; /* Adjust left spacing as needed */
+    z-index: 1; /* Ensure button is above the image */
+    font-size: 12px;
+  }
+}
+@media screen and (width: 600px) {
+  #about-btn {
+    position: absolute; /* Position the button absolutely */
+    bottom: 0.5%; /* Adjust bottom spacing as needed */
     left: 10px; /* Adjust left spacing as needed */
     z-index: 1; /* Ensure button is above the image */
     font-size: 10px;
-  }
-}
-@media screen and (max-width: 768px) {
-  #about-btn {
-    position: absolute; /* Position the button absolutely */
-    bottom: 10%; /* Adjust bottom spacing as needed */
-    left: 10px; /* Adjust left spacing as needed */
-    z-index: 1; /* Ensure button is above the image */
   }
 }

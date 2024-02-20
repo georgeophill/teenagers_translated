@@ -262,19 +262,18 @@ img {
 }
 
 .btn-xlcool {
-  font-size: 35px;
+  font-size: 2vw; /* Responsive font size */
   background-color: rgba(0, 184, 229, 0.8);
   color: rgb(255, 255, 255);
-  padding: 25px 35px;
-  /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
+  padding: 2vw 3vw; /* Responsive padding */
   border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
-  margin: 10px;
+  margin: 2vh; /* Responsive margin */
   font-family: "DIN Next W01 Condensed Light";
-  letter-spacing: 2px;
+  letter-spacing: 0.2vw; /* Responsive letter spacing */
   width: fit-content;
   height: fit-content;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  text-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.2); /* Responsive shadow */
+  box-shadow: 0.2vw 0.4vw 0.6vw rgba(0, 0, 0, 0.3); /* Responsive shadow */
   text-align: center;
 }
 
@@ -282,9 +281,74 @@ img {
   background-color: var(--blue-colour);
   color: white;
   transition: ease-in-out 0.5s;
-  padding: 20px 30px;
+  padding: 2vw 3vw; /* Responsive padding */
   cursor: pointer;
-  font-size: 40px;
+  font-size: 2.2vw; /* Responsive font size on hover */
+}
+@media screen and (max-width: 1240px) {
+  .btn-xlcool {
+    font-size: 1.8vw; /* Responsive font size */
+    background-color: rgba(0, 184, 229, 0.8);
+    color: rgb(255, 255, 255);
+    padding: 2vw 3vw; /* Responsive padding */
+    border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
+    margin: 2vh; /* Responsive margin */
+    font-family: "DIN Next W01 Condensed Light";
+    letter-spacing: 0.2vw; /* Responsive letter spacing */
+    width: fit-content;
+    height: fit-content;
+    text-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.2); /* Responsive shadow */
+    box-shadow: 0.2vw 0.4vw 0.6vw rgba(0, 0, 0, 0.3); /* Responsive shadow */
+    text-align: center;
+  }
+
+  .btn-xlcool:hover {
+    background-color: var(--blue-colour);
+    color: white;
+    transition: ease-in-out 0.5s;
+    padding: 2vw 3vw; /* Responsive padding */
+    cursor: pointer;
+    font-size: 2vw; /* Responsive font size on hover */
+  }
+
+  #button-parent {
+    position: absolute;
+    bottom: 15%;
+    right: 17%;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btn-xlcool {
+    font-size: 1.8vw; /* Adjust font size for smaller screens */
+    padding: 1vw 2vw; /* Adjust padding for smaller screens */
+    margin: 4vh; /* Adjust margin for smaller screens */
+    letter-spacing: 0.3vw; /* Adjust letter spacing for smaller screens */
+    text-shadow: 0.2vw 0.2vw 0.3vw rgba(0, 0, 0, 0.2); /* Adjust shadow for smaller screens */
+    box-shadow: 0.3vw 0.5vw 0.7vw rgba(0, 0, 0, 0.3); /* Adjust shadow for smaller screens */
+  }
+
+  .btn-xlcool:hover {
+    font-size: 6vw; /* Adjust font size for smaller screens on hover */
+    padding: 3.5vw 4.5vw; /* Adjust padding for smaller screens on hover */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .btn-xlcool {
+    font-size: 7vw; /* Adjust font size for even smaller screens */
+    padding: 4vw 5vw; /* Adjust padding for even smaller screens */
+    margin: 4vh; /* Adjust margin for even smaller screens */
+    letter-spacing: 0.4vw; /* Adjust letter spacing for even smaller screens */
+    text-shadow: 0.3vw 0.3vw 0.4vw rgba(0, 0, 0, 0.2); /* Adjust shadow for even smaller screens */
+    box-shadow: 0.4vw 0.6vw 0.8vw rgba(0, 0, 0, 0.3); /* Adjust shadow for even smaller screens */
+  }
+
+  .btn-xlcool:hover {
+    font-size: 8vw; /* Adjust font size for even smaller screens on hover */
+    padding: 4.5vw 5.5vw; /* Adjust padding for even smaller screens on hover */
+  }
 }
 
 .btn-xlarge {
