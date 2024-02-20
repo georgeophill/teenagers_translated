@@ -41,7 +41,9 @@ const ContactUs = ({ image, name, email, phone }) => {
         <button
           className="btn-standard"
           onClick={() =>
-            (window.location.href = `mailto:${email}?subject=Teenagers Translated &body=Hi ${name},%0D%0A%0D%0A%0D%0A%0D%0A%0D%0ARegards,%0D%0A%0D%0A `)
+            (window.location.href = `mailto:${email}?subject=Teenagers Translated &body=Hello ${
+              name.split(" ")[0]
+            },%0D%0A%0D%0A%0D%0A%0D%0A%0D%0ARegards,%0D%0A%0D%0A `)
           }
         >
           <div className="btn-content">
