@@ -28,9 +28,6 @@ const OurBook = () => {
   return (
     <div>
       <BookPage />
-      <h1 className="h1-parentlunch" id="book-section">
-        What people have said about our book
-      </h1>
       <div className="feedback">
         <div className="speech-bubble-container-book">
           <p className="speech-bubble-text-book">"{currentQuote}"</p>

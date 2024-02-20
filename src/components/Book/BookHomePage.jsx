@@ -15,19 +15,13 @@ const BookPage = () => {
           amount of teenage turmoil is unavoidable. Teens are growing up in a
           very different world, so it would be a risky strategy to cross our
           fingers and hope for the best. Managing family mental health requires
-          self-awareness, understanding, and active parental engagement. Many
-          parents are facing challenging issues, and our book lays out tools and
-          strategies that we have found actually work. These have been distilled
-          over years of being parents to seven teenagers, practicing as
-          counselors, and over a decade of developing and conducting our
-          presentations and workshops for parents, staff, and teens around the
-          UK and overseas.
+          self-awareness, understanding, and active parental engagement.
+          <Link to="/ourBook">
+            <button className="btn-small" id="readMoreButton">
+              Read More
+            </button>
+          </Link>
         </p>
-        <Link to="/ourBook">
-          <button className="btn-xlarge" id="readMoreButton">
-            Read More
-          </button>
-        </Link>
       </div>
       <div className="book__right">
         <div className="book__right-border">

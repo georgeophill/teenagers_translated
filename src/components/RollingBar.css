@@ -2,7 +2,7 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-  /* margin-top: 2rem; */
+  margin-top: 2rem;
   /* border-top: var(--blue-colour) 3px solid; */
 }
 
@@ -12,7 +12,7 @@
 }
 
 .carousel__item {
-  flex: 0 0 calc(100% / 8 - 10px); /* Display 6 items at a time with spacing between logos */
+  flex: 0 0 calc(80% / 8 - 10px); /* Display 6 items at a time with spacing between logos */
   margin-right: 100px; /* Adjust the spacing between logos */
   overflow: hidden;
   border-radius: 0.5rem;
@@ -21,8 +21,8 @@
   display: flex;
   border-radius: 20px;
   /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25); */
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .carousel__item img {
@@ -58,8 +58,8 @@
     align-items: center;
     padding: 0px;
     display: flex;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 }
 

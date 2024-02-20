@@ -9,199 +9,60 @@
 
 .header__content {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.header__text {
-  flex: 1;
-  position: absolute;
-  top: 15%;
-  left: 2.5%;
-  width: 40%;
-  font-family: var(--font-light);
-}
-
-#main-strapline {
-  /* border: 0.1px solid rgb(0, 0, 0); */
-  padding: 50px;
-  line-height: 1.75;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
-  font-size: 60px;
-}
-
-.header__text h2 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  padding: 28px;
-  font-family: var(--font-heavy);
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  position: relative; /* Position relative for absolute positioning of button */
 }
 
 .header__image {
-  flex: 1;
-  text-align: right;
+  position: relative; /* Position relative for absolute positioning of button */
 }
 
 .header__image img {
-  width: 80%;
+  width: 100%;
   max-width: 100%; /* Ensure the image doesn't exceed its container */
   height: auto;
   margin-right: 0px;
 }
 
+#about-btn {
+  position: absolute; /* Position the button absolutely */
+  bottom: 10%; /* Adjust bottom spacing as needed */
+  left: 10px; /* Adjust left spacing as needed */
+  z-index: 1; /* Ensure button is above the image */
+}
+
 #about-btn:hover {
-  font-size: 25px;
+  font-size: 22px;
 }
 
-@media screen and (max-width: 2186px) {
-  .header__text h2 {
-    font-size: 38px;
-    font-weight: bold;
-  }
-}
-
-@media screen and (max-width: 1900px) {
-  .header__text h2 {
-    font-size: 30px;
-  }
-
-  .header__text {
-    top: 2%;
-  }
-}
-
-@media screen and (max-width: 1760px) {
-  .header__text h2 {
-    font-size: 25px;
-  }
-}
-
-@media screen and (max-width: 1440px) {
-  .header__text {
-    width: 49%;
-    left: -4%;
-    top: 6%;
-    font-family: "DIN Next W01 Condensed Regular";
-  }
-
-  .header__content {
-    border-radius: 1px solid black;
-  }
-
-  .header__text h2 {
-    font-size: 25px;
-  }
-
-  .header__image {
-    width: 50%;
-  }
-
-  .header__image img {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 1222px) {
-  .header__text {
-    width: 60%;
-    left: -4%;
-    top: 1%;
-    font-family: var(--font-heavy);
-  }
-
-  #main-strapline {
-    /* border: 0.1px solid rgb(0, 0, 0); */
-    padding: 50px;
-    line-height: 1.5;
-    /* border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    font-size: 60px; */
-  }
-
-  .header__content {
-    border-radius: 1px solid black;
-  }
-
-  .header__text h2 {
-    font-size: 20px;
-    font-weight: 700;
-  }
-
-  .header__image {
-    width: 50%;
-  }
-
-  .header__image img {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .header__text {
-    width: 58%;
-    left: -4%;
-    top: -5%;
-    font-family: var(--font-heavy);
-  }
-
-  #main-strapline {
-    /* border: 0.1px solid rgb(0, 0, 0); */
-    padding: 50px;
-    line-height: 1.5;
-    /* border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    font-size: 60px; */
-  }
-
+@media screen and (max-width: 1200px) {
   #about-btn {
-    margin: -10px 35px;
-    font-size: 1.4rem;
+    position: absolute; /* Position the button absolutely */
+    bottom: 2%; /* Adjust bottom spacing as needed */
+    left: 10px; /* Adjust left spacing as needed */
+    z-index: 1; /* Ensure button is above the image */
+    width: 16%;
   }
 
-  .header__content {
-    border-radius: 1px solid black;
-  }
-
-  .header__text h2 {
-    font-size: 22px;
-    font-weight: 700;
-  }
-
-  .header__image {
-    width: 50%;
-  }
-
-  .header__image img {
-    width: 80%;
+  #about-btn:hover {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 910px) {
-  .header__text h2 {
-    font-size: 20px;
+  #about-btn {
+    position: absolute; /* Position the button absolutely */
+    bottom: 10%; /* Adjust bottom spacing as needed */
+    left: 10px; /* Adjust left spacing as needed */
+    z-index: 1; /* Ensure button is above the image */
+    font-size: 10px;
   }
 }
 @media screen and (max-width: 768px) {
-  .header__text {
-    width: 49%;
-    left: -6%;
-    top: -16%;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  }
-
-  .header__content {
-    border-radius: 1px solid black;
-  }
-
-  .header__text h2 {
-    font-size: 18px;
-  }
-
-  .header__image {
-    width: 50%;
-  }
-
-  .header__image img {
-    width: 85%;
+  #about-btn {
+    position: absolute; /* Position the button absolutely */
+    bottom: 10%; /* Adjust bottom spacing as needed */
+    left: 10px; /* Adjust left spacing as needed */
+    z-index: 1; /* Ensure button is above the image */
   }
 }

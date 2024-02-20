@@ -18,16 +18,11 @@ const CoachingHome = () => {
           <h1 className="CoachingWorkHome__header">One-to-One Coaching</h1>
           <p className="CoachingWorkHome__quote">
             Sometimes a more personalised approach is required for which we
-            offer one-to-one support
+            offer one-to-one support for parents as well as teens
           </p>
-          <Link to="/CoachingForTeenagers">
+          <Link to="/Coaching">
             <button className="btn-xlcool" id="button-coaching">
-              For Teenagers
-            </button>
-          </Link>
-          <Link to="/CoachingForParents">
-            <button className="btn-xlarge" id="button-coaching">
-              For Parents
+              Read More
             </button>
           </Link>
         </div>

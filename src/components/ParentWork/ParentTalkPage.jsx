@@ -1,34 +1,24 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./ParentTalkPage.css";
-import { ParentTalkFeedback } from "../../data";
 import RollingBar from "../../components/RollingBar";
 
 const ParentTalkPage = () => {
   const location = useLocation();
-  const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
   const galleryLength = 27;
-
-  // Function to switch to the next quote
-  const nextQuote = () => {
-    setCurrentQuoteIndex((prevIndex) =>
-      prevIndex === ParentTalkFeedback.length - 1 ? 0 : prevIndex + 1
-    );
-  };
-
-  useEffect(() => {
-    // Use setTimeout to change the quote every 10 seconds
-    const timer = setInterval(nextQuote, 10000);
-
-    // Clear the timer when the component unmounts
-    return () => clearInterval(timer);
-  }, []);
-
-  const currentQuote = ParentTalkFeedback[currentQuoteIndex].quote;
 
   return (
     <section className="parent-talk-section" id="parent-talk-section">
       <div className="talk-buttons">
+        <Link
+          to="/ParentAboutTalks"
+          className={`btn-cool ${
+            location.pathname === "/ParentAboutTalks" ? "active" : ""
+          }`}
+          id="make-smaller-btn"
+        >
+          About The Talks
+        </Link>
         <Link
           to="/parentTalks"
           className={`btn-cool ${
@@ -36,7 +26,7 @@ const ParentTalkPage = () => {
           }`}
           id="make-smaller-btn"
         >
-          Parent Talks in Schools
+          School Talks
         </Link>
         <Link
           to="/parentLunch"
@@ -45,7 +35,7 @@ const ParentTalkPage = () => {
           }`}
           id="make-smaller-btn"
         >
-          Lunchtime Talks in the Workplace
+          Workplace Talks
         </Link>
         <Link
           to="/parentCharity"
@@ -57,7 +47,7 @@ const ParentTalkPage = () => {
           Charity Talks
         </Link>
       </div>
-      <h1 className="h1-parenttalk">Parent Talks in Schools</h1>
+      <h1 className="h1-parenttalk">School Talks</h1>
       <div className="container about-back">
         <div className="header parent-work">
           <p>
@@ -78,12 +68,6 @@ const ParentTalkPage = () => {
             <br />
             <br />
           </p>
-        </div>
-      </div>
-      <h1 className="h1-parenttalk">What people have said about us</h1>
-      <div className="feedback">
-        <div className="speech-bubble-container-parentTalk">
-          <p className="speech-bubble-text-talk">"{currentQuote}"</p>
         </div>
       </div>
       <div className="bar">

@@ -43,7 +43,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--blue-colour);
-  font-family: "Skippy Sharp W00 Reg";
+  font: var(-font--light);
   font-size: 50px;
   max-width: 90%;
   font-style: italic;

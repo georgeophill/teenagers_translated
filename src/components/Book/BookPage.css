@@ -16,7 +16,7 @@
 .BookPage__header {
   font-size: 90px;
   color: var(--purple-colour);
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: 100;
   font-family: var(--font-medium);
   margin-bottom: 7rem;
@@ -24,7 +24,7 @@
 
 /* Text style */
 .BookPage__text {
-  font-size: 50px;
+  font-size: 30px;
   color: var(--grey-colour);
   margin-top: 20px;
   font-weight: 100;
@@ -35,6 +35,10 @@
 /* Read More button */
 #readMoreButton {
   margin-top: 20px;
+}
+
+#book-section {
+  text-decoration: none;
 }
 
 .book__right {
@@ -69,17 +73,17 @@
 
   .BookPage__header {
     margin-bottom: 4rem;
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .book__left {
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 20px;
     padding: 3%;
   }
 
   .BookPage__text {
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 4rem;
   }
 
@@ -105,7 +109,7 @@
   }
 
   .BookPage__text {
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 3rem;
   }
 
@@ -181,7 +185,7 @@
   }
 
   .book__right img {
-    max-width: 100%;
+    max-width: 65%;
     height: auto;
   }
 }

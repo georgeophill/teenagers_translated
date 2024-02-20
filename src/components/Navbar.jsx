@@ -72,9 +72,9 @@ const Navbar = () => {
       )}
 
       <div className="navbar__bottom">
-        {/* <div className="btn-nav">
+        <div className="btn-nav">
           <Link to="/">Home</Link>
-        </div> */}
+        </div>
         <div className="btn-nav">
           <Link to="/about">About</Link>
         </div>
@@ -83,7 +83,7 @@ const Navbar = () => {
             <Link to="/parentWork">Parent Work</Link>
           </span>
           <div className="dropdown-content">
-            <Link to="/parentLunch">About the Talks</Link>
+            <Link to="/parentAboutTalks">About the Talks</Link>
             <Link to="/parentLunch">Workplace Talks</Link>
             <Link to="/parentTalks">School Talks</Link>
             <Link to="/parentCharity">Charity Talks</Link>

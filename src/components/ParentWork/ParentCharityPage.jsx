@@ -1,34 +1,24 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./ParentCharityPage.css";
-import { ParentCharityFeedback } from "../../data";
 import RollingBar from "../../components/RollingBar";
 
 const ParentCharityPage = () => {
   const location = useLocation();
-  const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
   const galleryLength = 27;
-
-  // Function to switch to the next quote
-  const nextQuote = () => {
-    setCurrentQuoteIndex((prevIndex) =>
-      prevIndex === ParentCharityFeedback.length - 1 ? 0 : prevIndex + 1
-    );
-  };
-
-  useEffect(() => {
-    // Use setTimeout to change the quote every 10 seconds
-    const timer = setInterval(nextQuote, 10000);
-
-    // Clear the timer when the component unmounts
-    return () => clearInterval(timer);
-  }, []);
-
-  const currentQuote = ParentCharityFeedback[currentQuoteIndex].quote;
 
   return (
     <section className="parent-lunch-section" id="parent-lunch-section">
       <div className="lunch-buttons">
+        <Link
+          to="/ParentAboutTalks"
+          className={`btn-cool ${
+            location.pathname === "/ParentAboutTalks" ? "active" : ""
+          }`}
+          id="make-smaller-btn"
+        >
+          About The Talks
+        </Link>
         <Link
           to="/parentTalks"
           className={`btn-cool ${
@@ -36,7 +26,7 @@ const ParentCharityPage = () => {
           }`}
           id="make-smaller-btn"
         >
-          Parent Talks in Schools
+          School Talks
         </Link>
         <Link
           to="/parentLunch"
@@ -45,7 +35,7 @@ const ParentCharityPage = () => {
           }`}
           id="make-smaller-btn"
         >
-          Lunchtime Talks in the Workplace
+          Workplace Talks
         </Link>
         <Link
           to="/parentCharity"
@@ -57,7 +47,7 @@ const ParentCharityPage = () => {
           Charity Talks
         </Link>
       </div>
-      <h1 className="h1-parentlunch">Charity Talks in the Workplace</h1>
+      <h1 className="h1-parentlunch">Charity Talks</h1>
       <div className="container about-back">
         <div className="header parent-work">
           <p>
@@ -68,12 +58,6 @@ const ParentCharityPage = () => {
             <br />
             <br /> There is no fee for these events. <br /> <br />
           </p>
-        </div>
-      </div>
-      <h1 className="h1-parentlunch">What people have said about us</h1>
-      <div className="feedback">
-        <div className="speech-bubble-container-charity">
-          <p className="speech-bubble-text-charity">"{currentQuote}"</p>
         </div>
       </div>
       <div className="bar">

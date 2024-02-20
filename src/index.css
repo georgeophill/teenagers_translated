@@ -57,7 +57,7 @@ body::before {
   max-width: 1920px;
   margin: auto;
   padding: 20px 20px;
-  border: var(--blue-colour) 3px solid;
+  /* border: var(--blue-colour) 3px solid; */
   background-color: white;
   color: var(--grey-colour);
   border-radius: 20px;
@@ -95,7 +95,7 @@ section::before {
 }
 
 section h1 {
-  font-size: 60px;
+  font-size: 45px;
   color: var(--purple-colour);
   text-decoration: none;
   display: flex;
@@ -110,7 +110,7 @@ section h1 {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 45px;
   margin-bottom: 2rem;
   margin-top: 2rem;
   color: var(--purple-colour);
@@ -120,7 +120,7 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 2rem;
   color: var(--purple-colour);
   margin-top: 2rem;
@@ -129,7 +129,7 @@ h2 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 2rem;
   color: var(--grey-colour);
   margin-top: 2rem;
@@ -145,7 +145,7 @@ a {
 }
 
 p {
-  font-size: 40px;
+  font-size: 20px;
   margin-bottom: 1rem;
   color: var(--grey-colour);
   font-weight: 100;
@@ -236,10 +236,10 @@ img {
 }
 
 .btn-cool {
-  font-size: 30px;
+  font-size: 20px;
   background-color: rgba(0, 184, 229, 0.8);
   color: rgb(255, 255, 255);
-  padding: 15px 20px;
+  padding: 10px 15px;
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
   margin: 10px;
@@ -258,7 +258,7 @@ img {
   transition: ease-in-out 0.5s;
   padding: 10px 20px;
   cursor: pointer;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 .btn-xlcool {
@@ -288,10 +288,10 @@ img {
 }
 
 .btn-xlarge {
-  font-size: 30px;
+  font-size: 25px;
   background-color: rgba(0, 184, 229, 0.8);
   color: rgb(255, 255, 255);
-  padding: 25px 30px;
+  padding: 15px 20px;
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
   margin: 20px;
@@ -310,15 +310,15 @@ img {
   transition: ease-in-out 0.5s;
   padding: 20px 30px;
   cursor: pointer;
-  font-size: 40px;
+  font-size: 22px;
 }
 
 .btn-standard {
-  font-size: 30px;
-  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  background-color: var(--blue-colour);
   border: 3px solid var(--grey-colour);
   color: rgb(94, 94, 94);
-  padding: 25px 30px;
+  padding: 15px 25px;
   border-radius: 20px;
   margin: 20px;
   font-family: "DIN Next W01 Condensed Light";
@@ -334,9 +334,9 @@ img {
   background-color: var(--blue-colour);
   color: white;
   transition: ease-in-out 0.25s;
-  padding: 28px 33px;
+  padding: 18px 27px;
   cursor: pointer;
-  font-size: 33px;
+  font-size: 22px;
 }
 
 @media screen and (max-width: 1440px) {

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./SchoolStudentPage.css";
-import { SchoolStudentFeedback } from "../../data";
 import RollingBar from "../../components/RollingBar";
 import { AiFillStar } from "react-icons/ai";
 import { FiArrowDown } from "react-icons/fi";
@@ -9,32 +8,14 @@ import { FiArrowUp } from "react-icons/fi";
 
 const SchoolStudentPage = () => {
   const location = useLocation();
-  const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
   const [showAdditionalText, setShowAdditionalText] = useState(false);
   const [isArrowDown, setIsArrowDown] = useState(true);
   const galleryLength = 27;
-
-  // Function to switch to the next quote
-  const nextQuote = () => {
-    setCurrentQuoteIndex((prevIndex) =>
-      prevIndex === SchoolStudentFeedback.length - 1 ? 0 : prevIndex + 1
-    );
-  };
 
   const toggleAdditionalText = () => {
     setShowAdditionalText(!showAdditionalText);
     setIsArrowDown(!isArrowDown);
   };
-
-  useEffect(() => {
-    // Use setTimeout to change the quote every 10 seconds
-    const timer = setInterval(nextQuote, 10000);
-
-    // Clear the timer when the component unmounts
-    return () => clearInterval(timer);
-  }, []);
-
-  const currentQuote = SchoolStudentFeedback[currentQuoteIndex].quote;
 
   return (
     <section className="parent-talk-section" id="parent-talk-section">
@@ -264,12 +245,6 @@ const SchoolStudentPage = () => {
               </div>
             )}
           </p>
-        </div>
-      </div>
-      <h1 className="h1-parenttalk">What people have said about us</h1>
-      <div className="feedback">
-        <div className="speech-bubble-container-talk-student">
-          <p className="speech-bubble-text-talk-student">"{currentQuote}"</p>
         </div>
       </div>
       <div className="bar">

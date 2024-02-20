@@ -8,15 +8,10 @@ const BookPage = () => {
       <div className="book__left">
         <h1 className="BookPage__header">Our Book</h1>
         <p className="BookPage__text">
-          Parenting is the most important job we ever undertake, and a certain
-          amount of teenage turmoil is unavoidable. Teens are growing up in a
-          very different world, so it would be a risky strategy to cross our
-          fingers and hope for the best. Managing family mental health requires
-          self-awareness, understanding, and active parental engagement. Many
-          parents are facing challenging issues, and our book lays out tools and
-          strategies that we have found actually work. These have been distilled
-          over years of being parents to seven teenagers, practicing as
-          counselors, and over a decade of developing and conducting our
+          Many parents are facing challenging issues, and our book lays out
+          tools and strategies that we have found actually work. These have been
+          distilled over years of being parents to seven teenagers, practicing
+          as counselors, and over a decade of developing and conducting our
           presentations and workshops for parents, staff, and teens around the
           UK and overseas.
           <br />
@@ -58,7 +53,7 @@ const BookPage = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="btn-xlcool">Buy Now</button>
+            <button className="btn-cool">Buy Now</button>
           </a>
         </div>
       </div>

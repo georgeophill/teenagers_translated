@@ -19,7 +19,7 @@
 #contactname {
   display: flex;
   text-align: center;
-  font-size: 70px;
+  font-size: 30px;
 }
 
 .person_img img {

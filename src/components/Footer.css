@@ -38,7 +38,7 @@
   flex-wrap: wrap;
   display: center;
   gap: 40px;
-  font-size: 50px;
+  font-size: 25px;
   margin-top: 5rem;
   margin-bottom: 5rem;
   padding-left: 10%;
@@ -61,13 +61,13 @@
   align-items: center;
   gap: 60px;
   margin: 20px 0;
-  font-size: 50px;
+  font-size: 35px;
   padding: 10px;
   fill: white;
 }
 
 .icons a {
-  font-size: 50px;
+  font-size: 35px;
   color: rgb(0, 0, 0);
 }
 
@@ -79,7 +79,7 @@
 }
 
 .copyright {
-  font-size: 40px;
+  font-size: 20px;
   padding: 10px;
   color: white;
 }

@@ -26,19 +26,19 @@
 }
 
 .CoachingWorkHome__header {
-  font-size: 90px;
+  font-size: 80px;
   margin-bottom: 7rem;
 }
 
 .CoachingWorkHome__quote {
-  font-size: 70px;
+  font-size: 50px;
   margin-bottom: 7rem;
   letter-spacing: 1px;
   line-height: 1.25;
 }
 
 #button-coaching {
-  font-size: 50px;
+  font-size: 30px;
   background-color: rgba(47, 184, 229, 0.8);
   color: rgb(255, 255, 255);
   padding: 25px 120px;
@@ -73,7 +73,7 @@
 }
 
 #button-coaching {
-  font-size: 50px;
+  font-size: 30px;
   background-color: rgba(47, 184, 229, 0.8);
   color: rgb(255, 255, 255);
   padding: 25px 120px;
@@ -91,7 +91,7 @@
 
 @media screen and (max-width: 1900px) {
   .CoachingWorkHome__header {
-    font-size: 70px;
+    font-size: 50px;
     margin-bottom: 5rem;
   }
 
@@ -102,12 +102,12 @@
 
 @media screen and (max-width: 1500px) {
   .CoachingWorkHome__header {
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 5rem;
   }
 
   .CoachingWorkHome__quote {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 5rem;
     letter-spacing: 1px;
     line-height: 1.25;
