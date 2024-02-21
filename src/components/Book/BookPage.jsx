@@ -4,9 +4,11 @@ import "./BookPage.css";
 
 const BookPage = () => {
   return (
-    <div className="book__container">
+    <div className="book__container" id="BookPage__Container">
       <div className="book__left">
-        <h1 className="BookPage__header">Our Book</h1>
+        <h1 className="BookPage__header" id="Bookpage__Header_Page">
+          Our Book
+        </h1>
         <p className="BookPage__text">
           Many parents are facing challenging issues, and our book lays out
           tools and strategies that we have found actually work. These have been
