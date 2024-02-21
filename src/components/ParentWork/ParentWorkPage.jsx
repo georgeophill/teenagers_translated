@@ -16,10 +16,8 @@ const ParentWorkPage = () => {
   };
 
   useEffect(() => {
-    // Use setTimeout to change the quote every 10 seconds
     const timer = setInterval(nextQuote, 10000);
 
-    // Clear the timer when the component unmounts
     return () => clearInterval(timer);
   }, []);
 

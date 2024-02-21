@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./CoachingTeenagers.css";
-import CoachingImage from "../../images/Illustrations/121Coaching.png";
 import RollingBar from "../../components/RollingBar";
 
 const CoachingTeenagers = () => {
