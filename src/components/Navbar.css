@@ -180,7 +180,7 @@ a .btn-nav {
 
 /* LARGER IPADS */
 /* Media Queries */
-@media screen and (max-width: 1430px) {
+@media screen and (max-width: 1230px) {
   .navbar__item {
     font-size: 60px;
   }
@@ -193,20 +193,20 @@ a .btn-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 84%;
   }
 
   .navbar__link {
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: var(--font-condensed);
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-
+  /* 
   .navbar__left img {
     height: 120px;
-  }
+  } */
 
   .navbar__center {
     text-align: center;
