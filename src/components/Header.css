@@ -28,8 +28,8 @@
 
 #about-btn {
   position: absolute; /* Position the button absolutely */
-  bottom: 10%; /* Adjust bottom spacing as needed */
-  left: 10px; /* Adjust left spacing as needed */
+  bottom: 15%; /* Adjust bottom spacing as needed */
+  left: 0px; /* Adjust left spacing as needed */
   z-index: 1; /* Ensure button is above the image */
 }
 
