@@ -315,9 +315,9 @@ a .btn-nav {
   }
 
   .navbar__link {
-    font-size: 3rem;
+    font-size: 4.5rem;
     font-family: var(--font-condensed);
-    line-height: 2;
+    line-height: 1;
     letter-spacing: 0.5px;
   }
 

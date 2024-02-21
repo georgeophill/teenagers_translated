@@ -9,3 +9,12 @@
 section {
   background-color: white;
 }
+
+.hidden {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.show {
+  opacity: 1;
+}

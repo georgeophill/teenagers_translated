@@ -49,6 +49,15 @@
   height: auto;
 }
 
+.hidden {
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+.show {
+  opacity: 1;
+}
+
 @media screen and (max-width: 768px) {
   #button-coaching {
     font-size: 5vw; /* Adjust font size for smaller screens */

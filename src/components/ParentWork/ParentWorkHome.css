@@ -16,3 +16,21 @@
   right: 15%;
   z-index: 1;
 }
+
+.hidden {
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.show {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1240px) {
+  #button-parent {
+    position: absolute;
+    bottom: 15%;
+    right: 15%;
+    z-index: 1;
+  }
+}

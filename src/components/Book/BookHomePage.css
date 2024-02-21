@@ -7,6 +7,7 @@
   align-items: center;
   padding: 20px;
   border-top: var(--blue-colour) 3px solid;
+  margin-top: -8%;
 }
 
 /* Left side content */
@@ -25,7 +26,7 @@
   font-size: 90px;
   color: var(--purple-colour);
   text-decoration: underline;
-  font-weight: 100;
+  font-weight: 400;
   font-family: var(--font-medium);
   margin-bottom: 7rem;
 }
@@ -42,7 +43,9 @@
 
 /* Read More button */
 #readMoreButton {
-  margin-top: 20px;
+  padding: 4px 9px;
+  font-size: 20px;
+  margin-top: 2px;
 }
 
 /* Right side image and Buy Now button */
@@ -62,6 +65,14 @@
   margin-top: 20px;
 }
 
+.hidden {
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+.show {
+  opacity: 1;
+}
 /* Media queries */
 
 @media screen and (max-width: 1800px) {
@@ -71,7 +82,8 @@
 
   .BookPage__header {
     margin-bottom: 4rem;
-    font-size: 60px;
+    font-size: 40px;
+    font-weight: 400;
   }
 
   .book__left {
@@ -97,7 +109,8 @@
 
   .BookPage__header {
     margin-bottom: 3rem;
-    font-size: 60px;
+    font-size: 40px;
+    font-weight: 400;
   }
 
   .book__left {
@@ -123,7 +136,8 @@
 
   .BookPage__header {
     margin-bottom: 2rem;
-    font-size: 60px;
+    font-size: 50px;
+    font-weight: 400;
   }
 
   .book__left {

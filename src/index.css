@@ -80,6 +80,12 @@ section {
   position: relative; /* Ensure relative positioning for pseudo-element */
 }
 
+@media screen and (max-width: 1240px) {
+  section {
+    padding: 50px 25px;
+  }
+}
+
 /* Create a pseudo-element to represent the animated border */
 section::before {
   content: "";
@@ -287,7 +293,7 @@ img {
 }
 @media screen and (max-width: 1240px) {
   .btn-xlcool {
-    font-size: 1.8vw; /* Responsive font size */
+    font-size: 2.3vw; /* Responsive font size */
     background-color: rgba(0, 184, 229, 0.8);
     color: rgb(255, 255, 255);
     padding: 2vw 3vw; /* Responsive padding */
@@ -309,13 +315,6 @@ img {
     padding: 2vw 3vw; /* Responsive padding */
     cursor: pointer;
     font-size: 2vw; /* Responsive font size on hover */
-  }
-
-  #button-parent {
-    position: absolute;
-    bottom: 15%;
-    right: 17%;
-    z-index: 1;
   }
 }
 
