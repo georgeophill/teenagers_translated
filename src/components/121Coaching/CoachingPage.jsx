@@ -88,7 +88,7 @@ const CoachingPage = () => {
           <img className="image" src={CoachingImage} alt="ParentImage" />
         </div>
       </div>
-      <h1 className="h1-parenttalk">What people have said about us</h1>
+      {/* <h1 className="h1-parenttalk">What people have said about us</h1> */}
       <div className="feedback">
         <div className="speech-bubble-container-talk-student">
           <p className="speech-bubble-text-talk-student">"{currentQuote}"</p>

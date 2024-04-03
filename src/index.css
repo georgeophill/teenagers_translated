@@ -19,11 +19,7 @@
   --grey-colour: #797575;
   --pink-colour: #fa85b4;
 
-  --font-heavy: "Aptos regular", sans-serif;
-  --font-medium: "Aptos regular", sans-serif;
-  --font-light: "Aptos light", sans-serif;
-
-  --font-condensed: "DIN Next W01 Condensed Light";
+  --font-aptos: "Aptos";
 
   --container-width-lg: 80%;
   --container-width-md: 90%;
@@ -31,7 +27,7 @@
 }
 
 body {
-  font-family: "Aptos regular", sans-serif;
+  font-family: "Aptos";
   color: black;
   line-height: 1;
   overflow-x: hidden;
@@ -112,7 +108,7 @@ section h1 {
 .header {
   margin-top: 0.5rem;
   overflow: hidden;
-  font-family: var(--font-heavy);
+  font-family: var(--font-aptos);
 }
 
 h1 {
@@ -122,7 +118,7 @@ h1 {
   color: var(--purple-colour);
   text-decoration: underline;
   font-weight: 100;
-  font-family: var(--font-medium);
+  font-family: var(--font-aptos);
 }
 
 h2 {
@@ -131,7 +127,7 @@ h2 {
   color: var(--purple-colour);
   margin-top: 2rem;
   font-weight: 100;
-  font-family: var(--font-medium);
+  font-family: var(--font-aptos);
 }
 
 h3 {
@@ -141,7 +137,7 @@ h3 {
   margin-top: 2rem;
   text-align: center;
   font-weight: 100;
-  font-family: var(--font-light);
+  font-family: var(--font-aptos);
 }
 
 a {
@@ -171,7 +167,7 @@ img {
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
   margin: 20px;
-  font-family: "DIN Next W01 Condensed Light";
+  font-family: "Aptos";
   letter-spacing: 0.8px;
   width: fit-content;
   height: fit-content;
@@ -197,7 +193,7 @@ img {
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
   margin: 20px;
-  font-family: "DIN Next W01 Condensed Light";
+  font-family: "Aptos";
   letter-spacing: 0.8px;
   width: fit-content;
   height: fit-content;
@@ -223,7 +219,7 @@ img {
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
   margin: 40px;
-  font-family: "DIN Next W01 Condensed Light";
+  font-family: "Aptos";
   letter-spacing: 2px;
   width: fit-content;
   height: fit-content;
@@ -249,7 +245,7 @@ img {
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
   margin: 10px;
-  font-family: "DIN Next W01 Condensed Light";
+  font-family: "Aptos";
   letter-spacing: 2px;
   width: fit-content;
   height: fit-content;
@@ -274,7 +270,7 @@ img {
   padding: 2vw 3vw; /* Responsive padding */
   border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
   margin: 2vh; /* Responsive margin */
-  font-family: "DIN Next W01 Condensed Light";
+  font-family: "Aptos";
   letter-spacing: 0.2vw; /* Responsive letter spacing */
   width: fit-content;
   height: fit-content;
@@ -299,7 +295,6 @@ img {
     padding: 2vw 3vw; /* Responsive padding */
     border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
     margin: 2vh; /* Responsive margin */
-    font-family: "DIN Next W01 Condensed Light";
     letter-spacing: 0.2vw; /* Responsive letter spacing */
     width: fit-content;
     height: fit-content;
@@ -358,7 +353,7 @@ img {
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
   margin: 20px;
-  font-family: "DIN Next W01 Condensed Light";
+  font-family: "Aptos";
   letter-spacing: 2px;
   width: fit-content;
   height: fit-content;
@@ -384,7 +379,7 @@ img {
   padding: 15px 25px;
   border-radius: 20px;
   margin: 20px;
-  font-family: "DIN Next W01 Condensed Light";
+  font-family: "Aptos";
   letter-spacing: 2px;
   width: fit-content;
   height: fit-content;

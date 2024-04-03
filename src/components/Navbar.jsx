@@ -83,10 +83,10 @@ const Navbar = () => {
             <Link to="/parentWork">Parent Work</Link>
           </span>
           <div className="dropdown-content">
-            <Link to="/parentAboutTalks">About the Talks</Link>
-            <Link to="/parentLunch">Workplace Talks</Link>
-            <Link to="/parentTalks">School Talks</Link>
-            <Link to="/parentCharity">Charity Talks</Link>
+            <Link to="/parentAboutTalks">About Talks</Link>
+            <Link to="/parentLunch">Workplace</Link>
+            <Link to="/parentTalks">Schools</Link>
+            <Link to="/parentCharity">Charity</Link>
           </div>
         </div>
         <div className="btn-nav dropdown">
@@ -94,11 +94,9 @@ const Navbar = () => {
             <Link to="/schoolWork">School Work</Link>
           </span>
           <div className="dropdown-content">
-            <Link to="/studentWork">Student Work - How PSHE Sessions Work</Link>
+            <Link to="/studentWork">Student PSHE</Link>
             <Link to="/staffInputs">Staff Inputs</Link>
-            <Link to="/schoolCulture">
-              Creating a Culture of wellbeing & Good Mental Health
-            </Link>
+            <Link to="/schoolCulture">Wellbeing Culture</Link>
           </div>
         </div>
         <div className="btn-nav dropdown">
@@ -106,8 +104,8 @@ const Navbar = () => {
             <Link to="/coaching">1-2-1 Coaching</Link>
           </span>
           <div className="dropdown-content">
-            <Link to="/coachingForParents">Coaching For Parents</Link>
-            <Link to="/coachingForTeenagers">Coaching For Teenagers </Link>
+            <Link to="/coachingForParents">Parents</Link>
+            <Link to="/coachingForTeenagers">Teenagers </Link>
           </div>
         </div>
         <div className="btn-nav">

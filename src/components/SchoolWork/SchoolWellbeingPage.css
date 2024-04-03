@@ -43,7 +43,7 @@
   left: 49%;
   transform: translate(-50%, -50%);
   color: var(--blue-colour);
-  font: var(--font-light);
+  font: var(--font-aptos);
   font-size: 30px;
   max-width: 90%;
   font-style: italic;
@@ -85,7 +85,7 @@
     /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
     border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
     margin: 15px;
-    font-family: "DIN Next W01 Condensed Light";
+    font-family: "Aptos";
     letter-spacing: 0px;
     width: fit-content;
     height: fit-content;

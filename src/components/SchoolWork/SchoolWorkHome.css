@@ -22,7 +22,7 @@
   padding: 2vw 1vw; /* Responsive padding */
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
   margin: 2vh 2vw; /* Responsive margin */
-  font-family: "DIN Next W01 Condensed Light";
+  font-family: "Aptos";
   letter-spacing: 0.2vw; /* Responsive letter spacing */
   width: fit-content;
   height: fit-content;
@@ -62,7 +62,7 @@
     padding: 2vw 1vw;
     border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
     margin: 2vh;
-    font-family: "DIN Next W01 Condensed Light";
+    font-family: "Aptos";
     letter-spacing: 0.2vw;
     width: -moz-fit-content;
     width: fit-content;

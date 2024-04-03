@@ -5,7 +5,7 @@ const AboutUsPage = () => {
   return (
     <div>
       <section className="about-purple">
-        <h1 className="who-we-are-head">About Us</h1>
+        {/* <h1 className="who-we-are-head">About Us</h1> */}
         <div className="container about-back">
           <div className="header about-us">
             <p>

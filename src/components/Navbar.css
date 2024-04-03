@@ -9,7 +9,6 @@
   align-items: center;
   position: sticky;
   top: 0;
-  /* border: 1px solid #333; */
   z-index: 999;
 }
 
@@ -24,7 +23,7 @@
 .navbar__left img,
 .navbar__right img {
   object-fit: contain;
-  height: 100px; /* Reduce the height for smaller screens */
+  height: 120px; /* Reduce the height for smaller screens */
   margin-right: 10px;
   margin-top: 10px;
 }
@@ -52,13 +51,6 @@
   display: block;
 }
 
-/* .navbar__subtitle {
-  background-color: #2fb8e5;
-  color: rgb(255, 255, 255);
-  padding: 8px 20px;
-  pointer-events: none;
-} */
-
 /* Apply hover styles to all list items except .navbar__subtitle */
 .nav__links li:hover {
   background-color: rgba(0, 184, 229, 0.8);
@@ -73,13 +65,13 @@
   justify-content: space-around;
   width: 100%;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-  font-family: var(--font-condensed);
+  font-family: var(--font-aptos);
 }
 
 .navbar__link {
   text-decoration: none;
   color: var(--purple-colour);
-  font-family: var(--font-condensed);
+  font-family: "Aptos";
   letter-spacing: 3px;
   font-size: 4rem;
 }
@@ -111,12 +103,12 @@ a .btn-nav {
   font-size: 25px;
   background-color: rgba(0, 184, 229, 0.8);
   color: rgb(255, 255, 255);
-  padding: 6px 20px;
+  padding: 10px 20px;
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
   margin: 10px;
-  font-family: "DIN Next W01 Condensed Light";
-  letter-spacing: 0.8px;
+  font-family: "Aptos";
+  letter-spacing: 0.5px;
   width: fit-content;
   height: fit-content;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
@@ -128,7 +120,7 @@ a .btn-nav {
   background-color: var(--blue-colour);
   color: white;
   transition: ease-in-out 0.5s;
-  padding: 6px 20px;
+  padding: 11px 21px;
   cursor: pointer;
   font-size: 26px;
 }
@@ -154,8 +146,7 @@ a .btn-nav {
   display: block;
   text-decoration: none;
   color: #ffffff;
-  /* border-bottom: 1px solid #333; */
-  font-size: 20px;
+  font-size: 23px;
   margin-bottom: 0.25rem;
 }
 
@@ -165,7 +156,7 @@ a .btn-nav {
 
 .dropdown-content a:hover {
   background-color: #ffffff;
-  font-size: 22px;
+  font-size: 24px;
   transition: ease-in-out 0.25s;
   border-radius: 20px;
   color: #2fb8e5;
@@ -182,6 +173,12 @@ a .btn-nav {
 
 /* LARGER IPADS */
 /* Media Queries */
+@media screen and (min-width: 1231px) {
+  .navbar__bottom {
+    padding: 10px;
+  }
+}
+
 @media screen and (max-width: 1230px) {
   .navbar__item {
     font-size: 60px;
@@ -195,12 +192,11 @@ a .btn-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 84%;
+    width: 100%;
   }
 
   .navbar__link {
     font-size: 4rem;
-    font-family: var(--font-condensed);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -231,14 +227,6 @@ a .btn-nav {
     font-size: 71px;
   }
 
-  /* .navbar__right img {
-    display: none;
-  }
-
-  .navbar__bottom {
-    display: none;
-  } */
-
   .mobile-dropdown {
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
@@ -251,12 +239,12 @@ a .btn-nav {
     ); /* Set your desired background color */
     z-index: 1000; /* Adjust z-index as needed */
     width: 50%; /* Set your desired width */
-    overflow-y: auto; /* Enable vertical scrolling if needed */
+    overflow-y: auto;
     margin-top: 177px;
     text-align: center;
     justify-content: center;
     border-radius: 10px;
-    font-family: "DIN Next W01 Condensed Light";
+    font-family: "Aptos";
     transition: 0.6s cubic-bezier(0.62, 0.04, 0.3, 1.56);
   }
 
@@ -318,7 +306,6 @@ a .btn-nav {
 
   .navbar__link {
     font-size: 4.5rem;
-    font-family: var(--font-condensed);
     line-height: 1;
     letter-spacing: 0.5px;
   }
@@ -385,7 +372,7 @@ a .btn-nav {
     text-align: center;
     justify-content: center;
     border-radius: 0px;
-    font-family: "DIN Next W01 Condensed Light";
+    font-family: "Aptos";
     transition: 0.6s cubic-bezier(0.62, 0.04, 0.3, 1.56);
   }
 
@@ -415,7 +402,6 @@ a .btn-nav {
 
   .navbar__link {
     font-size: 3rem;
-    font-family: var(--font-condensed);
     line-height: 1;
     letter-spacing: 0.5px;
   }
@@ -458,7 +444,7 @@ a .btn-nav {
     text-align: center;
     justify-content: center;
     border-radius: 0px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: "Aptos";
     transition: 0.6s cubic-bezier(0.62, 0.04, 0.3, 1.56);
   }
 
@@ -495,7 +481,6 @@ a .btn-nav {
 
   .navbar__link {
     font-size: 1.5rem;
-    font-family: var(--font-condensed);
     line-height: 1;
     letter-spacing: 0.5px;
   }
@@ -538,7 +523,7 @@ a .btn-nav {
     text-align: center;
     justify-content: center;
     border-radius: 0px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: "Aptos";
     transition: 0.6s cubic-bezier(0.62, 0.04, 0.3, 1.56);
   }
 

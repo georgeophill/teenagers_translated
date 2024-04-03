@@ -45,13 +45,13 @@ const SchoolWorkPage = () => {
             </p>
             <div className="buttons-school">
               <Link to="/StudentWork">
-                <div className="btn-xlarge">Student Work</div>
-              </Link>
-              <Link to="/SchoolCulture">
-                <div className="btn-xlarge">Wellbeing & Mental Health</div>
+                <div className="btn-xlarge">Student PSHE</div>
               </Link>
               <Link to="/StaffInputs">
                 <div className="btn-xlarge">Staff Inputs</div>
+              </Link>
+              <Link to="/SchoolCulture">
+                <div className="btn-xlarge">Wellbeing Culture</div>
               </Link>
             </div>
             <div className="school-image">

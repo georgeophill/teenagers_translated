@@ -12,7 +12,7 @@ const About = () => {
       <AboutUsPage />
       <div>
         <section className="who-we-are">
-          <h1>Who we are</h1>
+          {/* <h1>Who we are</h1> */}
           <div className="people__container">
             {people.map(({ id, image, name, biography }) => {
               return (

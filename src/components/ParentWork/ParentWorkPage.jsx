@@ -25,7 +25,7 @@ const ParentWorkPage = () => {
   return (
     <div>
       <section className="parent-purple">
-        <h1>Parent Work</h1>
+        {/* <h1>Parent Work</h1> */}
         <div className="container about-back" id="parent-container">
           <div className="header parent-work">
             <p>
@@ -56,11 +56,11 @@ const ParentWorkPage = () => {
                 alt="ParentImage"
               />
             </div>
-          </div>
-        </div>
-        <div className="feedback">
-          <div className="speech-bubble-container-parentTalk">
-            <p className="speech-bubble-text-talk">"{currentQuote}"</p>
+            <div className="feedback">
+              <div className="speech-bubble-container-parentTalk">
+                <p className="speech-bubble-text-talk">"{currentQuote}"</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

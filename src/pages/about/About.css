@@ -20,7 +20,7 @@
 .people-card h3 {
   font-size: 15px;
   text-align: center;
-  font-family: var(--font-medium);
+  font-family: var(--font-aptos);
   line-height: 1.1;
   height: 90%;
 }
