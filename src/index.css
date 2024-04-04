@@ -165,7 +165,8 @@ img {
   color: rgb(255, 255, 255);
   padding: 8px 20px;
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
-  border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
+  /* border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%; */
+  border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
   margin: 20px;
   font-family: "Aptos", sans-serif;
   letter-spacing: 0.8px;
@@ -217,7 +218,8 @@ img {
   color: rgb(255, 255, 255);
   padding: 15px 20px;
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
-  border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
+  /* border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%; */
+  border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
   margin: 40px;
   font-family: "Aptos", sans-serif;
   letter-spacing: 2px;
@@ -238,7 +240,7 @@ img {
 }
 
 .btn-cool {
-  font-size: 20px;
+  font-size: 1.5vw;
   background-color: rgba(0, 184, 229, 0.8);
   color: rgb(255, 255, 255);
   padding: 10px 15px;
@@ -260,14 +262,14 @@ img {
   transition: ease-in-out 0.5s;
   padding: 10px 20px;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 1.6vw;
 }
 
 .btn-xlcool {
-  font-size: 2vw; /* Responsive font size */
+  font-size: 1.5vw; /* Responsive font size */
   background-color: rgba(0, 184, 229, 0.8);
   color: rgb(255, 255, 255);
-  padding: 2vw 3vw; /* Responsive padding */
+  padding: 1vw 2vw; /* Responsive padding */
   border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
   margin: 2vh; /* Responsive margin */
   font-family: "Aptos", sans-serif;
@@ -283,9 +285,9 @@ img {
   background-color: var(--blue-colour);
   color: white;
   transition: ease-in-out 0.5s;
-  padding: 2vw 3vw; /* Responsive padding */
+  padding: 1vw 2vw; /* Responsive padding */
   cursor: pointer;
-  font-size: 2.2vw; /* Responsive font size on hover */
+  font-size: 1.6vw; /* Responsive font size on hover */
 }
 
 .btn-homepage {
@@ -375,7 +377,8 @@ img {
   color: rgb(255, 255, 255);
   padding: 15px 20px;
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
-  border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
+  /* border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%; */
+  border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
   margin: 20px;
   font-family: "Aptos", sans-serif;
   letter-spacing: 2px;

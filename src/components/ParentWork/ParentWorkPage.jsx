@@ -29,15 +29,15 @@ const ParentWorkPage = () => {
         <div className="container about-back" id="parent-container">
           <div className="header parent-work">
             <p>
-              Aimed at improving family mental health & wellbeing, our parent
-              inputs focus on challenging emotional and behavioural changes in
-              pre-teens and teenagers, providing skills and tips to smoothly
-              navigate this period
+              Our parent inputs are aimed at improving family mental health &
+              wellbeing . They focus on challenging emotional and behavioural
+              changes in pre-teens and teenagers, providing skills and tips to
+              smoothly navigate this period.
               <br />
             </p>
             <div className="buttons">
               <Link to="/parentAboutTalks">
-                <div className="btn-xlarge">About The Talks</div>
+                <div className="btn-xlarge">About Talks</div>
               </Link>
               <Link to="/ParentLunch">
                 <div className="btn-xlarge">Workplace Talks</div>

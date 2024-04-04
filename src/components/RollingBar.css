@@ -2,7 +2,7 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-  /* margin-top: 2rem; */
+  margin-top: 5vh;
   /* border-top: var(--blue-colour) 3px solid; */
 }
 
@@ -41,7 +41,9 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-100% * 10000));
+    transform: translateX(
+      calc(-100% * 10000)
+    ); /* Adjust the percentage for the number of logos displayed */
   }
 }
 

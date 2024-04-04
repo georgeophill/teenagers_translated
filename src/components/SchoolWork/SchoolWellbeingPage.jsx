@@ -17,16 +17,7 @@ const SchoolWellbeingPage = () => {
           }`}
           id="make-smaller-btn"
         >
-          Student Work
-        </Link>
-        <Link
-          to="/SchoolCulture"
-          className={`btn-cool ${
-            location.pathname === "/SchoolCulture" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          Wellbeing & Mental Health
+          Student PSHE
         </Link>
         <Link
           to="/StaffInputs"
@@ -37,11 +28,20 @@ const SchoolWellbeingPage = () => {
         >
           Staff Inputs
         </Link>
+        <Link
+          to="/SchoolCulture"
+          className={`btn-cool ${
+            location.pathname === "/SchoolCulture" ? "active" : ""
+          }`}
+          id="make-smaller-btn"
+        >
+          Wellbeing Culture
+        </Link>
       </div>
-      <h1 className="h1-SchoolWellbeing">
+      {/* <h1 className="h1-SchoolWellbeing">
         What does a culture of Wellbeing and good Mental Health mean for
         Schools?
-      </h1>
+      </h1> */}
       <div className="container about-back">
         <div className="header parent-work">
           <p>

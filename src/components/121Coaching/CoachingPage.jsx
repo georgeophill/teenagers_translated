@@ -27,7 +27,7 @@ const CoachingPage = () => {
 
   return (
     <section className="parent-talk-section" id="parent-talk-section">
-      <h1 className="h1-SchoolWellbeing">1-2-1 Coaching</h1>
+      {/* <h1 className="h1-SchoolWellbeing">1-2-1 Coaching</h1> */}
       <div className="container about-back">
         <div className="header parent-work">
           <p>
@@ -35,8 +35,28 @@ const CoachingPage = () => {
             find it easier to address specific areas of concern in an open and
             candid way.
             <br />
+            <div className="talk-buttons">
+              <Link
+                to="/CoachingForParents"
+                className={`btn-cool ${
+                  location.pathname === "/coachingForParents" ? "active" : ""
+                }`}
+                id="make-smaller-btn-coaching"
+              >
+                For Parents
+              </Link>
+              <Link
+                to="/CoachingForTeenagers"
+                className={`btn-cool ${
+                  location.pathname === "/coachingForTeenagers" ? "active" : ""
+                }`}
+                id="make-smaller-btn-coaching"
+              >
+                For Teenagers
+              </Link>
+            </div>
             <br />
-            The sessions are conducted on zoom in a coaching style, and provide
+            {/* The sessions are conducted on zoom in a coaching style, and provide
             an opportunity for a more targeted approach responsive to your
             specific needs. The 1-1 format allows us to understand more clearly
             the issues and behaviours relevant to your situation, so that we can
@@ -61,28 +81,8 @@ const CoachingPage = () => {
             the knowledge and practical skills to help boost their mental
             health, regulate their emotions without huge ups and downs, manage
             anxiety and daily stresses (eg exams, friends, social media) and
-            develop a more positive mindset.
+            develop a more positive mindset. */}
           </p>
-          <div className="talk-buttons">
-            <Link
-              to="/CoachingForParents"
-              className={`btn-cool ${
-                location.pathname === "/coachingForParents" ? "active" : ""
-              }`}
-              id="make-smaller-btn-coaching"
-            >
-              For Parents
-            </Link>
-            <Link
-              to="/CoachingForTeenagers"
-              className={`btn-cool ${
-                location.pathname === "/coachingForTeenagers" ? "active" : ""
-              }`}
-              id="make-smaller-btn-coaching"
-            >
-              For Teenagers
-            </Link>
-          </div>
         </div>
         <div className="school-image">
           <img className="image" src={CoachingImage} alt="ParentImage" />

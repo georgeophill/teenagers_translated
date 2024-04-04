@@ -18,7 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 95%;
+  width: 100%;
 }
 
 .navbar__left img,
@@ -176,9 +176,14 @@ a .btn-nav {
 /* LARGER IPADS */
 /* Media Queries */
 
-@media screen and (max-width: 1960px) {
+@media screen and (min-width: 1960px) {
   .navbar__top {
-    /* width: 75%; */
+    width: 75%;
+  }
+
+  .navbar__left img,
+  .navbar__right img {
+    height: 140px; /* Reduce the height for smaller screens */
   }
 }
 
@@ -383,7 +388,7 @@ a .btn-nav {
     text-align: center;
     justify-content: center;
     border-radius: 0px;
-    font-family: "Aptos";
+    font-family: "Aptos", sans-serif;
     transition: 0.6s cubic-bezier(0.62, 0.04, 0.3, 1.56);
   }
 
@@ -455,7 +460,7 @@ a .btn-nav {
     text-align: center;
     justify-content: center;
     border-radius: 0px;
-    font-family: "Aptos";
+    font-family: "Aptos", sans-serif;
     transition: 0.6s cubic-bezier(0.62, 0.04, 0.3, 1.56);
   }
 
@@ -534,7 +539,7 @@ a .btn-nav {
     text-align: center;
     justify-content: center;
     border-radius: 0px;
-    font-family: "Aptos";
+    font-family: "Aptos", sans-serif;
     transition: 0.6s cubic-bezier(0.62, 0.04, 0.3, 1.56);
   }
 

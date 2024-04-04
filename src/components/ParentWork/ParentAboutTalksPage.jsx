@@ -17,21 +17,12 @@ const ParentLunchPage = () => {
           }`}
           id="make-smaller-btn"
         >
-          About The Talks
+          About Talks
         </Link>
         <Link
           to="/parentTalks"
           className={`btn-cool ${
             location.pathname === "/parentTalks" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          School Talks
-        </Link>
-        <Link
-          to="/parentLunch"
-          className={`btn-cool ${
-            location.pathname === "/parentLunch" ? "active" : ""
           }`}
           id="make-smaller-btn"
         >
@@ -44,10 +35,19 @@ const ParentLunchPage = () => {
           }`}
           id="make-smaller-btn"
         >
+          School Talks
+        </Link>
+        <Link
+          to="/parentLunch"
+          className={`btn-cool ${
+            location.pathname === "/parentLunch" ? "active" : ""
+          }`}
+          id="make-smaller-btn"
+        >
           Charity Talks
         </Link>
       </div>
-      <h1 className="h1-parentlunch">About The Talks</h1>
+      {/* <h1 className="h1-parentlunch">About The Talks</h1> */}
       <div className="container about-back">
         <div className="header parent-work">
           <p>

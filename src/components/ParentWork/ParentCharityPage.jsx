@@ -17,16 +17,7 @@ const ParentCharityPage = () => {
           }`}
           id="make-smaller-btn"
         >
-          About The Talks
-        </Link>
-        <Link
-          to="/parentTalks"
-          className={`btn-cool ${
-            location.pathname === "/parentTalks" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          School Talks
+          About Talks
         </Link>
         <Link
           to="/parentLunch"
@@ -38,6 +29,15 @@ const ParentCharityPage = () => {
           Workplace Talks
         </Link>
         <Link
+          to="/parentTalks"
+          className={`btn-cool ${
+            location.pathname === "/parentTalks" ? "active" : ""
+          }`}
+          id="make-smaller-btn"
+        >
+          School Talks
+        </Link>
+        <Link
           to="/parentCharity"
           className={`btn-cool ${
             location.pathname === "/parentCharity" ? "active" : ""
@@ -47,14 +47,14 @@ const ParentCharityPage = () => {
           Charity Talks
         </Link>
       </div>
-      <h1 className="h1-parentlunch">Charity Talks</h1>
+      {/* <h1 className="h1-parentlunch">Charity Talks</h1> */}
       <div className="container about-back">
         <div className="header parent-work">
           <p>
             Organisations, businesses, conferences or groups of individuals (NOT
-            SCHOOLS) can host a Teenagers Translated event to raise funds for a
-            charity of their choice. This can either be a talk of 60-90 minutes,
-            or a longer workshop of 3-4 hours.
+            SCHOOLS) can host a Teenagers Translated charity talk to raise funds
+            for a charity of their choice. This can either be a talk of 60-90
+            minutes, or a longer workshop of 3-4 hours.
             <br />
             <br /> There is no fee for these events. <br /> <br />
           </p>

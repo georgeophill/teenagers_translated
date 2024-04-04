@@ -29,7 +29,7 @@ const CoachingTeenagers = () => {
           For Teenagers
         </Link>
       </div>
-      <h1 className="h1-SchoolWellbeing">One-to-one Sessions for Teenagers</h1>
+      {/* <h1 className="h1-SchoolWellbeing">One-to-one Sessions for Teenagers</h1> */}
       <div className="container about-back">
         <div className="header parent-work">
           <p>
@@ -38,6 +38,13 @@ const CoachingTeenagers = () => {
             child’s sessions to target and improve the problems. Teenagers find
             the sessions relevant and helpful, and attend willingly. Feedback
             and outcomes are very good.
+            <br />
+            <br />
+            The sessions are designed to help teenagers develop the knowledge
+            and practical skills to help boost their mental health, regulate
+            their emotions without huge ups and downs, manage anxiety and daily
+            stresses (eg exams, friends, social media) and develop a more
+            positive mindset.
             <br />
             <br />
             <div style={{ fontStyle: "italic" }}>

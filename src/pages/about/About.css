@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
+  gap: 2rem;
 }
 
 .people-card {
@@ -12,9 +12,9 @@
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  /* border: var(--blue-colour) 3px solid; */
   background-color: white;
   border-radius: 20px;
+  margin-bottom: 5vh;
 }
 
 .people-card h3 {
@@ -35,19 +35,27 @@
 
 .who-we-are {
   background-color: var(--purplelight-colour);
+  padding: 0px 14vw;
 }
-
-/* p {
-  margin-top: 30px;
-} */
 
 @media screen and (max-width: 1440px) {
   .people__container {
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .who-we-are {
-    padding: 50px 40px;
+    padding: 0px 8vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .people__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .who-we-are {
+    padding: 0px 7vw;
   }
 }

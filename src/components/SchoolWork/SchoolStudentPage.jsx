@@ -27,16 +27,7 @@ const SchoolStudentPage = () => {
           }`}
           id="make-smaller-btn"
         >
-          Student Work
-        </Link>
-        <Link
-          to="/SchoolCulture"
-          className={`btn-cool ${
-            location.pathname === "/SchoolCulture" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          Wellbeing & Mental Health
+          Student PSHE
         </Link>
         <Link
           to="/StaffInputs"
@@ -47,8 +38,17 @@ const SchoolStudentPage = () => {
         >
           Staff Inputs
         </Link>
+        <Link
+          to="/SchoolCulture"
+          className={`btn-cool ${
+            location.pathname === "/SchoolCulture" ? "active" : ""
+          }`}
+          id="make-smaller-btn"
+        >
+          Wellbeing Culture
+        </Link>
       </div>
-      <h1 className="h1-parenttalk">Student Work</h1>
+      {/* <h1 className="h1-parenttalk">Student Work</h1> */}
       <div className="container about-back">
         <div className="header parent-work">
           <p>

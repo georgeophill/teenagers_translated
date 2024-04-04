@@ -12,11 +12,13 @@ const Contact = () => {
         <h1>Contact Us</h1>
         <div className="people__container">
           {people.map(({ id, image, name, email, phone }) => {
+            const firstName = name.length > 0 ? name[0] : "";
+
             return (
               <ContactUs
                 key={id}
                 image={image}
-                name={name}
+                name={firstName}
                 email={email}
                 phone={phone}
               />

@@ -30,7 +30,7 @@ const SchoolWorkPage = () => {
   return (
     <div>
       <section className="school-purple">
-        <h1 className="h1-schoolwork">School Work</h1>
+        {/* <h1 className="h1-schoolwork">School Work</h1> */}
         <div className="container about-back">
           <div className="header school-work">
             <p>

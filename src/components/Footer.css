@@ -71,12 +71,12 @@
   color: rgb(0, 0, 0);
 }
 
-.line {
+/* .line {
   background-color: rgb(255, 255, 255);
   height: 3px;
   width: 100%;
   margin: 20px 0;
-}
+} */
 
 .copyright {
   font-size: 20px;
