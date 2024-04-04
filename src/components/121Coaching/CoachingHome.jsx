@@ -37,7 +37,7 @@ const CoachingHome = () => {
             className="CoachingHome__image"
           />
           <Link to="/Coaching">
-            <button className="btn-xlcool" id="button-coaching">
+            <button className="btn-homepage" id="button-coaching">
               Read More
             </button>
           </Link>

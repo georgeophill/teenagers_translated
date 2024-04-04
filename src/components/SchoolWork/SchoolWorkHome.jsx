@@ -37,8 +37,8 @@ const SchoolWorkHome = () => {
             className="SchoolWork__Image"
           />
           <Link to="/SchoolWork">
-            <button className="btn-xlcool" id="school__button">
-              Read more about our courses
+            <button className="btn-homepage" id="school-button">
+              Read more
             </button>
           </Link>
         </div>

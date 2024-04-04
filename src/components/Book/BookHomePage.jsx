@@ -31,19 +31,17 @@ const BookPage = () => {
       <div className="book__container">
         <div className="book__left">
           <Link to="/ourBook">
-            <h1 className="BookPage__header">Our Book</h1>
+            <h1 className="BookHomePage__header">Our Book</h1>
           </Link>
-          <p className="BookPage__text">
+          <p className="BookHomePage__text">
             Parenting is the most important job we ever undertake, and a certain
             amount of teenage turmoil is unavoidable. Teens are growing up in a
             very different world, so it would be a risky strategy to cross our
             fingers and hope for the best. Managing family mental health
             requires self-awareness, understanding, and active parental
-            engagement.
-            <Link to="/ourBook">
-              <button className="btn-small" id="readMoreButton">
-                Read More
-              </button>
+            engagement...
+            <Link to="/ourBook" id="readMoreButton">
+              Read more
             </Link>
           </p>
         </div>
@@ -63,7 +61,9 @@ const BookPage = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="btn-xlcool">Buy Now</button>
+              <button className="btn-homepage" id="buy-now">
+                Buy Now
+              </button>
             </a>
           </div>
         </div>

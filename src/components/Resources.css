@@ -1,38 +1,97 @@
-#resources-btn {
-  align-items: center;
-  justify-content: center;
+.button {
   display: flex;
-  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#resources-btn {
+  margin-bottom: 20px;
+  font-size: 1.5vw;
+  background-color: rgba(47, 184, 229, 0.8);
+  color: rgb(255, 255, 255);
+  padding: 1vw 1vw;
+  /* border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%; */
+  border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
+  margin: 2vh 2vw;
+  font-family: "Aptos", sans-serif;
+  letter-spacing: 0.2vw;
+  text-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.2);
+  box-shadow: 0.2vw 0.4vw 0.6vw rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  height: fit-content;
+}
+
+#resources-btn:hover {
+  background-color: rgba(47, 184, 229, 1);
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
 }
 
 .resources-head {
-  font-size: 60px;
+  font-size: 90px;
+  font-family: "Aptos", sans-serif;
 }
 
 .resources-us p {
   text-align: center;
-  font-size: 40px;
   letter-spacing: 1px;
+  font-family: "Aptos-light", sans-serif;
+  font-size: 2.65vw;
+  color: var(--grey-colour);
+  font-weight: 100;
+  line-height: 1.4;
 }
 
 .resources {
   background-color: white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width: 1880px) {
+  .resources-head {
+    font-size: 60px;
+  }
 }
 
 @media screen and (max-width: 1440px) {
   .resources-us p {
     font-size: 25px;
   }
+
+  .resources-head {
+    font-weight: 400;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .resources-head {
-    font-size: 100%vh;
-    font-family: "Aptos";
+    font-size: 46px;
+    font-family: "Aptos", sans-serif;
   }
 
   .resources-us p {
     font-size: 25px;
+  }
+
+  #resources-btn {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 2.2vw;
+    background-color: rgba(47, 184, 229, 0.8);
+    color: rgb(255, 255, 255);
+    padding: 1vw 1vw;
+    /* border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%; */
+    border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
+    margin: 2vh 2vw;
+    font-family: "Aptos", sans-serif;
+    letter-spacing: 0.2vw;
+    text-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.2);
+    box-shadow: 0.2vw 0.4vw 0.6vw rgba(0, 0, 0, 0.3);
+    width: fit-content;
+    height: fit-content;
   }
 }
 

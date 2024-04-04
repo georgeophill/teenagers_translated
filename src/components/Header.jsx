@@ -11,8 +11,8 @@ const Header = () => {
           <div className="header__image">
             <img src={MainImage} alt="Teenagers" />
             <Link to="/about">
-              <button className="btn-small" id="about-btn">
-                Read more about Janey & Naella
+              <button className="btn-homepage" id="about-btn">
+                Read more
               </button>
             </Link>
           </div>

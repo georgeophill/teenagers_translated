@@ -38,16 +38,45 @@ const RollingBar = ({ galleryLength }) => {
   }, [galleryLength]);
 
   useEffect(() => {
-    const scrollLogos = () => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % totalLogos);
+    let animationFrameId;
+    let lastTime = 0;
+    const interval = 8000; // Adjust the interval for the scroll speed (8s)
+
+    const scrollLogos = (timestamp) => {
+      if (!lastTime || timestamp - lastTime >= interval) {
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % (totalLogos + 6)); // Increase totalLogos by 6 to account for duplicated logos
+        lastTime = timestamp;
+      }
+      animationFrameId = requestAnimationFrame(scrollLogos);
     };
 
-    const interval = setInterval(scrollLogos, 8000); // Adjust the interval for the scroll speed (8s)
+    animationFrameId = requestAnimationFrame(scrollLogos);
 
     return () => {
-      clearInterval(interval);
+      cancelAnimationFrame(animationFrameId);
     };
   }, [totalLogos]);
+
+  useEffect(() => {
+    let timeout;
+
+    const resetIndex = () => {
+      timeout = setTimeout(() => {
+        setCurrentIndex(totalLogos); // Set currentIndex to the beginning of the second loop
+        setTimeout(() => {
+          setCurrentIndex(0); // Reset currentIndex to 0 smoothly after the extendedLogos length
+        }, 0); // No delay needed for resetting to the first logo
+      }, 8000); // Delay resetting currentIndex to create a smoother transition between loops
+    };
+
+    if (currentIndex === totalLogos) {
+      resetIndex();
+    }
+
+    return () => {
+      clearTimeout(timeout); // Clear the timeout to prevent any potential race conditions
+    };
+  }, [currentIndex, totalLogos]);
 
   return (
     <div className="carousel__container" ref={containerRef}>

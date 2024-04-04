@@ -2,17 +2,17 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   /* border-top: var(--blue-colour) 3px solid; */
 }
 
 .carousel__inner {
   display: flex;
-  animation: scrollAnimation 57s linear infinite; /* Adjust the duration for the scroll speed */
+  animation: scrollAnimation 100000s linear infinite; /* Adjust the duration for the scroll speed */
 }
 
 .carousel__item {
-  flex: 0 0 calc(80% / 8 - 10px); /* Display 6 items at a time with spacing between logos */
+  flex: 0 0 calc(80% / 7 - 10px); /* Display 6 items at a time with spacing between logos */
   margin-right: 100px; /* Adjust the spacing between logos */
   overflow: hidden;
   border-radius: 0.5rem;
@@ -21,8 +21,8 @@
   display: flex;
   border-radius: 20px;
   /* box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25); */
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .carousel__item img {
@@ -41,9 +41,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(
-      calc(-100% * 6)
-    ); /* Adjust the percentage for the number of logos displayed */
+    transform: translateX(calc(-100% * 10000));
   }
 }
 

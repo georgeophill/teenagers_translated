@@ -19,7 +19,7 @@
   --grey-colour: #797575;
   --pink-colour: #fa85b4;
 
-  --font-aptos: "Aptos";
+  --font-aptos: "Aptos", sans-serif;
 
   --container-width-lg: 80%;
   --container-width-md: 90%;
@@ -27,7 +27,7 @@
 }
 
 body {
-  font-family: "Aptos";
+  font-family: var(--font-aptos);
   color: black;
   line-height: 1;
   overflow-x: hidden;
@@ -167,7 +167,7 @@ img {
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
   margin: 20px;
-  font-family: "Aptos";
+  font-family: "Aptos", sans-serif;
   letter-spacing: 0.8px;
   width: fit-content;
   height: fit-content;
@@ -193,7 +193,7 @@ img {
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
   margin: 20px;
-  font-family: "Aptos";
+  font-family: "Aptos", sans-serif;
   letter-spacing: 0.8px;
   width: fit-content;
   height: fit-content;
@@ -219,7 +219,7 @@ img {
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
   margin: 40px;
-  font-family: "Aptos";
+  font-family: "Aptos", sans-serif;
   letter-spacing: 2px;
   width: fit-content;
   height: fit-content;
@@ -245,7 +245,7 @@ img {
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
   margin: 10px;
-  font-family: "Aptos";
+  font-family: "Aptos", sans-serif;
   letter-spacing: 2px;
   width: fit-content;
   height: fit-content;
@@ -270,7 +270,7 @@ img {
   padding: 2vw 3vw; /* Responsive padding */
   border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
   margin: 2vh; /* Responsive margin */
-  font-family: "Aptos";
+  font-family: "Aptos", sans-serif;
   letter-spacing: 0.2vw; /* Responsive letter spacing */
   width: fit-content;
   height: fit-content;
@@ -287,6 +287,30 @@ img {
   cursor: pointer;
   font-size: 2.2vw; /* Responsive font size on hover */
 }
+
+.btn-homepage {
+  font-size: 2vw; /* Responsive font size */
+  background-color: rgba(47, 184, 229, 0.8);
+  color: rgb(255, 255, 255);
+  padding: 2vw 4vw; /* Responsive padding */
+  border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
+  margin: 2vh 2vw; /* Responsive margin */
+  font-family: "Aptos", sans-serif;
+  letter-spacing: 0.2vw; /* Responsive letter spacing */
+  width: fit-content;
+  height: fit-content;
+  text-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.2); /* Responsive shadow */
+  box-shadow: 0.2vw 0.4vw 0.6vw rgba(0, 0, 0, 0.3); /* Responsive shadow */
+  position: absolute;
+  bottom: 4vw; /* Adjust bottom spacing */
+  right: 14%; /* Adjust right spacing */
+}
+
+.btn-homepage:hover {
+  background-color: rgba(47, 184, 229, 1);
+  transition: ease-in-out 0.5s;
+}
+
 @media screen and (max-width: 1240px) {
   .btn-xlcool {
     font-size: 2.3vw; /* Responsive font size */
@@ -353,7 +377,7 @@ img {
   /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
   margin: 20px;
-  font-family: "Aptos";
+  font-family: "Aptos", sans-serif;
   letter-spacing: 2px;
   width: fit-content;
   height: fit-content;
@@ -379,7 +403,7 @@ img {
   padding: 15px 25px;
   border-radius: 20px;
   margin: 20px;
-  font-family: "Aptos";
+  font-family: "Aptos", sans-serif;
   letter-spacing: 2px;
   width: fit-content;
   height: fit-content;

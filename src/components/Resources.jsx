@@ -14,9 +14,9 @@ const Resources = () => {
               information & understanding to promote better family mental health
             </p>
           </div>
-          <div id="resources-btn">
+          <div className="button">
             <Link to="/resources">
-              <button className="btn-large">Find out more</button>
+              <button id="resources-btn">Find out more</button>
             </Link>
           </div>
         </div>

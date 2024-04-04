@@ -37,8 +37,8 @@ const ParentWorkHome = () => {
             className="ParentWorkHome__image"
           />
           <Link to="/ParentWork">
-            <button className="btn-xlcool" id="button-parent">
-              Read more about our courses
+            <button className="btn-homepage" id="button-parent">
+              Read more
             </button>
           </Link>
         </div>
