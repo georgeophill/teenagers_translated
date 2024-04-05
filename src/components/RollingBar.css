@@ -2,13 +2,13 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-  margin-top: 5vh;
+  /* margin-top: 2rem; */
   /* border-top: var(--blue-colour) 3px solid; */
 }
 
 .carousel__inner {
   display: flex;
-  animation: scrollAnimation 100000s linear infinite; /* Adjust the duration for the scroll speed */
+  animation: scrollAnimation 150s linear infinite; /* Adjust the duration for the scroll speed */
 }
 
 .carousel__item {
@@ -42,7 +42,7 @@
   }
   100% {
     transform: translateX(
-      calc(-100% * 10000)
+      calc(-100% * 16)
     ); /* Adjust the percentage for the number of logos displayed */
   }
 }

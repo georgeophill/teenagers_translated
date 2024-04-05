@@ -49,6 +49,10 @@
 .book__right {
   flex: 1;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* Image style */
@@ -63,7 +67,7 @@
 }
 
 #buy-now {
-  position: absolute; /* Position the button absolutely */
+  display: flex;
   z-index: 1; /* Ensure button is above the image */
   font-size: 1.5vw; /* Responsive font size */
   background-color: rgba(47, 184, 229, 0.8);
@@ -78,9 +82,7 @@
   height: fit-content;
   text-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.2); /* Responsive shadow */
   box-shadow: 0.2vw 0.4vw 0.6vw rgba(0, 0, 0, 0.3); /* Responsive shadow */
-  position: absolute;
-  bottom: 4vw; /* Adjust bottom spacing */
-  right: 14%; /* Adjust right spacing */
+  margin-top: -4vh;
 }
 
 #buy-now:hover {
@@ -115,7 +117,6 @@
   }
 
   .book__left {
-    margin-bottom: 20px;
     padding: 3%;
   }
 
@@ -158,7 +159,6 @@
   }
 
   #buy-now {
-    position: absolute; /* Position the button absolutely */
     z-index: 1; /* Ensure button is above the image */
     font-size: 2.2vw; /* Responsive font size */
     background-color: rgba(47, 184, 229, 0.8);
@@ -166,16 +166,13 @@
     padding: 1vw 1vw; /* Responsive padding */
     /* border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%; */
     border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
-    margin: 0vh 2vw; /* Responsive margin */
+    margin: 2vh 2vw; /* Responsive margin */
     font-family: "Aptos", sans-serif;
     letter-spacing: 0.2vw; /* Responsive letter spacing */
     width: fit-content;
     height: fit-content;
     text-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.2); /* Responsive shadow */
     box-shadow: 0.2vw 0.4vw 0.6vw rgba(0, 0, 0, 0.3); /* Responsive shadow */
-    position: absolute;
-    bottom: 6vw; /* Adjust bottom spacing */
-    right: 40%; /* Adjust right spacing */
   }
 
   #buy-now:hover {
@@ -195,7 +192,7 @@
   }
 
   .book__left {
-    margin-bottom: -3vh;
+    margin-bottom: -5vh;
     padding: 3%;
   }
 

@@ -303,9 +303,6 @@ img {
   height: fit-content;
   text-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.2); /* Responsive shadow */
   box-shadow: 0.2vw 0.4vw 0.6vw rgba(0, 0, 0, 0.3); /* Responsive shadow */
-  position: absolute;
-  bottom: 4vw; /* Adjust bottom spacing */
-  right: 14%; /* Adjust right spacing */
 }
 
 .btn-homepage:hover {

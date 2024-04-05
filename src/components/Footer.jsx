@@ -32,8 +32,6 @@ const Footer = () => {
         </a>
       </div>
 
-      <div className="line"></div>
-
       <div className="copyright">
         ©TeenagersTranslated 2010 - {currentYear}. All Rights Reserved.
       </div>

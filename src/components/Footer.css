@@ -39,8 +39,8 @@
   display: center;
   gap: 40px;
   font-size: 25px;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -60,7 +60,6 @@
   justify-content: center;
   align-items: center;
   gap: 60px;
-  margin: 20px 0;
   font-size: 35px;
   padding: 10px;
   fill: white;
@@ -69,6 +68,10 @@
 .icons a {
   font-size: 35px;
   color: rgb(0, 0, 0);
+}
+
+.icons a:hover {
+  fill: var(--pink-colour);
 }
 
 /* .line {

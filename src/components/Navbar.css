@@ -16,17 +16,17 @@
 /* Top Half */
 .navbar__top {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
 }
 
 .navbar__left img,
 .navbar__right img {
-  object-fit: contain;
-  height: 120px; /* Reduce the height for smaller screens */
-  margin-right: 10px;
-  margin-top: 10px;
+  /* object-fit: contain; */
+  height: 120px;
+  /* margin-right: 10px;
+  margin-top: 10px; */
 }
 
 .navbar__center {
@@ -177,14 +177,9 @@ a .btn-nav {
 /* Media Queries */
 
 @media screen and (min-width: 1960px) {
-  .navbar__top {
+  /* .navbar__top {
     width: 75%;
-  }
-
-  .navbar__left img,
-  .navbar__right img {
-    height: 140px; /* Reduce the height for smaller screens */
-  }
+  } */
 }
 
 @media screen and (min-width: 1231px) {

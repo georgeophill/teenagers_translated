@@ -44,7 +44,7 @@
 
 .resources {
   background-color: white;
-  padding-top: 0px;
+  padding-top: 8vh;
   padding-bottom: 0px;
 }
 
@@ -65,6 +65,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .resources {
+    padding-top: 4vh;
+  }
+
   .resources-head {
     font-size: 46px;
     font-family: "Aptos", sans-serif;
