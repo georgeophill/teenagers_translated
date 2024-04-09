@@ -24,7 +24,7 @@
 .navbar__left img,
 .navbar__right img {
   /* object-fit: contain; */
-  height: 120px;
+  height: 100px;
   /* margin-right: 10px;
   margin-top: 10px; */
 }
@@ -74,7 +74,7 @@
   color: var(--purple-colour);
   font-family: "Aptos", sans-serif;
   letter-spacing: 3px;
-  font-size: 6rem;
+  font-size: 8vh;
 }
 
 .navbar__link__btn {
@@ -101,7 +101,7 @@ a .btn-nav {
 /* Buttons */
 
 .btn-nav {
-  font-size: 25px;
+  font-size: 20px;
   background-color: rgba(0, 184, 229, 0.8);
   color: rgb(255, 255, 255);
   padding: 15px 30px;
@@ -109,7 +109,7 @@ a .btn-nav {
   border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
   /* border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%; */
   margin: 10px;
-  font-family: "Aptos";
+  font-family: "Aptos", sans-serif;
   letter-spacing: 0.5px;
   width: fit-content;
   height: fit-content;
@@ -124,7 +124,7 @@ a .btn-nav {
   transition: ease-in-out 0.5s;
   padding: 16px 31px;
   cursor: pointer;
-  font-size: 26px;
+  font-size: 21px;
 }
 
 /* Dropdown Styles */
@@ -177,9 +177,9 @@ a .btn-nav {
 /* Media Queries */
 
 @media screen and (min-width: 1960px) {
-  /* .navbar__top {
+  .navbar__top {
     width: 75%;
-  } */
+  }
 }
 
 @media screen and (min-width: 1231px) {
@@ -253,7 +253,7 @@ a .btn-nav {
     text-align: center;
     justify-content: center;
     border-radius: 10px;
-    font-family: "Aptos";
+    font-family: "Aptos", sans-serif;
     transition: 0.6s cubic-bezier(0.62, 0.04, 0.3, 1.56);
   }
 
@@ -372,13 +372,13 @@ a .btn-nav {
     position: fixed;
     top: 0;
     right: 0;
-    height: 100%;
+    height: 80vh;
     background-color: var(
       --purple-colour
     ); /* Set your desired background color */
     z-index: 1000; /* Adjust z-index as needed */
     width: 100%; /* Set your desired width */
-    overflow-y: auto; /* Enable vertical scrolling if needed */
+    overflow-y: auto;
     margin-top: 177px;
     text-align: center;
     justify-content: center;
@@ -392,7 +392,7 @@ a .btn-nav {
     border-radius: 10px;
     padding: 40px 30px;
     margin: 10px;
-    font-size: 70px;
+    font-size: 7vw;
     letter-spacing: 2.5px;
     color: black;
     padding-bottom: 40px;

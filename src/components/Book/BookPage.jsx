@@ -4,12 +4,10 @@ import "./BookPage.css";
 
 const BookPage = () => {
   return (
-    <div className="book__container" id="BookPage__Container">
-      <div className="book__left">
-        <h1 className="BookPage__header" id="Bookpage__Header_Page">
-          Our Book
-        </h1>
-        <p className="BookPage__text">
+    <div className="container">
+      <div className="BookPage__left">
+        <h1 className="BookPageHeader">Our Book</h1>
+        <p>
           Many parents are facing challenging issues, and our book lays out
           tools and strategies that we have found actually work. These have been
           distilled over years of being parents to seven teenagers, practicing
@@ -38,9 +36,7 @@ const BookPage = () => {
           pond, the ripples will spread and you will find that your small
           changes can have a big impact.
         </p>
-      </div>
-      <div className="book__right">
-        <div className="book__right-border">
+        <div className="BookImage">
           <a
             href="https://www.amazon.co.uk/Teenagers-Translated-Parents-Survival-September/dp/0091954738"
             target="_blank"
@@ -55,7 +51,7 @@ const BookPage = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="btn-cool">Buy Now</button>
+            <button className="btn-BuyNowBookPage">Buy Now</button>
           </a>
         </div>
       </div>

@@ -44,7 +44,7 @@
   transform: translate(-50%, -50%);
   color: var(--blue-colour);
   font: var(--font-aptos);
-  font-size: 30px;
+  font-size: 25px;
   max-width: 90%;
   font-style: italic;
   letter-spacing: 1.5;
@@ -72,7 +72,7 @@
     height: 740px;
   }
   .speech-bubble-text-talk {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
@@ -83,9 +83,9 @@
     color: rgb(255, 255, 255);
     padding: 20px 20px;
     /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
-    border-radius: 97% 3% 95% 5% / 19% 55% 45% 81%;
+    border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
     margin: 15px;
-    font-family: "Aptos";
+    font-family: "Aptos", sans-serif;
     letter-spacing: 0px;
     width: fit-content;
     height: fit-content;

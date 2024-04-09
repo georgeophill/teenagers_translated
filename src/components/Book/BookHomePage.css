@@ -20,7 +20,7 @@
 
 /* Header style */
 .BookHomePage__header {
-  font-size: 5vw;
+  font-size: 4.8vw;
   color: var(--purple-colour);
   font-weight: 400;
   font-family: var(--font-aptos);
@@ -33,7 +33,6 @@
   color: var(--grey-colour);
   font-weight: 100;
   line-height: 1.4;
-  margin-bottom: 7rem;
   font-family: "aptos-light", sans-serif;
 }
 
@@ -57,7 +56,7 @@
 
 /* Image style */
 .book__right img {
-  max-width: 100%;
+  max-width: 65%;
   height: auto;
 }
 

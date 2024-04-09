@@ -32,25 +32,9 @@
   object-fit: scale-down;
 }
 
-@media screen and (max-width: 1440px) {
-  .about-us p {
-    font-size: 30px;
-  }
-}
-
 @media screen and (max-width: 1024px) {
-  .about-us p {
-    font-size: 30px;
-  }
-
   .image {
     width: 75%;
     height: 100%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .about-us p {
-    font-size: 20px;
   }
 }

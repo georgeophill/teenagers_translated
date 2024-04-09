@@ -58,18 +58,20 @@ const SchoolStaffPage = () => {
             an appropriate presentation tailored to your requirements.
             <br />
             <br />
-            <button
-              className="btn-xlcool"
-              id="example-button"
-              onClick={toggleAdditionalText}
-            >
-              Outline examples of insets
-              {isArrowDown ? (
-                <FiArrowDown className="down-arrow" />
-              ) : (
-                <FiArrowUp className="down-arrow" />
-              )}
-            </button>
+            <div>
+              <button
+                className="btn-xlcool"
+                id="example-button"
+                onClick={toggleAdditionalText}
+              >
+                Outline examples of insets
+                {isArrowDown ? (
+                  <FiArrowDown className="down-arrow" />
+                ) : (
+                  <FiArrowUp className="down-arrow" />
+                )}
+              </button>
+            </div>
             {showAdditionalText && (
               <div className="additional-text">
                 <br />

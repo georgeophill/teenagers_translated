@@ -57,11 +57,11 @@ const SchoolWorkPage = () => {
             <div className="school-image">
               <img className="image" src={SchoolImage} alt="ParentImage" />
             </div>
-          </div>
-        </div>
-        <div className="feedback">
-          <div className="speech-bubble-container-parentTalk">
-            <p className="speech-bubble-text-talk">"{currentQuote}"</p>
+            <div className="feedback">
+              <div className="speech-bubble-container-parentTalk">
+                <p className="speech-bubble-text-talk">"{currentQuote}"</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

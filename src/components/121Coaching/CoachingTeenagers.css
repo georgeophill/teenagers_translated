@@ -40,17 +40,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1440px) {
-  .about-us p {
-    font-size: 20px;
-  }
-}
-
 @media screen and (max-width: 1024px) {
-  .about-us p {
-    font-size: 20px;
-  }
-
   .image {
     width: 75%;
     height: 100%;

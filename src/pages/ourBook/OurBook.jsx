@@ -30,7 +30,9 @@ const OurBook = () => {
       <BookPage />
       <div className="feedback">
         <div className="speech-bubble-container-book">
-          <p className="speech-bubble-text-book">"{currentQuote}"</p>
+          <p className="speech-bubble-text-book" id="OurBookSpeech">
+            "{currentQuote}"
+          </p>
         </div>
       </div>
       <div className="bar"></div>
