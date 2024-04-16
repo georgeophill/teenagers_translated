@@ -302,7 +302,7 @@ a .btn-nav {
 }
 
 /* MOBILE AND SMALL IPADS (IPHONE 14) */
-@media screen and (max-width: 1028px) {
+@media screen and (max-width: 1228px) {
   .navbar__item {
     font-size: 60px;
     padding-top: 0.5rem;
