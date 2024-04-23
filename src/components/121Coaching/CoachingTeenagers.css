@@ -21,20 +21,20 @@
   justify-content: center;
   align-items: center;
 }
-
+/* 
 .image {
   width: 35%;
   height: 50%;
   object-fit: scale-down;
-}
+} */
 
 /* #make-smaller-btn-coaching {
   padding: 25px 100px;
 } */
 
-.quote-icon {
+/* .quote-icon {
   display: none;
-}
+} */
 
 .quote-icon-right {
   display: none;

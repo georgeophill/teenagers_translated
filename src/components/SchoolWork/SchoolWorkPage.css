@@ -5,6 +5,11 @@
   margin: 0 15%;
 }
 
+#school-work p {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
 .h1-schoolwork {
   text-align: center;
 }
@@ -27,14 +32,19 @@
 }
 
 .image {
-  width: 50%;
-  height: 50%;
-  object-fit: scale-down;
+  padding-top: 40px;
+  width: 60%;
+  height: 60%;
+  object-fit: scale-down; /* There is commented out CSS in CoachingTeenagers.css page that I commented out which may have change styling elsewhere */
 }
 
 @media screen and (max-width: 1024px) {
   .image {
     width: 75%;
     height: 100%;
+  }
+
+  #school-work p {
+    font-size: 35px;
   }
 }

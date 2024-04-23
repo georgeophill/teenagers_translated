@@ -3,6 +3,8 @@ import "./OurBook.css";
 import BookPage from "../../components/Book/BookPage";
 import RollingBar from "../../components/RollingBar";
 import { BookFeedback } from "../../data";
+import { RiDoubleQuotesL } from "react-icons/ri";
+import { RiDoubleQuotesR } from "react-icons/ri";
 
 const OurBook = () => {
   const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
@@ -31,7 +33,9 @@ const OurBook = () => {
       <div className="feedback">
         <div className="speech-bubble-container-book">
           <p className="speech-bubble-text-book" id="OurBookSpeech">
-            "{currentQuote}"
+            <RiDoubleQuotesL className="quote-icon" />
+            {currentQuote}
+            <RiDoubleQuotesR className="quote-icon" />
           </p>
         </div>
       </div>

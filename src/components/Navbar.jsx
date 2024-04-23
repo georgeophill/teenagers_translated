@@ -75,9 +75,9 @@ const Navbar = () => {
         <div className="btn-nav">
           <Link to="/">Home</Link>
         </div>
-        <div className="btn-nav">
+        {/* <div className="btn-nav">
           <Link to="/about">About</Link>
-        </div>
+        </div> */}
         <div className="btn-nav dropdown">
           <span className="dropdown-title">
             <Link to="/parentWork">Parent Work</Link>

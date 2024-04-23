@@ -32,16 +32,12 @@ const SchoolWorkPage = () => {
       <section className="school-purple">
         {/* <h1 className="h1-schoolwork">School Work</h1> */}
         <div className="container about-back">
-          <div className="header school-work">
+          <div className="header school-work" id="school-work">
             <p>
-              <RiDoubleQuotesL className="quotes" />
               We support students and staff to build an awareness and
               understanding of how pre-teens and teens manage themselves more
               effectively and confidently as they become independent young
               people
-              <RiDoubleQuotesR className="quotes" />
-              <br />
-              <br />
             </p>
             <div className="buttons-school">
               <Link to="/StudentWork">
@@ -59,7 +55,11 @@ const SchoolWorkPage = () => {
             </div>
             <div className="feedback">
               <div className="speech-bubble-container-parentTalk">
-                <p className="speech-bubble-text-talk">"{currentQuote}"</p>
+                <p className="speech-bubble-text-talk">
+                  <RiDoubleQuotesL className="quote-icon" />
+                  {currentQuote}
+                  <RiDoubleQuotesR className="quote-icon" />
+                </p>
               </div>
             </div>
           </div>

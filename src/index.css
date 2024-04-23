@@ -77,6 +77,11 @@ section {
 }
 
 @media screen and (max-width: 1240px) {
+  .quote-icon {
+    color: black;
+    font-size: 2rem;
+  }
+
   section {
     padding: 50px 25px;
   }

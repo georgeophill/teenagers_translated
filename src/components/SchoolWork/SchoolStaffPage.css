@@ -90,7 +90,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .header p {
+  #school-staff-header p {
     font-size: 35px;
   }
 

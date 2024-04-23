@@ -27,6 +27,13 @@
   height: 50%;
   object-fit: scale-down;
 }
+#coaching-page p {
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 0px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
 
 #make-smaller-btn {
   /* padding: 25px 150px; */
@@ -36,5 +43,9 @@
   .image {
     width: 75%;
     height: 100%;
+  }
+
+  #coaching-page p {
+    font-size: 35px;
   }
 }

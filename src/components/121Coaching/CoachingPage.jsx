@@ -3,6 +3,8 @@ import { Link, useLocation } from "react-router-dom";
 import "./CoachingPage.css";
 import CoachingImage from "../../images/Illustrations/121Coaching1.png";
 import { SchoolStudentFeedback } from "../../data";
+import { RiDoubleQuotesL } from "react-icons/ri";
+import { RiDoubleQuotesR } from "react-icons/ri";
 
 const CoachingPage = () => {
   const location = useLocation();
@@ -29,7 +31,7 @@ const CoachingPage = () => {
     <section className="parent-talk-section" id="parent-talk-section">
       {/* <h1 className="h1-SchoolWellbeing">1-2-1 Coaching</h1> */}
       <div className="container about-back">
-        <div className="header parent-work">
+        <div className="header" id="coaching-page">
           <p>
             In the privacy of a one-to-one space, many parents and teenagers
             find it easier to address specific areas of concern in an open and
@@ -38,7 +40,7 @@ const CoachingPage = () => {
             <div className="talk-buttons">
               <Link
                 to="/CoachingForParents"
-                className={`btn-cool ${
+                className={`btn-xlarge ${
                   location.pathname === "/coachingForParents" ? "active" : ""
                 }`}
                 id="make-smaller-btn-coaching"
@@ -47,7 +49,7 @@ const CoachingPage = () => {
               </Link>
               <Link
                 to="/CoachingForTeenagers"
-                className={`btn-cool ${
+                className={`btn-xlarge ${
                   location.pathname === "/coachingForTeenagers" ? "active" : ""
                 }`}
                 id="make-smaller-btn-coaching"
@@ -89,7 +91,11 @@ const CoachingPage = () => {
         </div>
         <div className="feedback">
           <div className="speech-bubble-container-talk-student">
-            <p className="speech-bubble-text-talk-student">"{currentQuote}"</p>
+            <p className="speech-bubble-text-talk-student">
+              <RiDoubleQuotesL className="quote-icon" />
+              {currentQuote}
+              <RiDoubleQuotesR className="quote-icon" />
+            </p>
           </div>
         </div>
       </div>

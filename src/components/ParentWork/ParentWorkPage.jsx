@@ -4,6 +4,8 @@ import ParentImage from "../../images/Illustrations/ParentFINAL1.png";
 import "./ParentWorkPage.css";
 import { ParentTalkFeedback } from "../../data";
 import { useState, useEffect } from "react";
+import { RiDoubleQuotesL } from "react-icons/ri";
+import { RiDoubleQuotesR } from "react-icons/ri";
 
 const ParentWorkPage = () => {
   const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
@@ -26,7 +28,7 @@ const ParentWorkPage = () => {
     <div>
       <section className="parent-purple">
         {/* <h1>Parent Work</h1> */}
-        <div className="container about-back" id="parent-container">
+        <div className="container about-back">
           <div className="header parent-work">
             <p>
               Our parent inputs are aimed at improving family mental health &
@@ -58,7 +60,11 @@ const ParentWorkPage = () => {
             </div>
             <div className="feedback">
               <div className="speech-bubble-container-parentTalk">
-                <p className="speech-bubble-text-talk">"{currentQuote}"</p>
+                <p className="speech-bubble-text-talk">
+                  <RiDoubleQuotesL className="quote-icon" />
+                  {currentQuote}
+                  <RiDoubleQuotesR className="quote-icon" />
+                </p>
               </div>
             </div>
           </div>

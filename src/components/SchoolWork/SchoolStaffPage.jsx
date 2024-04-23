@@ -49,7 +49,7 @@ const SchoolStaffPage = () => {
       </div>
       {/* <h1 className="h1-parenttalk">Staff Inputs</h1> */}
       <div className="container about-back">
-        <div className="header parent-work">
+        <div className="header parent-work" id="school-staff-header">
           <p>
             Drawing on our experience of designing and delivering staff inputs
             in schools, we can help you design short insets which can be
