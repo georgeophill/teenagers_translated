@@ -16,40 +16,44 @@ const SchoolStaffPage = () => {
     setIsArrowDown(!isArrowDown);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <section className="parent-talk-section" id="parent-talk-section">
-      <div className="talk-buttons">
-        <Link
-          to="/StudentWork"
-          className={`btn-cool ${
-            location.pathname === "/StudentWork" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          Student PSHE
-        </Link>
-        <Link
-          to="/StaffInputs"
-          className={`btn-cool ${
-            location.pathname === "/StaffInputs" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          Staff Inputs
-        </Link>
-        <Link
-          to="/SchoolCulture"
-          className={`btn-cool ${
-            location.pathname === "/SchoolCulture" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          Wellbeing Culture
-        </Link>
-      </div>
       {/* <h1 className="h1-parenttalk">Staff Inputs</h1> */}
       <div className="container about-back">
         <div className="header parent-work" id="school-staff-header">
+          <div className="talk-buttons">
+            <Link
+              to="/StudentWork"
+              className={`btn-cool ${
+                location.pathname === "/StudentWork" ? "active" : ""
+              }`}
+              id="make-smaller-btn"
+            >
+              Student PSHE
+            </Link>
+            <Link
+              to="/StaffInputs"
+              className={`btn-cool ${
+                location.pathname === "/StaffInputs" ? "active" : ""
+              }`}
+              id="make-smaller-btn"
+            >
+              Staff Inputs
+            </Link>
+            <Link
+              to="/SchoolCulture"
+              className={`btn-cool ${
+                location.pathname === "/SchoolCulture" ? "active" : ""
+              }`}
+              id="make-smaller-btn"
+            >
+              Wellbeing Culture
+            </Link>
+          </div>
           <p>
             Drawing on our experience of designing and delivering staff inputs
             in schools, we can help you design short insets which can be
@@ -60,7 +64,7 @@ const SchoolStaffPage = () => {
             <br />
             <div>
               <button
-                className="btn-xlcool"
+                className="btn-cool"
                 id="example-button"
                 onClick={toggleAdditionalText}
               >
@@ -196,9 +200,12 @@ const SchoolStaffPage = () => {
                 </p>
 
                 <button
-                  className="btn-xlcool"
-                  id="example-button"
-                  onClick={toggleAdditionalText}
+                  className="btn-cool"
+                  id="example-button2"
+                  onClick={() => {
+                    scrollToTop();
+                    toggleAdditionalText();
+                  }}
                 >
                   Examples of PSHE content{" "}
                   {isArrowDown ? (

@@ -39,6 +39,10 @@
   /* padding: 25px 150px; */
 }
 
+.h1-SchoolWellbeing {
+  display: none;
+}
+
 @media screen and (max-width: 1024px) {
   .image {
     width: 75%;

@@ -17,40 +17,44 @@ const SchoolStudentPage = () => {
     setIsArrowDown(!isArrowDown);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <section className="parent-talk-section" id="parent-talk-section">
-      <div className="talk-buttons">
-        <Link
-          to="/StudentWork"
-          className={`btn-cool ${
-            location.pathname === "/StudentWork" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          Student PSHE
-        </Link>
-        <Link
-          to="/StaffInputs"
-          className={`btn-cool ${
-            location.pathname === "/StaffInputs" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          Staff Inputs
-        </Link>
-        <Link
-          to="/SchoolCulture"
-          className={`btn-cool ${
-            location.pathname === "/SchoolCulture" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          Wellbeing Culture
-        </Link>
-      </div>
       {/* <h1 className="h1-parenttalk">Student Work</h1> */}
       <div className="container about-back">
         <div className="header parent-work">
+          <div className="talk-buttons">
+            <Link
+              to="/StudentWork"
+              className={`btn-cool ${
+                location.pathname === "/StudentWork" ? "active" : ""
+              }`}
+              id="make-smaller-btn"
+            >
+              Student PSHE
+            </Link>
+            <Link
+              to="/StaffInputs"
+              className={`btn-cool ${
+                location.pathname === "/StaffInputs" ? "active" : ""
+              }`}
+              id="make-smaller-btn"
+            >
+              Staff Inputs
+            </Link>
+            <Link
+              to="/SchoolCulture"
+              className={`btn-cool ${
+                location.pathname === "/SchoolCulture" ? "active" : ""
+              }`}
+              id="make-smaller-btn"
+            >
+              Wellbeing Culture
+            </Link>
+          </div>
           <p>
             For over 10 years, Teenagers Translated have been delivering short
             programmes (from 2 – 8 inputs) to Year 7-9 students in a range of
@@ -130,7 +134,7 @@ const SchoolStudentPage = () => {
             <br />
             <br />
             <button
-              className="btn-xlcool"
+              className="btn-cool"
               id="example-button"
               onClick={toggleAdditionalText}
             >
@@ -231,9 +235,12 @@ const SchoolStudentPage = () => {
                 <br />
                 <br />
                 <button
-                  className="btn-xlcool"
+                  className="btn-cool"
                   id="example-button"
-                  onClick={toggleAdditionalText}
+                  onClick={() => {
+                    scrollToTop();
+                    toggleAdditionalText();
+                  }}
                 >
                   Examples of PSHE content{" "}
                   {isArrowDown ? (

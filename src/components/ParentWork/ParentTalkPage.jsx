@@ -9,47 +9,47 @@ const ParentTalkPage = () => {
 
   return (
     <section className="parent-talk-section" id="parent-talk-section">
-      <div className="talk-buttons">
-        <Link
-          to="/ParentAboutTalks"
-          className={`btn-cool ${
-            location.pathname === "/ParentAboutTalks" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          About Talks
-        </Link>
-        <Link
-          to="/parentLunch"
-          className={`btn-cool ${
-            location.pathname === "/parentLunch" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          Workplace Talks
-        </Link>
-        <Link
-          to="/parentTalks"
-          className={`btn-cool ${
-            location.pathname === "/parentTalks" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          School Talks
-        </Link>
-        <Link
-          to="/parentCharity"
-          className={`btn-cool ${
-            location.pathname === "/parentCharity" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          Charity Talks
-        </Link>
-      </div>
       {/* <h1 className="h1-parenttalk">School Talks</h1> */}
       <div className="container about-back">
         <div className="header parent-work">
+          <div className="talk-buttons">
+            <Link
+              to="/ParentAboutTalks"
+              className={`btn-cool ${
+                location.pathname === "/ParentAboutTalks" ? "active" : ""
+              }`}
+              id="make-smaller-btn"
+            >
+              About Talks
+            </Link>
+            <Link
+              to="/parentLunch"
+              className={`btn-cool ${
+                location.pathname === "/parentLunch" ? "active" : ""
+              }`}
+              id="make-smaller-btn"
+            >
+              Workplace Talks
+            </Link>
+            <Link
+              to="/parentTalks"
+              className={`btn-cool ${
+                location.pathname === "/parentTalks" ? "active" : ""
+              }`}
+              id="make-smaller-btn"
+            >
+              School Talks
+            </Link>
+            <Link
+              to="/parentCharity"
+              className={`btn-cool ${
+                location.pathname === "/parentCharity" ? "active" : ""
+              }`}
+              id="make-smaller-btn"
+            >
+              Charity Talks
+            </Link>
+          </div>
           <p>
             These pastoral talks are conducted as 2 – 2.5hr offerings (with Q&A)
             for 50-150 parents of pre-teens and teens age 9-18 years. They can

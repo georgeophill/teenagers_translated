@@ -10,29 +10,29 @@ const CoachingParents = () => {
 
   return (
     <section className="parent-talk-section" id="parent-talk-section">
-      <div className="talk-buttons">
-        <Link
-          to="/coachingForParents"
-          className={`btn-cool ${
-            location.pathname === "/coachingForParents" ? "active" : ""
-          }`}
-          id="make-smaller-btn-coaching"
-        >
-          For Parents
-        </Link>
-        <Link
-          to="/CoachingForTeenagers"
-          className={`btn-cool ${
-            location.pathname === "/CoachingForTeenagers" ? "active" : ""
-          }`}
-          id="make-smaller-btn-coaching"
-        >
-          For Teenagers
-        </Link>
-      </div>
       {/* <h1 className="h1-SchoolWellbeing">One-to-One Sessions for Parents</h1> */}
       <div className="container about-back">
         <div className="header parent-work">
+          <div className="talk-buttons">
+            <Link
+              to="/coachingForParents"
+              className={`btn-cool ${
+                location.pathname === "/coachingForParents" ? "active" : ""
+              }`}
+              id="make-smaller-btn-coaching"
+            >
+              For Parents
+            </Link>
+            <Link
+              to="/CoachingForTeenagers"
+              className={`btn-cool ${
+                location.pathname === "/CoachingForTeenagers" ? "active" : ""
+              }`}
+              id="make-smaller-btn-coaching"
+            >
+              For Teenagers
+            </Link>
+          </div>
           <p>
             Normally about 4 appointments is sufficient to make progress. Some
             parents elect to have more meetings, but this is not essential.

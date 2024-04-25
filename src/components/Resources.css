@@ -30,14 +30,15 @@
 .resources-head {
   font-size: 90px;
   font-family: "Aptos", sans-serif;
+  color: var(--grey-colour);
 }
 
 .resources-us p {
   text-align: center;
   letter-spacing: 1px;
   font-family: "Aptos-light", sans-serif;
-  font-size: 2.65vw;
-  color: var(--grey-colour);
+  font-size: 2.3vw;
+  color: var(--purple-colour);
   font-weight: 100;
   line-height: 1.4;
 }

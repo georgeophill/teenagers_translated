@@ -38,6 +38,10 @@
   object-fit: scale-down; /* There is commented out CSS in CoachingTeenagers.css page that I commented out which may have change styling elsewhere */
 }
 
+.h1-SchoolWork {
+  display: none;
+}
+
 @media screen and (max-width: 1024px) {
   .image {
     width: 75%;

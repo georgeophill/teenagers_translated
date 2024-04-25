@@ -271,18 +271,19 @@ img {
 }
 
 .btn-xlcool {
-  font-size: 1.5vw; /* Responsive font size */
+  font-size: 25px;
   background-color: rgba(0, 184, 229, 0.8);
   color: rgb(255, 255, 255);
-  padding: 1vw 2vw; /* Responsive padding */
+  padding: 10px 15px;
+  /* border-radius: 62% 38% 71% 29% / 26% 46% 54% 74%; */
   border-radius: 84% 16% 87% 13% / 13% 83% 17% 87%;
-  margin: 2vh; /* Responsive margin */
+  margin: 10px;
   font-family: "Aptos", sans-serif;
-  letter-spacing: 0.2vw; /* Responsive letter spacing */
+  letter-spacing: 2px;
   width: fit-content;
   height: fit-content;
-  text-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.2); /* Responsive shadow */
-  box-shadow: 0.2vw 0.4vw 0.6vw rgba(0, 0, 0, 0.3); /* Responsive shadow */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
   text-align: center;
 }
 
@@ -290,9 +291,9 @@ img {
   background-color: var(--blue-colour);
   color: white;
   transition: ease-in-out 0.5s;
-  padding: 1vw 2vw; /* Responsive padding */
+  padding: 10px 20px;
   cursor: pointer;
-  font-size: 1.6vw; /* Responsive font size on hover */
+  font-size: 1.6vw;
 }
 
 .btn-homepage {
@@ -318,7 +319,7 @@ img {
 
 @media screen and (max-width: 1240px) {
   .btn-xlcool {
-    font-size: 2.3vw; /* Responsive font size */
+    font-size: 2.2vw; /* Responsive font size */
     background-color: rgba(0, 184, 229, 0.8);
     color: rgb(255, 255, 255);
     padding: 2vw 3vw; /* Responsive padding */

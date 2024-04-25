@@ -9,47 +9,47 @@ const ParentCharityPage = () => {
 
   return (
     <section className="parent-lunch-section" id="parent-lunch-section">
-      <div className="lunch-buttons">
-        <Link
-          to="/ParentAboutTalks"
-          className={`btn-cool ${
-            location.pathname === "/ParentAboutTalks" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          About Talks
-        </Link>
-        <Link
-          to="/parentLunch"
-          className={`btn-cool ${
-            location.pathname === "/parentLunch" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          Workplace Talks
-        </Link>
-        <Link
-          to="/parentTalks"
-          className={`btn-cool ${
-            location.pathname === "/parentTalks" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          School Talks
-        </Link>
-        <Link
-          to="/parentCharity"
-          className={`btn-cool ${
-            location.pathname === "/parentCharity" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          Charity Talks
-        </Link>
-      </div>
       {/* <h1 className="h1-parentlunch">Charity Talks</h1> */}
       <div className="container about-back">
         <div className="header parent-work">
+          <div className="lunch-buttons">
+            <Link
+              to="/ParentAboutTalks"
+              className={`btn-cool ${
+                location.pathname === "/ParentAboutTalks" ? "active" : ""
+              }`}
+              id="make-smaller-btn"
+            >
+              About Talks
+            </Link>
+            <Link
+              to="/parentLunch"
+              className={`btn-cool ${
+                location.pathname === "/parentLunch" ? "active" : ""
+              }`}
+              id="make-smaller-btn"
+            >
+              Workplace Talks
+            </Link>
+            <Link
+              to="/parentTalks"
+              className={`btn-cool ${
+                location.pathname === "/parentTalks" ? "active" : ""
+              }`}
+              id="make-smaller-btn"
+            >
+              School Talks
+            </Link>
+            <Link
+              to="/parentCharity"
+              className={`btn-cool ${
+                location.pathname === "/parentCharity" ? "active" : ""
+              }`}
+              id="make-smaller-btn"
+            >
+              Charity Talks
+            </Link>
+          </div>
           <p>
             Organisations, businesses, conferences or groups of individuals (NOT
             SCHOOLS) can host a Teenagers Translated charity talk to raise funds

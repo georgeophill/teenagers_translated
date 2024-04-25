@@ -43,7 +43,7 @@
   text-shadow: 0.1vw 0.1vw 0.2vw rgba(0, 0, 0, 0.2); /* Responsive shadow */
   box-shadow: 0.2vw 0.4vw 0.6vw rgba(0, 0, 0, 0.3); /* Responsive shadow */
   position: absolute;
-  bottom: 10vw; /* Adjust bottom spacing */
+  bottom: 7vw; /* Adjust bottom spacing */
   left: 6%; /* Adjust right spacing */
 }
 
@@ -80,8 +80,8 @@
 @media screen and (max-width: 1024px) {
   #about-btn {
     position: absolute; /* Position the button absolutely */
-    bottom: 3vh; /* Adjust bottom spacing as needed */
-    left: 2%; /* Adjust left spacing as needed */
+    bottom: 2vh; /* Adjust bottom spacing as needed */
+    left: 3%; /* Adjust left spacing as needed */
     z-index: 1; /* Ensure button is above the image */
     font-size: 1vh;
   }

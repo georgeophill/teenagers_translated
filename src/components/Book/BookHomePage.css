@@ -21,7 +21,7 @@
 /* Header style */
 .BookHomePage__header {
   font-size: 4.8vw;
-  color: var(--purple-colour);
+  color: var(--grey-colour);
   font-weight: 400;
   font-family: var(--font-aptos);
   /* margin-bottom: 7rem; */
@@ -29,8 +29,8 @@
 
 /* Text style */
 .BookHomePage__text {
-  font-size: 2.65vw;
-  color: var(--grey-colour);
+  font-size: 2.3vw;
+  color: var(--purple-colour);
   font-weight: 100;
   line-height: 1.4;
   font-family: "aptos-light", sans-serif;
@@ -106,7 +106,7 @@
 
   .BookHomePage__header {
     margin-bottom: 3rem;
-    font-size: 5vw;
+    font-size: 4.5vw;
     font-weight: 350;
     margin-top: 10%;
   }
@@ -193,6 +193,10 @@
   .book__left {
     margin-bottom: -5vh;
     padding: 3%;
+  }
+
+  .book__right {
+    margin-top: 5vh;
   }
 
   /* .BookHomePage__text {

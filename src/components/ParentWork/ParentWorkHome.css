@@ -74,8 +74,8 @@
 @media screen and (max-width: 1024px) {
   #button-parent {
     position: absolute; /* Position the button absolutely */
-    bottom: 6vh; /* Adjust bottom spacing as needed */
-    right: 27%; /* Adjust right spacing as needed */
+    bottom: 6.5vh; /* Adjust bottom spacing as needed */
+    right: 26%; /* Adjust right spacing as needed */
     z-index: 1; /* Ensure button is above the image */
     font-size: 1vh;
   }

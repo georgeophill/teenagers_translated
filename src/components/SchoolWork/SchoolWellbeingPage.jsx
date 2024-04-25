@@ -9,41 +9,41 @@ const SchoolWellbeingPage = () => {
 
   return (
     <section className="parent-talk-section" id="parent-talk-section">
-      <div className="talk-buttons">
-        <Link
-          to="/StudentWork"
-          className={`btn-cool ${
-            location.pathname === "/StudentWork" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          Student PSHE
-        </Link>
-        <Link
-          to="/StaffInputs"
-          className={`btn-cool ${
-            location.pathname === "/StaffInputs" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          Staff Inputs
-        </Link>
-        <Link
-          to="/SchoolCulture"
-          className={`btn-cool ${
-            location.pathname === "/SchoolCulture" ? "active" : ""
-          }`}
-          id="make-smaller-btn"
-        >
-          Wellbeing Culture
-        </Link>
-      </div>
       {/* <h1 className="h1-SchoolWellbeing">
         What does a culture of Wellbeing and good Mental Health mean for
         Schools?
       </h1> */}
       <div className="container about-back">
         <div className="header parent-work">
+          <div className="talk-buttons">
+            <Link
+              to="/StudentWork"
+              className={`btn-cool ${
+                location.pathname === "/StudentWork" ? "active" : ""
+              }`}
+              id="make-smaller-btn"
+            >
+              Student PSHE
+            </Link>
+            <Link
+              to="/StaffInputs"
+              className={`btn-cool ${
+                location.pathname === "/StaffInputs" ? "active" : ""
+              }`}
+              id="make-smaller-btn"
+            >
+              Staff Inputs
+            </Link>
+            <Link
+              to="/SchoolCulture"
+              className={`btn-cool ${
+                location.pathname === "/SchoolCulture" ? "active" : ""
+              }`}
+              id="make-smaller-btn"
+            >
+              Wellbeing Culture
+            </Link>
+          </div>
           <p>
             The Mental Health (MH) of Children and Young People in England
             survey (2022) found 1:6 of children aged 7-16 yrs to have a probable

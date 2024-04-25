@@ -27,7 +27,7 @@ const ParentWorkPage = () => {
   return (
     <div>
       <section className="parent-purple">
-        {/* <h1>Parent Work</h1> */}
+        <h1 class="h1-ParentWork">Parent Work</h1>
         <div className="container about-back">
           <div className="header parent-work">
             <p>
