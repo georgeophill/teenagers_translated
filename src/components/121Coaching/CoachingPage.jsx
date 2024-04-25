@@ -93,7 +93,7 @@ const CoachingPage = () => {
           <div className="speech-bubble-container-talk-student">
             <p className="speech-bubble-text-talk-student">
               <RiDoubleQuotesL className="quote-icon" />
-              {currentQuote}
+              <div>{currentQuote}</div>
               <RiDoubleQuotesR className="quote-icon" />
             </p>
           </div>

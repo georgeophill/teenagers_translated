@@ -62,7 +62,7 @@ const ParentWorkPage = () => {
               <div className="speech-bubble-container-parentTalk">
                 <p className="speech-bubble-text-talk">
                   <RiDoubleQuotesL className="quote-icon" />
-                  {currentQuote}
+                  <div>{currentQuote}</div>
                   <RiDoubleQuotesR className="quote-icon" />
                 </p>
               </div>

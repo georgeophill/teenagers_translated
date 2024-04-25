@@ -34,7 +34,7 @@ const OurBook = () => {
         <div className="speech-bubble-container-book">
           <p className="speech-bubble-text-book" id="OurBookSpeech">
             <RiDoubleQuotesL className="quote-icon" />
-            {currentQuote}
+            <div>{currentQuote}</div>
             <RiDoubleQuotesR className="quote-icon" />
           </p>
         </div>
