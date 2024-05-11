@@ -13,14 +13,6 @@
   border: 5px solid var(--pink-colour);
 }
 
-.feedback {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center items horizontally */
-  justify-content: center; /* Center items vertically */
-  text-align: center; /* Center text inside the container */
-}
-
 .h1-parentcharity {
   margin-top: 6rem;
 }
@@ -98,17 +90,5 @@
 
   .parent-purple {
     padding: 50px 50px;
-  }
-
-  .speech-bubble-container-charity {
-    background-image: none;
-    width: 1000px;
-    height: 700px;
-  }
-
-  .speech-bubble-text-charity {
-    font-size: 40px;
-    top: 34%;
-    left: 48%;
   }
 }

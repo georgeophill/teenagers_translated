@@ -27,10 +27,16 @@
   margin-top: 6rem;
 }
 
+.bar {
+  background-color: white;
+  margin-left: -100px;
+  margin-right: -100px;
+}
+
 .speech-bubble-container-book {
   position: relative;
-  width: 1035px;
-  height: 580px;
+  width: 828px;
+  height: 464px;
   background-image: url("../../images//Illustrations/SpeechBubble.png"); /* Path to your speech bubble image */
   background-size: cover;
   text-align: center;
@@ -41,31 +47,27 @@
 .speech-bubble-text-book {
   position: absolute;
   top: 36%;
-  left: 49%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: var(--blue-colour);
-  font: var(--font-aptos);
-  font-size: 25px;
+  font: var(font-medium);
+  font-size: 27px;
   max-width: 90%;
   font-style: italic;
   letter-spacing: 1.5;
 }
 
-.bar {
-  background-color: white;
-  margin-left: -100px;
-  margin-right: -100px;
+.h1-SchoolWellbeing {
+  display: none;
 }
-
-/* Media queries */
 
 @media screen and (max-width: 1440px) {
   .speech-bubble-container-book {
-    width: 1359px;
-    height: 740px;
+    background-image: none;
+    margin-bottom: 0px;
   }
-  .speech-bubble-text-book {
-    font-size: 25px;
+  .speech-bubble-text-talk {
+    font-size: 35px;
   }
 }
 
@@ -100,16 +102,5 @@
 
   .parent-purple {
     padding: 50px 50px;
-  }
-
-  .speech-bubble-container-book {
-    background-image: none;
-    width: 1000px;
-    height: 700px;
-  }
-  .speech-bubble-text-book {
-    font-size: 40px;
-    top: 45%;
-    left: 50%;
   }
 }

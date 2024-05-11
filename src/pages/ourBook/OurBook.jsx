@@ -32,11 +32,11 @@ const OurBook = () => {
       <BookPage />
       <div className="feedback">
         <div className="speech-bubble-container-book">
-          <p className="speech-bubble-text-book" id="OurBookSpeech">
+          <h3 className="speech-bubble-text-book" id="OurBookSpeech">
             <RiDoubleQuotesL className="quote-icon" />
             <div>{currentQuote}</div>
             <RiDoubleQuotesR className="quote-icon" />
-          </p>
+          </h3>
         </div>
       </div>
       <div className="bar"></div>

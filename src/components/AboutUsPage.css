@@ -8,6 +8,63 @@
   background-color: var(--purplelight-colour);
 }
 
+.people__container {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.people-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 5vh;
+}
+
+.people-card h3 {
+  font-size: 15px;
+  text-align: center;
+  font-family: var(--font-aptos);
+  line-height: 1.1;
+  height: 90%;
+}
+
+.people-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .people__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .who-we-are {
+    padding: 0px 8vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .people__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .who-we-are {
+    padding: 0px 7vw;
+  }
+}
+
 @media screen and (max-width: 1440px) {
   .about-us p {
     font-size: 25px;
@@ -16,7 +73,7 @@
 
 @media screen and (max-width: 1024px) {
   .about-us p {
-    font-size: 15px;
+    font-size: 25px;
   }
   .about-purple {
     padding: 50px 50px;

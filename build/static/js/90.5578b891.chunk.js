@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkteenagers_translated=self.webpackChunkteenagers_translated||[]).push([[90],{4090:function(e,t,s){e.exports=s.p+"static/media/logo8.3e6b845013b0bc38f9d7.png"}}]);

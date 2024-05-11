@@ -11,8 +11,7 @@ const About = () => {
     <>
       <AboutUsPage />
       <div>
-        <section className="who-we-are">
-          {/* <h1>Who we are</h1> */}
+        {/* <section className="who-we-are">
           <div className="people__container">
             {people.map(({ id, image, name, biography }) => {
               return (
@@ -25,7 +24,7 @@ const About = () => {
               );
             })}
           </div>
-        </section>
+        </section> */}
         <RollingBar galleryLength={galleryLength} />
       </div>
     </>

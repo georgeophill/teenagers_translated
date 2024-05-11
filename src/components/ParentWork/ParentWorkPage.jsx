@@ -60,11 +60,11 @@ const ParentWorkPage = () => {
             </div>
             <div className="feedback">
               <div className="speech-bubble-container-parentTalk">
-                <p className="speech-bubble-text-talk">
+                <h3 className="speech-bubble-text-talk">
                   <RiDoubleQuotesL className="quote-icon" />
                   <div>{currentQuote}</div>
                   <RiDoubleQuotesR className="quote-icon" />
-                </p>
+                </h3>
               </div>
             </div>
           </div>

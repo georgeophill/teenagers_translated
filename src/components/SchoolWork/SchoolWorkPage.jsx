@@ -54,12 +54,12 @@ const SchoolWorkPage = () => {
               <img className="image" src={SchoolImage} alt="ParentImage" />
             </div>
             <div className="feedback">
-              <div className="speech-bubble-container-parentTalk">
-                <p className="speech-bubble-text-talk">
+              <div className="speech-bubble-container-schoolWork">
+                <h3 className="speech-bubble-text-talk">
                   <RiDoubleQuotesL className="quote-icon" />
                   <div>{currentQuote}</div>
                   <RiDoubleQuotesR className="quote-icon" />
-                </p>
+                </h3>
               </div>
             </div>
           </div>

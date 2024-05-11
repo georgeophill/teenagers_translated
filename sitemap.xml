@@ -16,13 +16,58 @@
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
+        <url>
+            <loc>https://georgehill-softwaredeveloper.com/parentAboutTalks</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.8</priority>
+        </url>
+        <url>
+            <loc>https://georgehill-softwaredeveloper.com/parentLunch</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.8</priority>
+        </url>
+        <url>
+            <loc>https://georgehill-softwaredeveloper.com/parentTalks</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.8</priority>
+        </url>
+        <url>
+            <loc>https://georgehill-softwaredeveloper.com/parentCharity</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.8</priority>
+        </url>
     <url>
         <loc>https://georgehill-softwaredeveloper.com/schoolWork</loc>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
+        <url>
+            <loc>https://georgehill-softwaredeveloper.com/StudentWork</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.8</priority>
+        </url>
+        <url>
+            <loc>https://georgehill-softwaredeveloper.com/StaffInputs</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.8</priority>
+        </url>
+        <url>
+            <loc>https://georgehill-softwaredeveloper.com/SchoolCulture</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.8</priority>
+        </url>
     <url>
         <loc>https://georgehill-softwaredeveloper.com/coaching</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://georgehill-softwaredeveloper.com/ourForTeenagers</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>   
+    </url>
+    <url>
+        <loc>https://georgehill-softwaredeveloper.com/CoachingForParents</loc>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>

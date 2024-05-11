@@ -1,5 +1,7 @@
 import React from "react";
 import "./AboutUsPage.css";
+import WhoWeAre from "../components/WhoWeAre";
+import { people } from "../data";
 
 const AboutUsPage = () => {
   return (
@@ -21,6 +23,18 @@ const AboutUsPage = () => {
               Their book was first published in 2014, with a second edition in
               2018.
             </p>
+            <div className="people__container">
+              {people.map(({ id, image, name, biography }) => {
+                return (
+                  <WhoWeAre
+                    key={id}
+                    image={image}
+                    name={name}
+                    biography={biography}
+                  />
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
