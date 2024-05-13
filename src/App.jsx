@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import * as Pages from "./pages";
 import Navbar from "./components/Navbar";
 import ScrollToTop from "./components/ScrollToTop";
@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <React.StrictMode>
-      <HashRouter>
+      <BrowserRouter>
         <ScrollToTop />
         <Navbar />
         <Routes>
@@ -41,7 +41,7 @@ const App = () => {
           <Route path="*" element={<Pages.NotFound />} />
         </Routes>
         <Footer />
-      </HashRouter>
+      </BrowserRouter>
     </React.StrictMode>
   );
 };
