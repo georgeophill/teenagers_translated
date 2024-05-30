@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import SchoolImage from "../../images/Illustrations/SchoolsFINAL1.png";
 import "./SchoolWorkPage.css";
-import { SchoolStudentFeedback } from "../../data";
+import { SchoolFeedback } from "../../data";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
 import { useState, useEffect } from "react";
@@ -13,7 +13,7 @@ const SchoolWorkPage = () => {
   // Function to switch to the next quote
   const nextQuote = () => {
     setCurrentQuoteIndex((prevIndex) =>
-      prevIndex === SchoolStudentFeedback.length - 1 ? 0 : prevIndex + 1
+      prevIndex === SchoolFeedback.length - 1 ? 0 : prevIndex + 1
     );
   };
 
@@ -25,7 +25,7 @@ const SchoolWorkPage = () => {
     return () => clearInterval(timer);
   }, []);
 
-  const currentQuote = SchoolStudentFeedback[currentQuoteIndex].quote;
+  const currentQuote = SchoolFeedback[currentQuoteIndex].quote;
 
   return (
     <div>

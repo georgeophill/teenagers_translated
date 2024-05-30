@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./CoachingPage.css";
 import CoachingImage from "../../images/Illustrations/121Coaching1.png";
-import { CoachingTeenagersFeedback } from "../../data";
+import { CoachingFeedback } from "../../data";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
 
@@ -13,7 +13,7 @@ const CoachingPage = () => {
   // Function to switch to the next quote
   const nextQuote = () => {
     setCurrentQuoteIndex((prevIndex) =>
-      prevIndex === CoachingTeenagersFeedback.length - 1 ? 0 : prevIndex + 1
+      prevIndex === CoachingFeedback.length - 1 ? 0 : prevIndex + 1
     );
   };
 
@@ -25,7 +25,7 @@ const CoachingPage = () => {
     return () => clearInterval(timer);
   }, []);
 
-  const currentQuote = CoachingTeenagersFeedback[currentQuoteIndex].quote;
+  const currentQuote = CoachingFeedback[currentQuoteIndex].quote;
 
   return (
     <section className="parent-talk-section" id="parent-talk-section">

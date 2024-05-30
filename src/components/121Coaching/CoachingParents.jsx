@@ -34,13 +34,6 @@ const CoachingParents = () => {
             </Link>
           </div>
           <p>
-            Normally about 4 appointments is sufficient to make progress. Some
-            parents elect to have more meetings, but this is not essential.
-            Appointments are 60 or 90mins, depending on the issues, and we can
-            advise on this. Please contact us to arrange an initial 30 minute
-            zoom session (free of charge) to discuss your needs.
-            <br />
-            <br />
             The sessions are conducted on zoom in a coaching style, and provide
             an opportunity for a more targeted approach responsive to your
             specific needs. The 1-1 format allows us to understand more clearly
@@ -60,6 +53,15 @@ const CoachingParents = () => {
             play a vital role during adolescence and small changes in how you
             react, communicate and offer support can have a transformative
             impact on how your child responds.
+            <br />
+            <br />
+            <div className="italicParent">
+              Normally about 4 appointments is sufficient to make progress. Some
+              parents elect to have more meetings, but this is not essential.
+              Appointments are 60 or 90mins, depending on the issues, and we can
+              advise on this. Please contact us to arrange an initial 30 minute
+              zoom session (free of charge) to discuss your needs.
+            </div>
           </p>
         </div>
         {/* <div className="school-image">

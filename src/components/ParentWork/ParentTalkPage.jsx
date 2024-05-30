@@ -53,7 +53,7 @@ const ParentTalkPage = () => {
           <p>
             These pastoral talks are conducted as 2 – 2.5hr offerings (with Q&A)
             for 50-150 parents of pre-teens and teens age 9-18 years. They can
-            be delivered on a weekday morning or evening, or Saturday morning.
+            be delivered on a weekday morning, or Saturday morning.
             <br />
             <br /> Some private schools use this as an opportunity to justify
             their charitable status by making their facilities available to the

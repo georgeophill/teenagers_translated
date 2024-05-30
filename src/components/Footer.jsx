@@ -34,6 +34,11 @@ const Footer = () => {
 
       <div className="copyright">
         ©TeenagersTranslated 2010 - {currentYear}. All Rights Reserved.
+        <br />
+        <a className="designer" href="https://georgehill-softwaredeveloper.com">
+          {" "}
+          GH Designs
+        </a>
       </div>
     </footer>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ParentImage from "../../images/Illustrations/ParentFINAL1.png";
 import "./ParentWorkPage.css";
-import { ParentTalkFeedback } from "../../data";
+import { ParentFeedback } from "../../data";
 import { useState, useEffect } from "react";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
@@ -13,17 +13,17 @@ const ParentWorkPage = () => {
   // Function to switch to the next quote
   const nextQuote = () => {
     setCurrentQuoteIndex((prevIndex) =>
-      prevIndex === ParentTalkFeedback.length - 1 ? 0 : prevIndex + 1
+      prevIndex === ParentFeedback.length - 1 ? 0 : prevIndex + 1
     );
   };
 
   useEffect(() => {
-    const timer = setInterval(nextQuote, 10000);
+    const timer = setInterval(nextQuote, 7000);
 
     return () => clearInterval(timer);
   }, []);
 
-  const currentQuote = ParentTalkFeedback[currentQuoteIndex].quote;
+  const currentQuote = ParentFeedback[currentQuoteIndex].quote;
   return (
     <div>
       <section className="parent-purple">
@@ -51,7 +51,7 @@ const ParentWorkPage = () => {
                 <div className="btn-xlarge">Charity Talks</div>
               </Link>
             </div>
-            <div>
+            <div className="ParentImageContainer">
               <img
                 className="parent-image"
                 src={ParentImage}

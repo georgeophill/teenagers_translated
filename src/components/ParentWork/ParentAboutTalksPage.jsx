@@ -82,7 +82,7 @@ const ParentLunchPage = () => {
             <br />
             <br />
             Our Talks are offered in the Workplace, in Schools & for Charity
-            fundraisers
+            fundraisers.
           </p>
         </div>
       </div>

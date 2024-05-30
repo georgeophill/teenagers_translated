@@ -6,7 +6,7 @@ const BookPage = () => {
   return (
     <div className="container">
       <div className="BookPage__left">
-        <h1 className="BookPageHeader">Our Book</h1>
+        {/* <h1 className="BookPageHeader">Our Book</h1> */}
         <p>
           Many parents are facing challenging issues, and our book lays out
           tools and strategies that we have found actually work. These have been
