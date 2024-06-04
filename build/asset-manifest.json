@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "./static/css/main.ba1f1091.css",
-    "main.js": "./static/js/main.03ae1f60.js",
+    "main.css": "./static/css/main.8ceda41b.css",
+    "main.js": "./static/js/main.61b08318.js",
     "static/js/608.b1429747.chunk.js": "./static/js/608.b1429747.chunk.js",
     "static/js/538.28767659.chunk.js": "./static/js/538.28767659.chunk.js",
     "static/js/73.1cbf095a.chunk.js": "./static/js/73.1cbf095a.chunk.js",
-    "static/js/408.9523767b.chunk.js": "./static/js/408.9523767b.chunk.js",
+    "static/js/408.a4f90457.chunk.js": "./static/js/408.a4f90457.chunk.js",
     "static/js/965.a9a9c243.chunk.js": "./static/js/965.a9a9c243.chunk.js",
     "static/js/260.bcdd6d2c.chunk.js": "./static/js/260.bcdd6d2c.chunk.js",
     "static/js/286.6b17d264.chunk.js": "./static/js/286.6b17d264.chunk.js",
@@ -35,7 +35,7 @@
     "static/media/SchoolsFINAL.png": "./static/media/SchoolsFINAL.e8bccce6921a2bfd1e51.png",
     "static/media/ParentFINAL1.png": "./static/media/ParentFINAL1.ddbbd3531c3cbec11981.png",
     "static/media/ParentFINAL.png": "./static/media/ParentFINAL.a732a2c0f5a479314fae.png",
-    "static/media/121Coaching.png": "./static/media/121Coaching.03cfb858586070205836.png",
+    "static/media/121Coaching.png": "./static/media/121Coaching.12fc21f17bda63ea5824.png",
     "static/media/121Coaching1.png": "./static/media/121Coaching1.c4477eb024dd9401f122.png",
     "static/media/logo9.png": "./static/media/logo9.92cf53e878fcc39ea764.png",
     "static/media/logo19.png": "./static/media/logo19.0ad3a7a028d6c98532f2.png",
@@ -43,6 +43,7 @@
     "static/media/Janey.png": "./static/media/Janey.dae1fc45b31d1fc78776.png",
     "static/media/Naella.png": "./static/media/Naella.a9244d34eef74a43d751.png",
     "static/media/book-cover.png": "./static/media/book-cover.1a0ae2e661d1bf7e3fb8.png",
+    "static/media/logo12.png": "./static/media/logo12.52e8857fa5f2476e512c.png",
     "static/media/SpeechBubble.png": "./static/media/SpeechBubble.30e9bce6bed721f0eeb5.png",
     "static/media/logo25.png": "./static/media/logo25.ac6450bfe7d2c3d9707f.png",
     "static/media/logo22.png": "./static/media/logo22.d31e24629cda3d37c011.png",
@@ -54,7 +55,6 @@
     "static/media/people-right.png": "./static/media/people-right.f61b7d70b3e0501c395a.png",
     "static/media/logo2.png": "./static/media/logo2.90358899ca7a63e1486d.png",
     "static/media/logosmas.png": "./static/media/logosmas.5ea704243bacde860cde.png",
-    "static/media/logo12.png": "./static/media/logo12.f4bb219292639cb09f49.png",
     "static/media/logo3.png": "./static/media/logo3.2b592aa5f9d74b81f2d9.png",
     "static/media/logo16.png": "./static/media/logo16.d24214ec01b5d9464e98.png",
     "static/media/logo21.png": "./static/media/logo21.e9af591a9706bbc89f2e.png",
@@ -66,11 +66,11 @@
     "static/media/logo26.png": "./static/media/logo26.f2347652802b7a7be185.png",
     "static/media/logo14.png": "./static/media/logo14.ced662713b07b522aa2e.png",
     "index.html": "./index.html",
-    "main.ba1f1091.css.map": "./static/css/main.ba1f1091.css.map",
-    "main.03ae1f60.js.map": "./static/js/main.03ae1f60.js.map"
+    "main.8ceda41b.css.map": "./static/css/main.8ceda41b.css.map",
+    "main.61b08318.js.map": "./static/js/main.61b08318.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba1f1091.css",
-    "static/js/main.03ae1f60.js"
+    "static/css/main.8ceda41b.css",
+    "static/js/main.61b08318.js"
   ]
 }
