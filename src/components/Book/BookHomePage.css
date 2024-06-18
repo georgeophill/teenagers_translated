@@ -34,6 +34,9 @@
   font-weight: 100;
   line-height: 1.4;
   font-family: "aptos-light", sans-serif;
+  text-align: none !important;
+  text-align-last: none !important; /* Align last line to center */
+  margin: 0 !important;
 }
 
 /* Read More button */
