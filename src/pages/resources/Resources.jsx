@@ -6,7 +6,7 @@ const Resources = () => {
   const galleryLength = 27;
   return (
     <div>
-      <div>Resources Page</div>
+      <div>Resources Page coming soon!</div>
       <RollingBar galleryLength={galleryLength} />
     </div>
   );
