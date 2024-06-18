@@ -18,7 +18,7 @@ const ParentWorkPage = () => {
   };
 
   useEffect(() => {
-    const timer = setInterval(nextQuote, 7000);
+    const timer = setInterval(nextQuote, 6000);
 
     return () => clearInterval(timer);
   }, []);

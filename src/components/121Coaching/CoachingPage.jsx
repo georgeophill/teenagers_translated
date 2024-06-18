@@ -19,7 +19,7 @@ const CoachingPage = () => {
 
   useEffect(() => {
     // Use setTimeout to change the quote every 10 seconds
-    const timer = setInterval(nextQuote, 10000);
+    const timer = setInterval(nextQuote, 6000);
 
     // Clear the timer when the component unmounts
     return () => clearInterval(timer);

@@ -1,1 +1,7 @@
-
+.resources {
+  padding: 5rem;
+  color: var(--purple-colour);
+  font-size: 2.5rem !important;
+  text-align: center;
+  text-decoration: none !important;
+}

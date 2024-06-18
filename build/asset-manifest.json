@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.8ceda41b.css",
-    "main.js": "./static/js/main.61b08318.js",
+    "main.css": "./static/css/main.b64c6bdd.css",
+    "main.js": "./static/js/main.766fd895.js",
     "static/js/608.b1429747.chunk.js": "./static/js/608.b1429747.chunk.js",
     "static/js/538.28767659.chunk.js": "./static/js/538.28767659.chunk.js",
     "static/js/73.1cbf095a.chunk.js": "./static/js/73.1cbf095a.chunk.js",
@@ -32,6 +32,8 @@
     "static/js/851.dca35919.chunk.js": "./static/js/851.dca35919.chunk.js",
     "static/media/SchoolsFINAL1.png": "./static/media/SchoolsFINAL1.d1f43e518737c9453b6b.png",
     "static/media/HomepageTextPNG.png": "./static/media/HomepageTextPNG.9f9e7bff999253b53985.png",
+    "static/media/Janey.png": "./static/media/Janey.01cb909444ad3077f2ed.png",
+    "static/media/Naella.png": "./static/media/Naella.ab44ae1cbbdf3f36f59e.png",
     "static/media/SchoolsFINAL.png": "./static/media/SchoolsFINAL.e8bccce6921a2bfd1e51.png",
     "static/media/ParentFINAL1.png": "./static/media/ParentFINAL1.ddbbd3531c3cbec11981.png",
     "static/media/ParentFINAL.png": "./static/media/ParentFINAL.a732a2c0f5a479314fae.png",
@@ -40,8 +42,6 @@
     "static/media/logo9.png": "./static/media/logo9.92cf53e878fcc39ea764.png",
     "static/media/logo19.png": "./static/media/logo19.0ad3a7a028d6c98532f2.png",
     "static/media/logo18.png": "./static/media/logo18.242e2380edb75365c4be.png",
-    "static/media/Janey.png": "./static/media/Janey.dae1fc45b31d1fc78776.png",
-    "static/media/Naella.png": "./static/media/Naella.a9244d34eef74a43d751.png",
     "static/media/book-cover.png": "./static/media/book-cover.1a0ae2e661d1bf7e3fb8.png",
     "static/media/logo12.png": "./static/media/logo12.52e8857fa5f2476e512c.png",
     "static/media/SpeechBubble.png": "./static/media/SpeechBubble.30e9bce6bed721f0eeb5.png",
@@ -66,11 +66,11 @@
     "static/media/logo26.png": "./static/media/logo26.f2347652802b7a7be185.png",
     "static/media/logo14.png": "./static/media/logo14.ced662713b07b522aa2e.png",
     "index.html": "./index.html",
-    "main.8ceda41b.css.map": "./static/css/main.8ceda41b.css.map",
-    "main.61b08318.js.map": "./static/js/main.61b08318.js.map"
+    "main.b64c6bdd.css.map": "./static/css/main.b64c6bdd.css.map",
+    "main.766fd895.js.map": "./static/js/main.766fd895.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ceda41b.css",
-    "static/js/main.61b08318.js"
+    "static/css/main.b64c6bdd.css",
+    "static/js/main.766fd895.js"
   ]
 }

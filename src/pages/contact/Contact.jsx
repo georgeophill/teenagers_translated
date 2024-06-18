@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div>
       <section className="who-we-are">
-        <h1 className="contact-us">Contact Us</h1>
+        <h1 className="contact-us"> </h1>
         <div className="people__container">
           {people.map(({ id, image, name, email, phone }) => {
             const firstName = name.length > 0 ? name[0] : "";
