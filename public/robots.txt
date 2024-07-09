@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://georgehill-softwaredeveloper.com/sitemap.xml
+Sitemap: https://teenagerstranslated.co.uk/sitemap.xml

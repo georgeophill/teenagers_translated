@@ -52,7 +52,7 @@ export const people = [
     name: ["Naella", " Grew"],
     biography: ` After qualifying as a counsellor in 2008, Naella (BA; MA; Grad. Dip. Couns; MBACP accred.) went on to do an MA in counselling, as well as her BACP accreditation, and to teach on university counselling programmes. She has also worked as a volunteer counsellor at the mental health charity MIND. \n Married with 3 children, now well beyond the teenage years, she co-founded Teenagers Translated with Janey in 2009. Since then, Naella has focused on many of the TT international programmes, including those in Monaco, Switzerland, the Middle East, and India. She specializes in individual coaching, working extensively on a one-to-one basis with parents as well as with teenagers. She also has a private counselling practice for all age groups. `,
     email: "naella@teenagerstranslated.co.uk",
-    phone: "+447939 035847",
+    phone: "+447939035847",
   },
 ];
 

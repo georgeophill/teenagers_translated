@@ -116,6 +116,10 @@ section h1 {
   font-family: var(--font-aptos);
 }
 
+.active {
+  border: 5px solid var(--pink-colour);
+}
+
 h1 {
   font-size: 45px;
   margin-bottom: 2rem;
