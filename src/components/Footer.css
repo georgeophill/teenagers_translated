@@ -90,7 +90,16 @@
 .designer {
   font-size: 15px;
   color: white;
+}
+
+.GH {
   font-style: italic;
+  font-size: 15px;
+  color: white;
+}
+
+.GH:hover {
+  text-decoration: underline;
 }
 
 svg {
