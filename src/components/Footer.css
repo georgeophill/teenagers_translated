@@ -100,6 +100,7 @@
 
 .GH:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 svg {
