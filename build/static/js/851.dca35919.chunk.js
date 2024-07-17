@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkteenagers_translated=self.webpackChunkteenagers_translated||[]).push([[851],{851:function(e,a,s){e.exports=s.p+"static/media/logosmas.5ea704243bacde860cde.png"}}]);

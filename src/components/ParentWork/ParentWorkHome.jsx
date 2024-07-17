@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./ParentWorkHome.css";
-import ParentImage from "../../images/Illustrations/ParentFINAL.png";
+import ParentImage from "../../images/Illustrations/ParentFINAL.jpg";
 import { Link } from "react-router-dom";
 
 const ParentWorkHome = () => {

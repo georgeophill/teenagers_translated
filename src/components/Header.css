@@ -26,6 +26,15 @@
   margin-right: 0px;
 }
 
+.phone-image {
+  display: none;
+}
+
+/* Show the main image by default */
+.main-image {
+  display: block;
+}
+
 #about-btn {
   position: absolute; /* Position the button absolutely */
   z-index: 1; /* Ensure button is above the image */
@@ -94,6 +103,16 @@
     left: 4%; /* Adjust left spacing as needed */
     z-index: 1; /* Ensure button is above the image */
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-image {
+    display: none;
+  }
+
+  .phone-image {
+    display: block;
   }
 }
 @media screen and (width: 600px) {

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import MainImage from "../images/Illustrations/HomepageTextJPEG.jpg";
+import PhoneImage from "../images/Illustrations/HomepageTextJPEGPhone.jpg";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -9,7 +10,16 @@ const Header = () => {
       <div className="header__container">
         <div className="header__content">
           <div className="header__image">
-            <img src={MainImage} alt="Teenagers" />
+            <img
+              className="main-image"
+              src={MainImage}
+              alt="Teenagers Translated Main Illustration"
+            />
+            <img
+              className="phone-image"
+              src={PhoneImage}
+              alt="Teenagers Translated Main Illustration"
+            />
             <Link to="/about">
               <button className="btn-homepage" id="about-btn">
                 Read more
