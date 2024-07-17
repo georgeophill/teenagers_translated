@@ -33,7 +33,7 @@ const ParentWorkHome = () => {
         <div className="ParentWorkHome__left">
           <img
             src={ParentImage}
-            alt="Parent Work"
+            alt="Parent Work Illustration"
             className="ParentWorkHome__image"
           />
           <Link to="/ParentWork">

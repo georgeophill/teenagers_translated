@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ParentImage from "../../images/Illustrations/ParentFINAL1.png";
+import ParentImage from "../../images/Illustrations/ParentFINAL1.jpg";
 import "./ParentWorkPage.css";
 import { ParentFeedback } from "../../data";
 import { useState, useEffect } from "react";

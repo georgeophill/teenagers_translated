@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./121CoachingHome.css";
-import CoachingImage from "../../images/Illustrations/121Coaching.png";
+import CoachingImage from "../../images/Illustrations/121Coaching.jpg";
 import { Link } from "react-router-dom";
 
 const CoachingHome = () => {

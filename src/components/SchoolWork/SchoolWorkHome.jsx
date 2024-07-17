@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./SchoolWorkHome.css";
-import SchoolWorkImage from "../../images/Illustrations/SchoolsFINAL.png";
+import SchoolWorkImage from "../../images/Illustrations/SchoolsFINAL.jpg";
 
 const SchoolWorkHome = () => {
   useEffect(() => {

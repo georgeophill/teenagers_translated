@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import SchoolImage from "../../images/Illustrations/SchoolsFINAL1.png";
+import SchoolImage from "../../images/Illustrations/SchoolsFINAL1.jpg";
 import "./SchoolWorkPage.css";
 import { SchoolFeedback } from "../../data";
 import { RiDoubleQuotesL } from "react-icons/ri";

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import MainImage from "../images/Illustrations/HomepageTextPNG.png";
+import MainImage from "../images/Illustrations/HomepageTextJPEG.jpg";
 import { Link } from "react-router-dom";
 
 const Header = () => {
